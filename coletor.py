@@ -1,32 +1,31 @@
 #!/usr/bin/env python3
 """
-coletor.py — Coleta diária de precedentes sobre organização criminosa.
-Fontes: STF (RSS), STJ (API), TJPE (portal), Planalto (legislação).
-Gera: data/resultados.json
+coletor.py v2 — Coleta diária de precedentes sobre organização criminosa.
+Salva: data/YYYY-MM-DD.json  +  data/indice.json (atualizado)
+Fontes: STF, STJ, TJPE, Planalto/LexML
 """
 
 import json
 import re
-import sys
 import time
 import urllib.request
 import urllib.parse
 import urllib.error
-from datetime import datetime, timezone
+from datetime import datetime, timezone, date
 from html.parser import HTMLParser
 
 TERMO_BUSCA = "organização criminosa"
 TERMO_BUSCA_URL = urllib.parse.quote(TERMO_BUSCA)
-ARQUIVO_SAIDA = "data/resultados.json"
+DIR_DATA = "data"
+ARQUIVO_INDICE = f"{DIR_DATA}/indice.json"
 
-# ─── Utilitários ─────────────────────────────────────────────────────────────
+# ─── Utilitários ──────────────────────────────────────────────────────────────
 
 def get_url(url, timeout=20):
-    """Faz GET simples com User-Agent."""
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "Mozilla/5.0 (compatible; JusCrimBot/1.0; +https://github.com)",
+            "User-Agent": "Mozilla/5.0 (compatible; JusCrimBot/2.0)",
             "Accept": "application/json, text/html, application/xml, */*",
         },
     )
@@ -35,115 +34,86 @@ def get_url(url, timeout=20):
         return r.read().decode(charset, errors="replace")
 
 def limpa(txt):
-    """Remove tags HTML e normaliza espaços."""
     txt = re.sub(r"<[^>]+>", " ", txt or "")
-    txt = re.sub(r"\s+", " ", txt).strip()
-    return txt
+    return re.sub(r"\s+", " ", txt).strip()
 
-def trunca(txt, n=300):
-    if len(txt) <= n:
-        return txt
-    return txt[:n].rsplit(" ", 1)[0] + "…"
+def trunca(txt, n=350):
+    txt = txt or ""
+    return txt[:n].rsplit(" ", 1)[0] + "…" if len(txt) > n else txt
+
+def hoje_iso():
+    return date.today().isoformat()   # "2025-08-01"
 
 def hoje_br():
-    return datetime.now().strftime("%d/%m/%Y")
+    return date.today().strftime("%d/%m/%Y")
 
-# ─── Parser RSS genérico ──────────────────────────────────────────────────────
+# ─── Parser RSS ───────────────────────────────────────────────────────────────
 
 class RSSParser(HTMLParser):
     def __init__(self):
         super().__init__()
-        self.items = []
-        self._current = {}
-        self._tag = None
-        self._in_item = False
+        self.items, self._cur, self._tag, self._in = [], {}, None, False
 
     def handle_starttag(self, tag, attrs):
         self._tag = tag.lower()
         if self._tag == "item":
-            self._in_item = True
-            self._current = {}
+            self._in, self._cur = True, {}
 
     def handle_endtag(self, tag):
-        if tag.lower() == "item" and self._in_item:
-            self.items.append(self._current)
-            self._in_item = False
+        if tag.lower() == "item" and self._in:
+            self.items.append(self._cur)
+            self._in = False
         self._tag = None
 
     def handle_data(self, data):
-        if self._in_item and self._tag in ("title", "link", "description", "pubdate"):
-            key = self._tag
-            self._current[key] = self._current.get(key, "") + data
+        if self._in and self._tag in ("title","link","description","pubdate"):
+            self._cur[self._tag] = self._cur.get(self._tag,"") + data
 
 def parse_rss(xml):
-    p = RSSParser()
-    p.feed(xml)
-    return p.items
+    p = RSSParser(); p.feed(xml); return p.items
 
-# ─── STF ─────────────────────────────────────────────────────────────────────
+# ─── STF ──────────────────────────────────────────────────────────────────────
 
 def coleta_stf():
     print("[STF] Coletando…")
     resultados = []
     try:
-        # API de pesquisa de jurisprudência do STF
         url = (
             "https://jurisprudencia.stf.jus.br/api/search/search"
-            f"?query={TERMO_BUSCA_URL}"
-            "&sort=_score&sortBy=desc&isIncognito=false&offset=0&limit=10"
+            f"?query={TERMO_BUSCA_URL}&sort=_score&sortBy=desc"
+            "&isIncognito=false&offset=0&limit=10"
         )
-        raw = get_url(url)
-        data = json.loads(raw)
-        hits = data.get("hits", {}).get("hits", [])
-        for h in hits:
-            src = h.get("_source", {})
-            titulo = limpa(src.get("nome", "") or src.get("nomeProcesso", ""))
-            resumo = limpa(src.get("ementa", "") or src.get("observacao", ""))
-            numero = src.get("numeroProcesso", "")
-            relator = limpa(src.get("nomeRelator", ""))
-            data_julgamento = src.get("dataJulgamento", "") or src.get("dataPublicacao", "")
-            if data_julgamento:
-                try:
-                    data_julgamento = datetime.strptime(data_julgamento[:10], "%Y-%m-%d").strftime("%d/%m/%Y")
-                except Exception:
-                    pass
-            link = f"https://jurisprudencia.stf.jus.br/pages/search/resultado/{h.get('_id','')}/relevance"
+        data = json.loads(get_url(url))
+        for h in data.get("hits", {}).get("hits", []):
+            s = h.get("_source", {})
+            titulo = limpa(s.get("nome","") or s.get("nomeProcesso",""))
+            resumo = limpa(s.get("ementa","") or s.get("observacao",""))
+            dt = s.get("dataJulgamento","") or s.get("dataPublicacao","")
+            if dt:
+                try: dt = datetime.strptime(dt[:10],"%Y-%m-%d").strftime("%d/%m/%Y")
+                except: pass
             if titulo:
                 resultados.append({
-                    "fonte": "STF",
-                    "titulo": titulo,
-                    "resumo": trunca(resumo),
-                    "numero": numero,
-                    "relator": relator,
-                    "data": data_julgamento,
-                    "url": link,
+                    "fonte":"STF","titulo":titulo,"resumo":trunca(resumo),
+                    "numero":s.get("numeroProcesso",""),
+                    "relator":limpa(s.get("nomeRelator","")),
+                    "data":dt,
+                    "url":f"https://jurisprudencia.stf.jus.br/pages/search/resultado/{h.get('_id','')}/relevance"
                 })
     except Exception as e:
-        print(f"  [STF] Erro na API JSON: {e}. Tentando RSS…")
+        print(f"  [STF] API: {e} → tentando RSS")
         try:
-            rss_url = (
-                "https://jurisprudencia.stf.jus.br/api/search/rss"
-                f"?query={TERMO_BUSCA_URL}&sort=_score&sortBy=desc"
-            )
-            xml = get_url(rss_url)
+            xml = get_url(f"https://jurisprudencia.stf.jus.br/api/search/rss?query={TERMO_BUSCA_URL}&sort=_score&sortBy=desc")
             for item in parse_rss(xml)[:10]:
-                titulo = limpa(item.get("title", ""))
-                if titulo:
-                    resultados.append({
-                        "fonte": "STF",
-                        "titulo": titulo,
-                        "resumo": trunca(limpa(item.get("description", ""))),
-                        "numero": "",
-                        "relator": "",
-                        "data": limpa(item.get("pubdate", "")),
-                        "url": item.get("link", "").strip(),
-                    })
+                t = limpa(item.get("title",""))
+                if t:
+                    resultados.append({"fonte":"STF","titulo":t,"resumo":trunca(limpa(item.get("description",""))),"numero":"","relator":"","data":limpa(item.get("pubdate","")),"url":item.get("link","").strip()})
         except Exception as e2:
-            print(f"  [STF] Erro no RSS também: {e2}")
+            print(f"  [STF] RSS: {e2}")
     print(f"  [STF] {len(resultados)} resultado(s).")
     return resultados
 
-# ─── STJ ─────────────────────────────────────────────────────────────────────
+# ─── STJ ──────────────────────────────────────────────────────────────────────
 
 def coleta_stj():
     print("[STJ] Coletando…")
@@ -151,51 +121,32 @@ def coleta_stj():
     try:
         url = (
             "https://scon.stj.jus.br/SCON/pesquisar.jsp"
-            f"?b=ACOR&livre={TERMO_BUSCA_URL}&tipo_visualizacao=RESUMO&operador=E"
-            "&p=true&l=10&i=1&formato=JSON"
+            f"?b=ACOR&livre={TERMO_BUSCA_URL}&tipo_visualizacao=RESUMO"
+            "&operador=E&p=true&l=10&i=1&formato=JSON"
         )
-        raw = get_url(url)
-        data = json.loads(raw)
-        docs = data.get("documento", [])
-        for d in docs:
-            titulo = limpa(d.get("docTitulo", "") or d.get("titulo", ""))
-            resumo = limpa(d.get("ementa", "") or d.get("docEmenta", ""))
-            numero = d.get("numProcesso", "") or d.get("docNumero", "")
-            relator = limpa(d.get("ministroRelator", "") or d.get("relator", ""))
-            data_pub = d.get("dtPublicacao", "") or d.get("dataJulgamento", "")
-            link = d.get("urlDocumento", "") or f"https://scon.stj.jus.br/SCON/"
+        data = json.loads(get_url(url))
+        for d in data.get("documento", []):
+            titulo = limpa(d.get("docTitulo","") or d.get("titulo",""))
+            resumo = limpa(d.get("ementa","") or d.get("docEmenta",""))
             if titulo:
                 resultados.append({
-                    "fonte": "STJ",
-                    "titulo": titulo,
-                    "resumo": trunca(resumo),
-                    "numero": numero,
-                    "relator": relator,
-                    "data": data_pub,
-                    "url": link,
+                    "fonte":"STJ","titulo":titulo,"resumo":trunca(resumo),
+                    "numero":d.get("numProcesso","") or d.get("docNumero",""),
+                    "relator":limpa(d.get("ministroRelator","") or d.get("relator","")),
+                    "data":d.get("dtPublicacao","") or d.get("dataJulgamento",""),
+                    "url":d.get("urlDocumento","https://scon.stj.jus.br/SCON/")
                 })
     except Exception as e:
-        print(f"  [STJ] Erro: {e}. Tentando RSS…")
+        print(f"  [STJ] API: {e} → tentando RSS")
         try:
-            rss_url = (
-                "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/RSS.aspx"
-            )
-            xml = get_url(rss_url)
+            xml = get_url("https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/RSS.aspx")
             for item in parse_rss(xml):
-                titulo = limpa(item.get("title", ""))
-                desc = limpa(item.get("description", ""))
-                if TERMO_BUSCA.lower() in (titulo + desc).lower():
-                    resultados.append({
-                        "fonte": "STJ",
-                        "titulo": titulo,
-                        "resumo": trunca(desc),
-                        "numero": "",
-                        "relator": "",
-                        "data": limpa(item.get("pubdate", "")),
-                        "url": item.get("link", "").strip(),
-                    })
+                t = limpa(item.get("title",""))
+                d = limpa(item.get("description",""))
+                if TERMO_BUSCA.lower() in (t+d).lower():
+                    resultados.append({"fonte":"STJ","titulo":t,"resumo":trunca(d),"numero":"","relator":"","data":limpa(item.get("pubdate","")),"url":item.get("link","").strip()})
         except Exception as e2:
-            print(f"  [STJ] Erro no RSS: {e2}")
+            print(f"  [STJ] RSS: {e2}")
     print(f"  [STJ] {len(resultados)} resultado(s).")
     return resultados
 
@@ -205,135 +156,110 @@ def coleta_tjpe():
     print("[TJPE] Coletando…")
     resultados = []
     try:
-        # Portal de jurisprudência do TJPE
-        url = (
-            "https://www.tjpe.jus.br/jurisprudencia/pesquisar"
-            f"?tipo=0&pesquisa={TERMO_BUSCA_URL}&formato=JSON"
-        )
-        raw = get_url(url)
-        data = json.loads(raw)
+        url = f"https://www.tjpe.jus.br/jurisprudencia/pesquisar?tipo=0&pesquisa={TERMO_BUSCA_URL}&formato=JSON"
+        data = json.loads(get_url(url))
         docs = data if isinstance(data, list) else data.get("resultado", data.get("documentos", []))
         for d in docs[:10]:
-            titulo = limpa(d.get("ementa", "") or d.get("titulo", ""))
-            numero = d.get("processo", "") or d.get("numero", "")
-            relator = limpa(d.get("relator", ""))
-            data_pub = d.get("dataJulgamento", "") or d.get("data", "")
-            link = d.get("url", "https://www.tjpe.jus.br/jurisprudencia")
-            if titulo:
+            t = limpa(d.get("ementa","") or d.get("titulo",""))
+            if t:
                 resultados.append({
-                    "fonte": "TJPE",
-                    "titulo": trunca(titulo, 180),
-                    "resumo": "",
-                    "numero": numero,
-                    "relator": relator,
-                    "data": data_pub,
-                    "url": link,
+                    "fonte":"TJPE","titulo":trunca(t,180),"resumo":"",
+                    "numero":d.get("processo","") or d.get("numero",""),
+                    "relator":limpa(d.get("relator","")),
+                    "data":d.get("dataJulgamento","") or d.get("data",""),
+                    "url":d.get("url","https://www.tjpe.jus.br/jurisprudencia")
                 })
     except Exception as e:
-        print(f"  [TJPE] Erro: {e}. Sem dados disponíveis via API pública.")
-        # Fallback: item genérico apontando para o portal
+        print(f"  [TJPE] {e} → fallback")
         resultados.append({
-            "fonte": "TJPE",
-            "titulo": f"Pesquisa manual: '{TERMO_BUSCA}' no portal TJPE",
-            "resumo": "Clique para pesquisar diretamente no portal de jurisprudência do TJPE.",
-            "numero": "",
-            "relator": "",
-            "data": hoje_br(),
-            "url": f"https://www.tjpe.jus.br/jurisprudencia",
+            "fonte":"TJPE",
+            "titulo":f"Pesquisa '{TERMO_BUSCA}' no TJPE — clique para acessar",
+            "resumo":"Acesse o portal de jurisprudência do TJPE para consultar manualmente.",
+            "numero":"","relator":"","data":hoje_br(),
+            "url":"https://www.tjpe.jus.br/jurisprudencia"
         })
     print(f"  [TJPE] {len(resultados)} resultado(s).")
     return resultados
 
-# ─── Legislação Federal (Planalto) ───────────────────────────────────────────
+# ─── Legislação ───────────────────────────────────────────────────────────────
 
 def coleta_legislacao():
-    print("[LEG] Coletando legislação…")
-    resultados = []
-    # Leis e decretos relevantes (lista curada + busca no Portal LexML)
-    normas_fixas = [
-        {
-            "titulo": "Lei nº 12.850/2013 — Define organização criminosa",
-            "resumo": "Define organização criminosa, dispõe sobre a investigação criminal, os meios de obtenção da prova, infrações penais correlatas e o procedimento criminal.",
-            "numero": "12.850/2013",
-            "data": "02/08/2013",
-            "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm",
-        },
-        {
-            "titulo": "Lei nº 9.034/1995 — Organização criminosa (revogada pela 12.850)",
-            "resumo": "Dispunha sobre a utilização de meios operacionais para a prevenção e repressão de ações praticadas por organizações criminosas.",
-            "numero": "9.034/1995",
-            "data": "03/05/1995",
-            "url": "https://www.planalto.gov.br/ccivil_03/leis/l9034.htm",
-        },
-        {
-            "titulo": "Lei nº 12.694/2012 — Julgamento colegiado em crimes de org. criminosa",
-            "resumo": "Dispõe sobre o processo e o julgamento colegiado em primeiro grau de jurisdição de crimes praticados por organizações criminosas.",
-            "numero": "12.694/2012",
-            "data": "24/07/2012",
-            "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12694.htm",
-        },
+    print("[LEG] Coletando…")
+    normas = [
+        {"titulo":"Lei nº 12.850/2013 — Define organização criminosa","resumo":"Define organização criminosa, dispõe sobre investigação criminal, meios de obtenção da prova, infrações penais correlatas e procedimento criminal.","numero":"12.850/2013","data":"02/08/2013","url":"https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm"},
+        {"titulo":"Lei nº 12.694/2012 — Julgamento colegiado","resumo":"Dispõe sobre julgamento colegiado em primeiro grau em crimes de organizações criminosas.","numero":"12.694/2012","data":"24/07/2012","url":"https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12694.htm"},
+        {"titulo":"Lei nº 9.034/1995 — Revogada pela 12.850","resumo":"Dispunha sobre meios operacionais para prevenção e repressão de organizações criminosas (revogada).","numero":"9.034/1995","data":"03/05/1995","url":"https://www.planalto.gov.br/ccivil_03/leis/l9034.htm"},
     ]
-
-    for n in normas_fixas:
-        resultados.append({
-            "fonte": "LEG",
-            **n,
-        })
-
-    # Tenta busca dinâmica no LexML
+    resultados = [{"fonte":"LEG", **n} for n in normas]
     try:
-        lexml_url = (
-            "https://www.lexml.gov.br/busca/SRU?operation=searchRetrieve"
-            f"&query=organizacao+criminosa&maximumRecords=5&recordSchema=opendocument"
-        )
-        raw = get_url(lexml_url, timeout=15)
-        # Extrai títulos simples via regex do XML retornado
-        titulos = re.findall(r"<dc:title[^>]*>([^<]+)</dc:title>", raw)
-        links = re.findall(r"<dc:identifier[^>]*>(https?://[^<]+)</dc:identifier>", raw)
-        datas = re.findall(r"<dc:date[^>]*>([^<]+)</dc:date>", raw)
-        for i, titulo in enumerate(titulos[:5]):
-            titulo = limpa(titulo)
-            if titulo and not any(titulo in r["titulo"] for r in resultados):
-                resultados.append({
-                    "fonte": "LEG",
-                    "titulo": titulo,
-                    "resumo": "Norma encontrada no acervo LexML.",
-                    "numero": "",
-                    "data": datas[i] if i < len(datas) else "",
-                    "url": links[i] if i < len(links) else "https://www.lexml.gov.br",
-                })
+        xml = get_url("https://www.lexml.gov.br/busca/SRU?operation=searchRetrieve&query=organizacao+criminosa&maximumRecords=5&recordSchema=opendocument", timeout=15)
+        titulos = re.findall(r"<dc:title[^>]*>([^<]+)</dc:title>", xml)
+        links   = re.findall(r"<dc:identifier[^>]*>(https?://[^<]+)</dc:identifier>", xml)
+        datas   = re.findall(r"<dc:date[^>]*>([^<]+)</dc:date>", xml)
+        for i, t in enumerate(titulos[:5]):
+            t = limpa(t)
+            if t and not any(t in r["titulo"] for r in resultados):
+                resultados.append({"fonte":"LEG","titulo":t,"resumo":"Norma localizada no acervo LexML.","numero":"","data":datas[i] if i<len(datas) else "","url":links[i] if i<len(links) else "https://www.lexml.gov.br"})
     except Exception as e:
-        print(f"  [LEG] LexML indisponível: {e}")
-
+        print(f"  [LEG] LexML: {e}")
     print(f"  [LEG] {len(resultados)} resultado(s).")
     return resultados
+
+# ─── Índice ───────────────────────────────────────────────────────────────────
+
+def carregar_indice():
+    try:
+        with open(ARQUIVO_INDICE, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {"datas": []}
+
+def salvar_indice(indice):
+    with open(ARQUIVO_INDICE, "w", encoding="utf-8") as f:
+        json.dump(indice, f, ensure_ascii=False, indent=2)
 
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
     import os
-    os.makedirs("data", exist_ok=True)
+    os.makedirs(DIR_DATA, exist_ok=True)
+
+    data_hoje = hoje_iso()
+    arquivo_dia = f"{DIR_DATA}/{data_hoje}.json"
 
     todos = []
-    todos += coleta_stf()
-    time.sleep(1)
-    todos += coleta_stj()
-    time.sleep(1)
-    todos += coleta_tjpe()
-    time.sleep(1)
+    todos += coleta_stf();  time.sleep(1)
+    todos += coleta_stj();  time.sleep(1)
+    todos += coleta_tjpe(); time.sleep(1)
     todos += coleta_legislacao()
 
-    saida = {
-        "gerado_em": datetime.now(timezone.utc).isoformat(),
+    entrada = {
+        "gerado_em":   datetime.now(timezone.utc).isoformat(),
+        "data":        data_hoje,
         "termo_busca": TERMO_BUSCA,
-        "total": len(todos),
-        "resultados": todos,
+        "total":       len(todos),
+        "resultados":  todos,
     }
 
-    with open(ARQUIVO_SAIDA, "w", encoding="utf-8") as f:
-        json.dump(saida, f, ensure_ascii=False, indent=2)
+    # Salva arquivo do dia
+    with open(arquivo_dia, "w", encoding="utf-8") as f:
+        json.dump(entrada, f, ensure_ascii=False, indent=2)
+    print(f"\n✓ Dados do dia salvos em '{arquivo_dia}'.")
 
-    print(f"\n✓ {len(todos)} resultados salvos em '{ARQUIVO_SAIDA}'.")
+    # Atualiza índice
+    indice = carregar_indice()
+    if data_hoje not in indice["datas"]:
+        indice["datas"].append(data_hoje)
+    indice["datas"] = sorted(set(indice["datas"]), reverse=True)
+    indice["ultima_atualizacao"] = datetime.now(timezone.utc).isoformat()
+    salvar_indice(indice)
+    print(f"✓ Índice atualizado: {len(indice['datas'])} dia(s) no histórico.")
+
+    # Mantém resultados.json compatível (legado)
+    with open(f"{DIR_DATA}/resultados.json", "w", encoding="utf-8") as f:
+        json.dump(entrada, f, ensure_ascii=False, indent=2)
+
+    print(f"\n✅ Coleta concluída: {len(todos)} resultado(s) em {data_hoje}.")
 
 if __name__ == "__main__":
     main()

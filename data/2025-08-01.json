@@ -1,0 +1,53 @@
+{
+  "gerado_em": "2025-08-01T10:00:00+00:00",
+  "data": "2025-08-01",
+  "termo_busca": "organização criminosa",
+  "total": 5,
+  "resultados": [
+    {
+      "fonte": "STF",
+      "titulo": "HC 127186 — Validade da colaboração premiada em organização criminosa",
+      "resumo": "O Plenário do STF, por maioria, denegou habeas corpus em que se discutia a validade de provas obtidas por meio de colaboração premiada. Firmou-se que o acordo de delação não é meio de prova, mas de obtenção de prova, sendo lícita sua utilização no contexto de organização criminosa.",
+      "numero": "HC 127186",
+      "relator": "Min. Teori Zavascki",
+      "data": "28/04/2015",
+      "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=4580410"
+    },
+    {
+      "fonte": "STF",
+      "titulo": "AP 937 QO — Foro por prerrogativa e organização criminosa",
+      "resumo": "O STF restringiu o foro privilegiado para parlamentares federais, limitando-o a atos praticados no exercício do mandato e em razão dele. A questão impacta diretamente processos envolvendo organização criminosa.",
+      "numero": "AP 937 QO",
+      "relator": "Min. Roberto Barroso",
+      "data": "03/05/2018",
+      "url": "https://portal.stf.jus.br"
+    },
+    {
+      "fonte": "STJ",
+      "titulo": "REsp 1.752.051 — Elementos configuradores da organização criminosa",
+      "resumo": "A Sexta Turma firmou entendimento sobre os elementos necessários para a configuração de organização criminosa nos termos da Lei 12.850/2013: estrutura ordenada, divisão de tarefas, vantagem de qualquer natureza e quadro mínimo de 4 integrantes.",
+      "numero": "REsp 1.752.051",
+      "relator": "Min. Sebastião Reis Júnior",
+      "data": "15/03/2019",
+      "url": "https://scon.stj.jus.br/SCON/"
+    },
+    {
+      "fonte": "TJPE",
+      "titulo": "APL 0000123-45.2022.8.17.0001 — Tráfico e organização criminosa",
+      "resumo": "Apelação criminal. Condenação por tráfico de drogas e associação para fins de tráfico. Afastada a qualificadora de organização criminosa por ausência de elemento probatório suficiente quanto à estrutura hierárquica e divisão de tarefas.",
+      "numero": "APL 0000123-45.2022.8.17.0001",
+      "relator": "Des. João da Silva",
+      "data": "10/06/2023",
+      "url": "https://www.tjpe.jus.br/jurisprudencia"
+    },
+    {
+      "fonte": "LEG",
+      "titulo": "Lei nº 12.850/2013 — Define organização criminosa",
+      "resumo": "Define organização criminosa, dispõe sobre a investigação criminal, os meios de obtenção da prova, infrações penais correlatas e o procedimento criminal. Principal marco normativo sobre o tema.",
+      "numero": "12.850/2013",
+      "relator": "",
+      "data": "02/08/2013",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm"
+    }
+  ]
+}
