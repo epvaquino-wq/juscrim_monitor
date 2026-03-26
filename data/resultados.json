@@ -1,33 +1,15 @@
 {
-  "gerado_em": "2025-08-01T10:00:00+00:00",
+  "gerado_em": "2026-03-26T16:31:22.358624+00:00",
   "termo_busca": "organização criminosa",
   "total": 4,
   "resultados": [
     {
-      "fonte": "STF",
-      "titulo": "HC 127186 — Organização criminosa e prova lícita",
-      "resumo": "O Plenário do STF, por maioria, denegou habeas corpus em que se discutia a validade de provas obtidas por meio de colaboração premiada no contexto de organização criminosa.",
-      "numero": "HC 127186",
-      "relator": "Min. Teori Zavascki",
-      "data": "28/04/2015",
-      "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=4580410"
-    },
-    {
-      "fonte": "STJ",
-      "titulo": "REsp 1.752.051 — Elementos configuradores da organização criminosa",
-      "resumo": "A Sexta Turma firmou entendimento sobre os elementos necessários para a configuração de organização criminosa, nos termos da Lei 12.850/2013: estrutura ordenada, divisão de tarefas, vantagem de qualquer natureza e quadro mínimo de 4 integrantes.",
-      "numero": "REsp 1.752.051",
-      "relator": "Min. Sebastião Reis Júnior",
-      "data": "15/03/2019",
-      "url": "https://scon.stj.jus.br/SCON/"
-    },
-    {
       "fonte": "TJPE",
-      "titulo": "APL 0000123-45.2022.8.17.0001 — Tráfico e organização criminosa",
-      "resumo": "Apelação criminal. Condenação pelo crime de tráfico de drogas e associação para fins de tráfico. Afastada a qualificadora de organização criminosa por ausência de elemento probatório suficiente.",
-      "numero": "APL 0000123-45.2022.8.17.0001",
-      "relator": "Des. João da Silva",
-      "data": "10/06/2023",
+      "titulo": "Pesquisa manual: 'organização criminosa' no portal TJPE",
+      "resumo": "Clique para pesquisar diretamente no portal de jurisprudência do TJPE.",
+      "numero": "",
+      "relator": "",
+      "data": "26/03/2026",
       "url": "https://www.tjpe.jus.br/jurisprudencia"
     },
     {
@@ -35,9 +17,24 @@
       "titulo": "Lei nº 12.850/2013 — Define organização criminosa",
       "resumo": "Define organização criminosa, dispõe sobre a investigação criminal, os meios de obtenção da prova, infrações penais correlatas e o procedimento criminal.",
       "numero": "12.850/2013",
-      "relator": "",
       "data": "02/08/2013",
       "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm"
+    },
+    {
+      "fonte": "LEG",
+      "titulo": "Lei nº 9.034/1995 — Organização criminosa (revogada pela 12.850)",
+      "resumo": "Dispunha sobre a utilização de meios operacionais para a prevenção e repressão de ações praticadas por organizações criminosas.",
+      "numero": "9.034/1995",
+      "data": "03/05/1995",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9034.htm"
+    },
+    {
+      "fonte": "LEG",
+      "titulo": "Lei nº 12.694/2012 — Julgamento colegiado em crimes de org. criminosa",
+      "resumo": "Dispõe sobre o processo e o julgamento colegiado em primeiro grau de jurisdição de crimes praticados por organizações criminosas.",
+      "numero": "12.694/2012",
+      "data": "24/07/2012",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12694.htm"
     }
   ]
 }
