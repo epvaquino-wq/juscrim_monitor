@@ -1,12 +1,13 @@
 {
-  "gerado_em": "2026-03-26T16:31:22.358624+00:00",
+  "gerado_em": "2026-03-26T16:41:10.343772+00:00",
+  "data": "2026-03-26",
   "termo_busca": "organização criminosa",
   "total": 4,
   "resultados": [
     {
       "fonte": "TJPE",
-      "titulo": "Pesquisa manual: 'organização criminosa' no portal TJPE",
-      "resumo": "Clique para pesquisar diretamente no portal de jurisprudência do TJPE.",
+      "titulo": "Pesquisa 'organização criminosa' no TJPE — clique para acessar",
+      "resumo": "Acesse o portal de jurisprudência do TJPE para consultar manualmente.",
       "numero": "",
       "relator": "",
       "data": "26/03/2026",
@@ -15,26 +16,26 @@
     {
       "fonte": "LEG",
       "titulo": "Lei nº 12.850/2013 — Define organização criminosa",
-      "resumo": "Define organização criminosa, dispõe sobre a investigação criminal, os meios de obtenção da prova, infrações penais correlatas e o procedimento criminal.",
+      "resumo": "Define organização criminosa, dispõe sobre investigação criminal, meios de obtenção da prova, infrações penais correlatas e procedimento criminal.",
       "numero": "12.850/2013",
       "data": "02/08/2013",
       "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm"
     },
     {
       "fonte": "LEG",
-      "titulo": "Lei nº 9.034/1995 — Organização criminosa (revogada pela 12.850)",
-      "resumo": "Dispunha sobre a utilização de meios operacionais para a prevenção e repressão de ações praticadas por organizações criminosas.",
-      "numero": "9.034/1995",
-      "data": "03/05/1995",
-      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9034.htm"
-    },
-    {
-      "fonte": "LEG",
-      "titulo": "Lei nº 12.694/2012 — Julgamento colegiado em crimes de org. criminosa",
-      "resumo": "Dispõe sobre o processo e o julgamento colegiado em primeiro grau de jurisdição de crimes praticados por organizações criminosas.",
+      "titulo": "Lei nº 12.694/2012 — Julgamento colegiado",
+      "resumo": "Dispõe sobre julgamento colegiado em primeiro grau em crimes de organizações criminosas.",
       "numero": "12.694/2012",
       "data": "24/07/2012",
       "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12694.htm"
+    },
+    {
+      "fonte": "LEG",
+      "titulo": "Lei nº 9.034/1995 — Revogada pela 12.850",
+      "resumo": "Dispunha sobre meios operacionais para prevenção e repressão de organizações criminosas (revogada).",
+      "numero": "9.034/1995",
+      "data": "03/05/1995",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9034.htm"
     }
   ]
 }
