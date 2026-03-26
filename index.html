@@ -482,7 +482,7 @@ function construirArvore() {
 }
 
 function mostrarErro() {
-  document.getElementById('cards').innerHTML = '<div class="state"><p>⚠ Dados não encontrados.<br>Verifique se <code>data/indice.json</code> existe no repositório.</p></div>';
+  document.getElementById('cards').innerHTML = '<div class="state"><p>Nenhuma coleta realizada ainda.<br>Vá em <b>Actions → Coleta Diária → Run workflow</b> para gerar os primeiros dados.</p></div>';
   document.getElementById('pg-title').textContent = 'Erro ao carregar';
 }
 

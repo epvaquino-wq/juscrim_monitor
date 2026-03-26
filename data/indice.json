@@ -1,4 +1,5 @@
 {
-  "datas": ["2025-08-01"],
-  "ultima_atualizacao": "2025-08-01T10:00:00+00:00"
+  "datas": [],
+  "ultima_atualizacao": null,
+  "nota": "Este arquivo será preenchido automaticamente na primeira execução do coletor."
 }

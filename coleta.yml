@@ -1,0 +1,54 @@
+name: Coleta Diária — JusCrim v5
+
+on:
+  schedule:
+    - cron: '0 10 * * *'   # 07:00 Brasília (10:00 UTC)
+  workflow_dispatch:         # permite rodar manualmente
+  push:
+    branches: [ main ]
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v4
+
+      - name: 🐍 Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # Sem pip install — o coletor usa apenas stdlib do Python
+
+      - name: 🗓 Confirmar data real do sistema
+        run: |
+          echo "Data do runner: $(date +'%Y-%m-%d %H:%M:%S UTC')"
+          python -c "import datetime; print('Data Python:', datetime.date.today().isoformat())"
+
+      - name: 🔍 Executar coleta
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python coletor.py
+
+      - name: 📊 Verificar saída
+        run: |
+          echo "=== indice.json ==="
+          cat data/indice.json
+          echo ""
+          echo "=== Arquivos em data/ ==="
+          ls -lht data/ | head -10
+
+      - name: 💾 Commit e push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "JusCrim Bot"
+          git add data/
+          HOJE=$(date +'%d/%m/%Y')
+          DIAS=$(python -c "import json; print(len(json.load(open('data/indice.json'))['datas']))")
+          git diff --staged --quiet || \
+            git commit -m "🤖 Coleta ${HOJE} — ${DIAS} dia(s) no histórico"
+          git push

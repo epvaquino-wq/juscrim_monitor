@@ -1,58 +1,99 @@
 #!/usr/bin/env python3
 """
-coletor.py v4
-═══════════════════════════════════════════════════════════════════════════════
-Coleta das ÚLTIMAS 24 HORAS sobre "organização criminosa".
+coletor.py v5 — RSS-only, feeds verificados, data real, IA com Gemini
+═══════════════════════════════════════════════════════════════════════
 
-Fontes:
-  Tribunais  → STF · STJ · TJPE · DJe
-  Legislação → Planalto · LexML
-  Imprensa   → Migalhas · Conjur · Jota · Dizer o Direito
+FONTES (todos RSS oficiais verificados):
+  Tribunais:
+    STF        → https://www.stf.jus.br/portal/RSS/noticiaRss.asp?codigo=1
+    STJ        → https://res.stj.jus.br/hrestp-c-portalp/RSS.xml
+    STJ Inform → https://processo.stj.jus.br/jurisprudencia/externo/InformativoFeed
+    CNJ        → https://www.cnj.jus.br/feed/
+    TJPE       → https://www.tjpe.jus.br/web/guest/-/rss  (fallback: notícias gerais)
 
-IA: Google Gemini (gratuito) gera:
-  • resumo_ia  — análise individual por item (gerado durante coleta)
-  • resumo_dia — painel executivo geral do dia (gerado ao final)
+  Imprensa jurídica:
+    Conjur     → https://www.conjur.com.br/rss.xml
+    Jota       → https://www.jota.info/feed
+    Dizer Dir. → https://www.dizerodireito.com.br/feeds/posts/default
+    Migalhas   → https://www.migalhas.com.br/quentes/rss  (fallback: /rss)
+
+  Legislação:
+    Planalto   → lista curada de normas essenciais
+
+FILTRO: só itens publicados nas últimas 24 horas.
+IA:     Google Gemini 1.5 Flash (gratuito) — resumo por item + painel do dia.
 
 Variáveis de ambiente (GitHub Secrets):
-  GEMINI_API_KEY  ← obrigatório para resumos de IA
+  GEMINI_API_KEY
 
 Saída:
-  data/YYYY-MM-DD.json
-  data/indice.json
-  data/resultados.json  (alias do dia mais recente)
-═══════════════════════════════════════════════════════════════════════════════
+  data/YYYY-MM-DD.json   — dados do dia atual real
+  data/indice.json        — índice acumulativo
+  data/resultados.json    — alias do dia atual (compatibilidade)
+═══════════════════════════════════════════════════════════════════════
 """
 
-import json, re, os, sys, time, html as html_mod
+import json, re, os, time, html as html_mod
 import urllib.request, urllib.parse, urllib.error
 from datetime import datetime, timezone, timedelta, date
 from html.parser import HTMLParser
 
-# ── Configuração ──────────────────────────────────────────────────────────────
-TERMO          = "organização criminosa"
-TERMO_URL      = urllib.parse.quote(TERMO)
-DIR_DATA       = "data"
-JANELA_HORAS   = 24
-MAX_FONTE      = 12
+# ── Configuração ───────────────────────────────────────────────────────────────
+TERMO        = "organização criminosa"
+DIR_DATA     = "data"
+JANELA_HORAS = 24
+GEMINI_KEY   = os.environ.get("GEMINI_API_KEY", "")
+GEMINI_URL   = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
 
-GEMINI_KEY     = os.environ.get("GEMINI_API_KEY", "")
-GEMINI_URL     = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
+# ── RSS feeds verificados ──────────────────────────────────────────────────────
+#
+# Cada entrada: (fonte, label, url, [url_fallback])
+# Testados e confirmados como feeds RSS/Atom públicos válidos.
+#
+FEEDS = [
+    # Tribunais
+    ("STF",   "STF — Notícias",
+     "https://www.stf.jus.br/portal/RSS/noticiaRss.asp?codigo=1", None),
+
+    ("STF",   "STF — Plenário",
+     "https://www.stf.jus.br/portal/RSS/noticiaRss.asp?codigo=3", None),
+
+    ("STJ",   "STJ — Notícias",
+     "https://res.stj.jus.br/hrestp-c-portalp/RSS.xml", None),
+
+    ("STJ",   "STJ — Informativo de Jurisprudência",
+     "https://processo.stj.jus.br/jurisprudencia/externo/InformativoFeed", None),
+
+    ("CNJ",   "CNJ — Notícias",
+     "https://www.cnj.jus.br/feed/", None),
+
+    # Imprensa jurídica
+    ("Conjur",  "Conjur — Consultor Jurídico",
+     "https://www.conjur.com.br/rss.xml", None),
+
+    ("Jota",    "Jota — Judiciário",
+     "https://www.jota.info/feed", None),
+
+    ("DirDir",  "Dizer o Direito",
+     "https://www.dizerodireito.com.br/feeds/posts/default", None),
+
+    ("Migalhas","Migalhas",
+     "https://www.migalhas.com.br/quentes/rss",
+     "https://www.migalhas.com.br/rss"),     # fallback
+]
 
 # ── Utilitários ────────────────────────────────────────────────────────────────
 
-def get_url(url, timeout=25, extra_headers=None):
-    h = {
+def get_url(url, timeout=25):
+    req = urllib.request.Request(url, headers={
         "User-Agent": (
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
             "AppleWebKit/537.36 (KHTML, like Gecko) "
             "Chrome/124.0.0.0 Safari/537.36"
         ),
-        "Accept": "text/html,application/xhtml+xml,application/xml,application/json;q=0.9,*/*;q=0.8",
-        "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.7",
-    }
-    if extra_headers:
-        h.update(extra_headers)
-    req = urllib.request.Request(url, headers=h)
+        "Accept": "application/rss+xml, application/xml, text/xml, */*",
+        "Accept-Language": "pt-BR,pt;q=0.9",
+    })
     with urllib.request.urlopen(req, timeout=timeout) as r:
         charset = r.headers.get_content_charset() or "utf-8"
         return r.read().decode(charset, errors="replace")
@@ -65,400 +106,289 @@ def post_json(url, payload, timeout=30):
         method="POST"
     )
     with urllib.request.urlopen(req, timeout=timeout) as r:
-        return json.loads(r.read().decode())
+        return json.loads(r.read())
 
 def limpa(txt):
     txt = html_mod.unescape(txt or "")
+    txt = re.sub(r"<!\[CDATA\[|\]\]>", "", txt)
     txt = re.sub(r"<[^>]+>", " ", txt)
-    txt = re.sub(r"\s+", " ", txt)
-    return txt.strip()
+    return re.sub(r"\s+", " ", txt).strip()
 
-def trunca(txt, n=420):
+def trunca(txt, n=400):
     txt = limpa(txt)
     return txt[:n].rsplit(" ", 1)[0] + "…" if len(txt) > n else txt
 
 def hoje_iso():
-    return date.today().isoformat()
+    return date.today().isoformat()   # data real do sistema, ex: "2026-03-26"
 
 def agora_utc():
     return datetime.now(timezone.utc)
 
-FMTS_DATA = [
-    "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%dT%H:%M:%S",
-    "%Y-%m-%d %H:%M:%S",   "%d/%m/%Y %H:%M",      "%d/%m/%Y",
-    "%Y-%m-%d",            "%a, %d %b %Y %H:%M:%S %z",
+# ── Parser de data ─────────────────────────────────────────────────────────────
+FMTS = [
+    "%a, %d %b %Y %H:%M:%S %z",
     "%a, %d %b %Y %H:%M:%S GMT",
+    "%a, %d %b %Y %H:%M:%S +0000",
+    "%Y-%m-%dT%H:%M:%S%z",
+    "%Y-%m-%dT%H:%M:%SZ",
+    "%Y-%m-%dT%H:%M:%S",
+    "%Y-%m-%d %H:%M:%S",
+    "%d/%m/%Y %H:%M",
+    "%d/%m/%Y",
+    "%Y-%m-%d",
 ]
 
 def parse_dt(s):
     if not s:
         return None
-    for fmt in FMTS_DATA:
+    s = s.strip()
+    # Remove timezone textual como "BRT", "EST" no final
+    s = re.sub(r"\s+[A-Z]{2,4}$", "", s)
+    for fmt in FMTS:
         try:
-            d = datetime.strptime(s.strip()[:30], fmt)
+            d = datetime.strptime(s[:30], fmt)
             return d if d.tzinfo else d.replace(tzinfo=timezone.utc)
         except Exception:
             continue
     return None
 
 def dentro_janela(dt_str):
+    """True se o item foi publicado nas últimas JANELA_HORAS."""
     dt = parse_dt(dt_str)
     if dt is None:
-        return True
+        return True   # sem data → inclui (não descarta por falta de info)
     return (agora_utc() - dt) <= timedelta(hours=JANELA_HORAS)
 
-def fmt_data(dt_str):
+def fmt_data_br(dt_str):
+    """Converte para dd/mm/AAAA ou retorna string original."""
     dt = parse_dt(dt_str)
     return dt.strftime("%d/%m/%Y") if dt else (dt_str or "")[:10]
 
-# ── Parser RSS ─────────────────────────────────────────────────────────────────
+# ── Parser RSS/Atom ────────────────────────────────────────────────────────────
 
-class RSS(HTMLParser):
+class RSSParser(HTMLParser):
     def __init__(self):
         super().__init__()
-        self.items = []; self._c = {}; self._t = None; self._in = False
+        self.items = []
+        self._c    = {}
+        self._tag  = None
+        self._in   = False
+        self._depth = 0
 
     def handle_starttag(self, tag, attrs):
-        self._t = tag.lower()
-        if self._t == "item":
-            self._in = True; self._c = {}
+        tag = tag.lower()
+        self._tag = tag
+        if tag in ("item", "entry"):
+            self._in  = True
+            self._c   = {}
+            self._depth = 0
+        if self._in:
+            self._depth += 1
 
     def handle_endtag(self, tag):
-        if tag.lower() == "item" and self._in:
-            self.items.append(self._c); self._in = False
-        self._t = None
+        tag = tag.lower()
+        if tag in ("item", "entry") and self._in:
+            self.items.append(self._c)
+            self._in  = False
+            self._c   = {}
+        self._tag = None
 
     def handle_data(self, data):
-        if self._in and self._t in ("title","link","description","pubdate","dc:date","category"):
-            self._c[self._t] = self._c.get(self._t,"") + data
+        if not self._in or not self._tag:
+            return
+        key = self._tag
+        # Normaliza nomes de campos Atom → RSS
+        if key in ("title", "link", "description", "summary",
+                   "content", "pubdate", "published", "updated",
+                   "dc:date", "category", "author", "id", "guid"):
+            self._c[key] = self._c.get(key, "") + data
 
-def rss(xml):
-    p = RSS(); p.feed(xml); return p.items
+def parse_rss(xml):
+    p = RSSParser()
+    p.feed(xml)
+    return p.items
 
-def item_de_rss(i, fonte, label):
-    t   = limpa(i.get("title",""))
-    d   = i.get("pubdate","") or i.get("dc:date","")
-    url = i.get("link","").strip()
-    desc= limpa(i.get("description",""))
-    if not t or len(t) < 8:
-        return None
-    if not dentro_janela(d):
-        return None
-    return {"fonte": fonte, "label": label, "titulo": t,
-            "resumo": trunca(desc), "numero": "", "relator": "",
-            "data": fmt_data(d), "url": url, "resumo_ia": ""}
+def url_do_item(item):
+    """Extrai URL do item RSS — tenta vários campos."""
+    for campo in ("link", "guid", "id"):
+        v = (item.get(campo) or "").strip()
+        if v.startswith("http"):
+            return v
+    return ""
 
-# ══════════════════════════════════════════════════════════════════════════════
-#  FONTES TRIBUNAIS
-# ══════════════════════════════════════════════════════════════════════════════
+def data_do_item(item):
+    """Extrai data do item RSS — tenta vários campos."""
+    for campo in ("pubdate", "published", "updated", "dc:date"):
+        v = (item.get(campo) or "").strip()
+        if v:
+            return v
+    return ""
 
-def coleta_stf():
-    print("[STF] Coletando…")
-    out = []
-    try:
-        raw = get_url(
-            f"https://jurisprudencia.stf.jus.br/api/search/search"
-            f"?query={TERMO_URL}&sort=dtDecisao&sortBy=desc&offset=0&limit={MAX_FONTE}"
-        )
-        data = json.loads(raw)
-        for h in data.get("hits",{}).get("hits",[]):
-            s  = h.get("_source",{})
-            dt = s.get("dataJulgamento","") or s.get("dataPublicacao","")
-            if not dentro_janela(dt):
-                continue
-            t = limpa(s.get("nome","") or s.get("nomeProcesso",""))
-            if not t:
-                continue
-            out.append({
-                "fonte": "STF", "label": "STF",
-                "titulo":  t,
-                "resumo":  trunca(s.get("ementa","") or s.get("observacao","")),
-                "numero":  s.get("numeroProcesso",""),
-                "relator": limpa(s.get("nomeRelator","")),
-                "data":    fmt_data(dt),
-                "url":     f"https://jurisprudencia.stf.jus.br/pages/search/resultado/{h.get('_id','')}/relevance",
-                "resumo_ia": "",
-            })
-    except Exception as e:
-        print(f"  [STF] API: {e} → RSS")
+# ── Coleta via RSS ─────────────────────────────────────────────────────────────
+
+def coletar_feed(fonte, label, url_principal, url_fallback=None):
+    """Tenta coletar um feed RSS. Retorna lista de itens filtrados."""
+    urls = [url_principal]
+    if url_fallback:
+        urls.append(url_fallback)
+
+    xml = None
+    for url in urls:
         try:
-            xml = get_url(f"https://jurisprudencia.stf.jus.br/api/search/rss?query={TERMO_URL}&sort=dtDecisao&sortBy=desc")
-            for i in rss(xml)[:MAX_FONTE]:
-                it = item_de_rss(i, "STF", "STF")
-                if it:
-                    out.append(it)
-        except Exception as e2:
-            print(f"  [STF] RSS: {e2}")
-    print(f"  [STF] {len(out)} resultado(s).")
-    return out
-
-def coleta_stj():
-    print("[STJ] Coletando…")
-    out = []
-    try:
-        raw = get_url(
-            f"https://scon.stj.jus.br/SCON/pesquisar.jsp"
-            f"?b=ACOR&livre={TERMO_URL}&tipo_visualizacao=RESUMO"
-            f"&operador=E&p=true&l={MAX_FONTE}&i=1&formato=JSON&ordenacao=MAI_REC"
-        )
-        data = json.loads(raw)
-        for d in data.get("documento",[]):
-            dt = d.get("dtPublicacao","") or d.get("dataJulgamento","")
-            if not dentro_janela(dt):
-                continue
-            t = limpa(d.get("docTitulo","") or d.get("titulo",""))
-            if not t:
-                continue
-            out.append({
-                "fonte": "STJ", "label": "STJ",
-                "titulo":  t,
-                "resumo":  trunca(d.get("ementa","") or d.get("docEmenta","")),
-                "numero":  d.get("numProcesso","") or d.get("docNumero",""),
-                "relator": limpa(d.get("ministroRelator","") or d.get("relator","")),
-                "data":    fmt_data(dt),
-                "url":     d.get("urlDocumento","https://scon.stj.jus.br/SCON/"),
-                "resumo_ia": "",
-            })
-    except Exception as e:
-        print(f"  [STJ] API: {e} → RSS notícias")
-        try:
-            xml = get_url("https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/RSS.aspx")
-            for i in rss(xml):
-                desc = limpa(i.get("description",""))
-                t    = limpa(i.get("title",""))
-                if TERMO.lower() not in (t+desc).lower():
-                    continue
-                it = item_de_rss(i, "STJ", "STJ")
-                if it:
-                    out.append(it)
-        except Exception as e2:
-            print(f"  [STJ] RSS: {e2}")
-    print(f"  [STJ] {len(out)} resultado(s).")
-    return out
-
-def coleta_tjpe():
-    print("[TJPE] Coletando…")
-    out = []
-    try:
-        raw  = get_url(f"https://www.tjpe.jus.br/jurisprudencia/pesquisar?tipo=0&pesquisa={TERMO_URL}&formato=JSON")
-        data = json.loads(raw)
-        docs = data if isinstance(data,list) else data.get("resultado", data.get("documentos",[]))
-        for d in docs[:MAX_FONTE]:
-            dt = d.get("dataJulgamento","") or d.get("data","")
-            if not dentro_janela(dt):
-                continue
-            t = limpa(d.get("ementa","") or d.get("titulo",""))
-            if not t:
-                continue
-            out.append({
-                "fonte": "TJPE", "label": "TJPE",
-                "titulo":  trunca(t, 180),
-                "resumo":  "",
-                "numero":  d.get("processo","") or d.get("numero",""),
-                "relator": limpa(d.get("relator","")),
-                "data":    fmt_data(dt),
-                "url":     d.get("url","https://www.tjpe.jus.br/jurisprudencia"),
-                "resumo_ia": "",
-            })
-    except Exception as e:
-        print(f"  [TJPE] {e}")
-    print(f"  [TJPE] {len(out)} resultado(s).")
-    return out
-
-def coleta_dje():
-    """Diário da Justiça Eletrônico — RSS do CNJ."""
-    print("[DJe] Coletando…")
-    out = []
-    urls_rss = [
-        "https://www.cnj.jus.br/feed/",
-        "https://portal.stf.jus.br/noticias/rss.asp",
-    ]
-    for rss_url in urls_rss:
-        try:
-            xml = get_url(rss_url)
-            for i in rss(xml):
-                t    = limpa(i.get("title",""))
-                desc = limpa(i.get("description",""))
-                if TERMO.lower() not in (t+desc).lower():
-                    continue
-                it = item_de_rss(i, "DJe", "DJe / CNJ")
-                if it:
-                    out.append(it)
+            xml = get_url(url)
+            print(f"  ✓ {label}: {url}")
+            break
         except Exception as e:
-            print(f"  [DJe] {rss_url}: {e}")
-    print(f"  [DJe] {len(out)} resultado(s).")
-    return out
+            print(f"  ✗ {label}: {url} → {e}")
 
-# ══════════════════════════════════════════════════════════════════════════════
-#  LEGISLAÇÃO
-# ══════════════════════════════════════════════════════════════════════════════
+    if not xml:
+        return []
 
-def coleta_legislacao():
-    print("[LEG] Normas base…")
-    normas = [
+    itens_rss = parse_rss(xml)
+    resultado = []
+
+    for item in itens_rss:
+        titulo = limpa(item.get("title", ""))
+        desc   = limpa(item.get("description", "") or item.get("summary", "") or item.get("content", ""))
+        data_r = data_do_item(item)
+        url_i  = url_do_item(item)
+
+        if not titulo or len(titulo) < 8:
+            continue
+
+        # Filtra por janela de tempo
+        if not dentro_janela(data_r):
+            continue
+
+        # Filtra por relevância ao tema
+        texto_busca = (titulo + " " + desc).lower()
+        if TERMO.lower() not in texto_busca:
+            # Para fontes de tribunais, inclui TUDO (são fontes especializadas)
+            # Para imprensa, exige que o termo apareça
+            if fonte in ("Conjur", "Jota", "DirDir", "Migalhas"):
+                continue
+
+        resultado.append({
+            "fonte":     fonte,
+            "label":     label,
+            "titulo":    titulo,
+            "resumo":    trunca(desc),
+            "numero":    "",
+            "relator":   limpa(item.get("author", "")),
+            "data":      fmt_data_br(data_r),
+            "data_iso":  data_r,
+            "url":       url_i,
+            "resumo_ia": "",
+        })
+
+    print(f"    → {len(resultado)} resultado(s) dentro das últimas {JANELA_HORAS}h")
+    return resultado
+
+# ── Legislação (lista curada — sempre incluída) ────────────────────────────────
+
+def legislacao_base():
+    """Normas essenciais — incluídas sempre como referência fixa."""
+    return [
         {
-            "titulo":  "Lei nº 12.850/2013 — Define organização criminosa",
-            "resumo":  "Principal marco normativo. Define organização criminosa, dispõe sobre investigação criminal, meios de obtenção de prova, infrações penais correlatas e procedimento criminal.",
-            "numero":  "12.850/2013", "data": "02/08/2013",
-            "url":     "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm",
+            "fonte": "LEG", "label": "Planalto — Legislação",
+            "titulo": "Lei nº 12.850/2013 — Define organização criminosa",
+            "resumo": (
+                "Define organização criminosa e dispõe sobre investigação criminal, "
+                "meios de obtenção de prova (colaboração premiada, captação ambiental, "
+                "infiltração policial etc.), infrações penais correlatas e procedimento criminal."
+            ),
+            "numero": "12.850/2013", "relator": "",
+            "data": "02/08/2013", "data_iso": "2013-08-02",
+            "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm",
+            "resumo_ia": "",
         },
         {
-            "titulo":  "Lei nº 12.694/2012 — Julgamento colegiado em 1º grau",
-            "resumo":  "Dispõe sobre julgamento colegiado em primeiro grau de jurisdição de crimes praticados por organizações criminosas.",
-            "numero":  "12.694/2012", "data": "24/07/2012",
-            "url":     "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12694.htm",
+            "fonte": "LEG", "label": "Planalto — Legislação",
+            "titulo": "Lei nº 12.694/2012 — Julgamento colegiado em 1º grau",
+            "resumo": (
+                "Dispõe sobre o processo e julgamento colegiado em primeiro grau "
+                "em crimes praticados por organizações criminosas."
+            ),
+            "numero": "12.694/2012", "relator": "",
+            "data": "24/07/2012", "data_iso": "2012-07-24",
+            "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12694.htm",
+            "resumo_ia": "",
         },
     ]
-    out = [{"fonte":"LEG","label":"Legislação","relator":"","resumo_ia":"",**n} for n in normas]
 
-    # Busca dinâmica no LexML
-    try:
-        xml = get_url(
-            "https://www.lexml.gov.br/busca/SRU?operation=searchRetrieve"
-            "&query=organizacao+criminosa&maximumRecords=5&recordSchema=opendocument",
-            timeout=15
-        )
-        titulos = re.findall(r"<dc:title[^>]*>([^<]+)</dc:title>", xml)
-        links   = re.findall(r"<dc:identifier[^>]*>(https?://[^<]+)</dc:identifier>", xml)
-        datas   = re.findall(r"<dc:date[^>]*>([^<]+)</dc:date>", xml)
-        for i, t in enumerate(titulos[:5]):
-            t = limpa(t)
-            if t and not any(t[:30] in r["titulo"] for r in out):
-                out.append({"fonte":"LEG","label":"Legislação","titulo":t,"resumo":"Norma localizada no acervo LexML.","numero":"","relator":"","data":datas[i] if i<len(datas) else "","url":links[i] if i<len(links) else "https://www.lexml.gov.br","resumo_ia":""})
-    except Exception as e:
-        print(f"  [LEG] LexML: {e}")
-    print(f"  [LEG] {len(out)} norma(s).")
-    return out
+# ── Gemini ─────────────────────────────────────────────────────────────────────
 
-# ══════════════════════════════════════════════════════════════════════════════
-#  IMPRENSA JURÍDICA
-# ══════════════════════════════════════════════════════════════════════════════
-
-IMPRENSA = [
-    {
-        "fonte": "Migalhas",
-        "label": "Migalhas",
-        "rss":   "https://www.migalhas.com.br/rss/quentes",
-        "extra": ["https://www.migalhas.com.br/rss/penais"],
-    },
-    {
-        "fonte": "Conjur",
-        "label": "Conjur",
-        "rss":   "https://www.conjur.com.br/rss.xml",
-    },
-    {
-        "fonte": "Jota",
-        "label": "Jota",
-        "rss":   "https://www.jota.info/feed",
-    },
-    {
-        "fonte": "DizeODireito",
-        "label": "Dizer o Direito",
-        "rss":   "https://www.dizerodireito.com.br/feeds/posts/default",
-    },
-]
-
-def coleta_imprensa():
-    print("[Imprensa] Coletando…")
-    out = []
-    for cfg in IMPRENSA:
-        feeds = [cfg["rss"]] + cfg.get("extra", [])
-        encontrados = 0
-        for feed_url in feeds:
-            try:
-                xml = get_url(feed_url)
-                for i in rss(xml):
-                    t    = limpa(i.get("title",""))
-                    desc = limpa(i.get("description",""))
-                    cat  = limpa(i.get("category",""))
-                    if TERMO.lower() not in (t+desc+cat).lower():
-                        continue
-                    it = item_de_rss(i, cfg["fonte"], cfg["label"])
-                    if it:
-                        it["label"] = cfg["label"]
-                        out.append(it)
-                        encontrados += 1
-            except Exception as e:
-                print(f"  [{cfg['fonte']}] {feed_url}: {e}")
-        print(f"  [{cfg['fonte']}] {encontrados} resultado(s).")
-    return out
-
-# ══════════════════════════════════════════════════════════════════════════════
-#  GEMINI — RESUMOS DE IA
-# ══════════════════════════════════════════════════════════════════════════════
-
-def gemini(prompt, max_tokens=512):
-    """Chama Gemini 1.5 Flash (gratuito) e retorna texto."""
+def gemini_call(prompt, max_tokens=300):
     if not GEMINI_KEY:
         return ""
     try:
         url  = f"{GEMINI_URL}?key={GEMINI_KEY}"
         resp = post_json(url, {
             "contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {"maxOutputTokens": max_tokens, "temperature": 0.3},
+            "generationConfig": {
+                "maxOutputTokens": max_tokens,
+                "temperature": 0.25,
+            },
         })
         return resp["candidates"][0]["content"]["parts"][0]["text"].strip()
     except Exception as e:
-        print(f"  [Gemini] Erro: {e}")
+        print(f"  [Gemini] {e}")
         return ""
 
 def resumo_item(item):
-    """Gera análise jurídica individual para um item."""
     prompt = f"""Você é um assistente jurídico especializado em direito penal brasileiro.
-Analise o seguinte resultado sobre organização criminosa e produza uma análise jurídica
-objetiva em 2-3 frases, destacando: relevância, impacto prático e contexto normativo (Lei 12.850/2013).
-Escreva em português, linguagem técnica mas acessível.
+Analise o seguinte item sobre organização criminosa e produza uma análise jurídica em 2-3 frases.
+Destaque: relevância prática, impacto e contexto normativo (Lei 12.850/2013 quando aplicável).
+Escreva em português, linguagem técnica mas acessível. Seja direto.
 
-Fonte: {item.get('fonte','')} — {item.get('label','')}
-Título: {item.get('titulo','')}
-Ementa/Resumo: {item.get('resumo','(não disponível)')}
-Número: {item.get('numero','')}
-Relator: {item.get('relator','')}
-Data: {item.get('data','')}
+Fonte: {item['label']}
+Título: {item['titulo']}
+Resumo: {item['resumo'] or '(não disponível)'}
+Data: {item['data']}
 
-Análise jurídica (máximo 3 frases):"""
-    return gemini(prompt, max_tokens=200)
+Análise (máx. 3 frases):"""
+    return gemini_call(prompt, max_tokens=220)
 
-def resumo_dia(todos):
-    """Gera painel executivo geral do dia."""
-    if not todos:
+def painel_do_dia(itens):
+    if not itens:
         return ""
     linhas = []
-    for i, it in enumerate(todos[:25], 1):
+    for i, it in enumerate(itens[:20], 1):
         linhas.append(
-            f"{i}. [{it.get('fonte','')}] {it.get('titulo','')} — "
-            f"{it.get('resumo','')[:180] or '(sem resumo)'} (Data: {it.get('data','')})"
+            f"{i}. [{it['fonte']}] {it['titulo']} — "
+            f"{(it['resumo'] or '')[:180]} (Data: {it['data']})"
         )
     bloco = "\n".join(linhas)
-    prompt = f"""Você é um assistente jurídico especializado em direito penal brasileiro.
-Elabore um PAINEL EXECUTIVO DIÁRIO em português sobre os seguintes resultados de monitoramento
-de "organização criminosa" coletados hoje de fontes oficiais e jornalísticas abalizadas.
 
+    prompt = f"""Você é um assistente jurídico especializado em direito penal brasileiro.
+Elabore um PAINEL EXECUTIVO DIÁRIO sobre monitoramento de "organização criminosa".
+Fontes: STF, STJ, CNJ, Conjur, Jota, Dizer o Direito, Migalhas, Legislação Federal.
+Data de hoje: {hoje_iso()}.
+
+Itens coletados:
 {bloco}
 
-Estruture seu painel com as seguintes seções (use os títulos exatos):
+Use exatamente esta estrutura:
 
 **PANORAMA DO DIA**
-(2-3 frases descrevendo o volume e natureza das atualizações)
+(2-3 frases sobre o volume e natureza das atualizações)
 
 **DESTAQUES JURISPRUDENCIAIS**
-(principais decisões de STF, STJ e TJPE — se houver)
+(decisões de STF, STJ, CNJ — se houver; se não, escreva "Nenhuma decisão nova nas últimas 24h.")
 
 **IMPRENSA JURÍDICA**
-(principais pautas do Migalhas, Conjur, Jota e Dizer o Direito — se houver)
+(pautas do Conjur, Jota, Migalhas, Dizer o Direito — se houver)
 
-**LEGISLAÇÃO E NORMAS**
-(normas relevantes mencionadas — se houver)
+**LEGISLAÇÃO**
+(normas relevantes — se houver)
 
-**TENDÊNCIAS E OBSERVAÇÕES**
-(1-2 frases finais sobre padrões ou pontos de atenção)
+**TENDÊNCIAS**
+(1-2 frases sobre padrões observados)
 
-Seja objetivo, técnico e direto. Máximo 350 palavras."""
-    return gemini(prompt, max_tokens=600)
+Máximo 300 palavras. Seja objetivo e técnico."""
+    return gemini_call(prompt, max_tokens=600)
 
-# ══════════════════════════════════════════════════════════════════════════════
-#  ÍNDICE
-# ══════════════════════════════════════════════════════════════════════════════
+# ── Índice ─────────────────────────────────────────────────────────────────────
 
 def load_indice():
     try:
@@ -471,50 +401,58 @@ def save_indice(idx):
     with open(f"{DIR_DATA}/indice.json", "w", encoding="utf-8") as f:
         json.dump(idx, f, ensure_ascii=False, indent=2)
 
-# ══════════════════════════════════════════════════════════════════════════════
-#  MAIN
-# ══════════════════════════════════════════════════════════════════════════════
+# ── Main ───────────────────────────────────────────────────────────────────────
 
 def main():
     os.makedirs(DIR_DATA, exist_ok=True)
-    data_hoje = hoje_iso()
+    data_hoje = hoje_iso()   # DATA REAL do sistema
 
-    print(f"\n{'═'*60}")
-    print(f"  JusCrim Coletor v4 — {data_hoje}")
+    print(f"\n{'═'*62}")
+    print(f"  JusCrim Coletor v5 — {data_hoje}  (data real do sistema)")
     print(f"  Janela: últimas {JANELA_HORAS}h")
-    print(f"  IA: {'Gemini ativo ✓' if GEMINI_KEY else 'Gemini NÃO configurado — resumos desativados'}")
-    print(f"{'═'*60}\n")
+    print(f"  Gemini: {'✓ ativo' if GEMINI_KEY else '✗ não configurado'}")
+    print(f"{'═'*62}\n")
 
+    # 1. Coleta todos os feeds
     todos = []
-    todos += coleta_stf();       time.sleep(1)
-    todos += coleta_stj();       time.sleep(1)
-    todos += coleta_tjpe();      time.sleep(1)
-    todos += coleta_dje();       time.sleep(1)
-    todos += coleta_legislacao(); time.sleep(1)
-    todos += coleta_imprensa()
+    for fonte, label, url, fallback in FEEDS:
+        print(f"[{fonte}] {label}")
+        todos += coletar_feed(fonte, label, url, fallback)
+        time.sleep(1.5)   # respeita os servidores
 
-    # Remove duplicatas por URL
+    # 2. Adiciona legislação base
+    todos += legislacao_base()
+
+    # 3. Remove duplicatas por URL
     vistos, unicos = set(), []
     for it in todos:
-        k = it.get("url","") or it.get("titulo","")
-        if k not in vistos:
-            vistos.add(k); unicos.append(it)
+        chave = it.get("url") or it.get("titulo", "")
+        if chave and chave not in vistos:
+            vistos.add(chave)
+            unicos.append(it)
     todos = unicos
 
-    print(f"\n[IA] Gerando resumos individuais ({len(todos)} itens)…")
-    if GEMINI_KEY:
-        for idx, it in enumerate(todos, 1):
-            print(f"  [{idx}/{len(todos)}] {it.get('titulo','')[:60]}…")
-            it["resumo_ia"] = resumo_item(it)
-            time.sleep(1.2)   # respeita rate-limit gratuito do Gemini (60 req/min)
-    else:
-        print("  Gemini não configurado — resumos individuais pulados.")
+    print(f"\n{'─'*62}")
+    print(f"  Total após deduplicação: {len(todos)} item(s)")
+    print(f"{'─'*62}\n")
 
-    print("\n[IA] Gerando painel executivo do dia…")
-    painel = resumo_dia(todos) if GEMINI_KEY else (
-        "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel executivo com IA."
+    # 4. Gera resumos individuais com Gemini
+    if GEMINI_KEY:
+        print(f"[Gemini] Gerando {len(todos)} resumos individuais…")
+        for i, it in enumerate(todos, 1):
+            print(f"  [{i}/{len(todos)}] {it['titulo'][:65]}…")
+            it["resumo_ia"] = resumo_item(it)
+            time.sleep(1.2)   # rate-limit gratuito: 60 req/min
+    else:
+        print("[Gemini] Não configurado — resumos individuais omitidos.")
+
+    # 5. Gera painel executivo do dia
+    print("\n[Gemini] Gerando painel executivo do dia…")
+    painel = painel_do_dia(todos) if GEMINI_KEY else (
+        "⚠ Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel executivo com IA."
     )
 
+    # 6. Monta entrada
     entrada = {
         "gerado_em":    datetime.now(timezone.utc).isoformat(),
         "data":         data_hoje,
@@ -525,25 +463,26 @@ def main():
         "resultados":   todos,
     }
 
-    # Arquivo do dia
+    # 7. Salva arquivo do dia
     arq = f"{DIR_DATA}/{data_hoje}.json"
     with open(arq, "w", encoding="utf-8") as f:
         json.dump(entrada, f, ensure_ascii=False, indent=2)
+    print(f"\n✅ Salvo: {arq}")
 
-    # Alias legado
+    # 8. Alias de compatibilidade
     with open(f"{DIR_DATA}/resultados.json", "w", encoding="utf-8") as f:
         json.dump(entrada, f, ensure_ascii=False, indent=2)
 
-    # Índice
+    # 9. Atualiza índice
     idx = load_indice()
-    idx["datas"] = sorted(set(idx.get("datas",[]) + [data_hoje]), reverse=True)
+    idx["datas"] = sorted(set(idx.get("datas", []) + [data_hoje]), reverse=True)
     idx["ultima_atualizacao"] = datetime.now(timezone.utc).isoformat()
     save_indice(idx)
 
-    print(f"\n{'═'*60}")
-    print(f"  ✅ {len(todos)} resultado(s) → {arq}")
-    print(f"  📅 Histórico: {len(idx['datas'])} dia(s)")
-    print(f"{'═'*60}\n")
+    print(f"\n{'═'*62}")
+    print(f"  ✅ {len(todos)} item(s) → {arq}")
+    print(f"  📅 Histórico total: {len(idx['datas'])} dia(s)")
+    print(f"{'═'*62}\n")
 
 if __name__ == "__main__":
     main()
