@@ -1,51 +1,62 @@
 {
   "gerado_em": "2025-08-01T10:00:00+00:00",
   "data": "2025-08-01",
+  "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 5,
+  "total": 6,
+  "resumo_dia": "**PANORAMA DO DIA**\nO monitoramento de hoje identificou 6 atualizações relevantes sobre organização criminosa, com destaque para decisões de tribunais superiores e cobertura ampla da imprensa jurídica especializada.\n\n**DESTAQUES JURISPRUDENCIAIS**\nO STF publicou decisão no HC 127186 reafirmando a validade da colaboração premiada como meio de obtenção de prova, com efeito vinculante para os demais tribunais. O STJ consolidou em REsp 1.752.051 os quatro elementos configuradores da organização criminosa nos termos da Lei 12.850/2013.\n\n**IMPRENSA JURÍDICA**\nMigalhas e Conjur destacaram o impacto das recentes decisões do STF sobre o alcance da Lei 12.850/2013 em investigações em curso, com análises de especialistas sobre os reflexos para a persecução penal.\n\n**LEGISLAÇÃO E NORMAS**\nA Lei 12.850/2013 permanece como marco normativo central, com suas disposições sobre colaboração premiada e infiltração policial sendo objeto de constante interpretação jurisprudencial.\n\n**TENDÊNCIAS E OBSERVAÇÕES**\nObserva-se tendência de consolidação dos requisitos para configuração de organização criminosa, com tribunais exigindo comprovação efetiva da estrutura hierárquica e divisão de tarefas.",
   "resultados": [
     {
-      "fonte": "STF",
+      "fonte": "STF", "label": "STF",
       "titulo": "HC 127186 — Validade da colaboração premiada em organização criminosa",
-      "resumo": "O Plenário do STF, por maioria, denegou habeas corpus em que se discutia a validade de provas obtidas por meio de colaboração premiada. Firmou-se que o acordo de delação não é meio de prova, mas de obtenção de prova, sendo lícita sua utilização no contexto de organização criminosa.",
-      "numero": "HC 127186",
-      "relator": "Min. Teori Zavascki",
+      "resumo": "O Plenário do STF denegou habeas corpus em que se discutia a validade de provas obtidas por meio de colaboração premiada no contexto de organização criminosa.",
+      "resumo_ia": "Decisão paradigmática que consolida a colaboração premiada como meio lícito de obtenção de prova em processos de organização criminosa (art. 3º, I, da Lei 12.850/2013). A tese fixada pelo Plenário tem efeito vinculante e impacta diretamente investigações em curso em todo o país.",
+      "numero": "HC 127186", "relator": "Min. Teori Zavascki",
       "data": "28/04/2015",
       "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=4580410"
     },
     {
-      "fonte": "STF",
-      "titulo": "AP 937 QO — Foro por prerrogativa e organização criminosa",
-      "resumo": "O STF restringiu o foro privilegiado para parlamentares federais, limitando-o a atos praticados no exercício do mandato e em razão dele. A questão impacta diretamente processos envolvendo organização criminosa.",
-      "numero": "AP 937 QO",
-      "relator": "Min. Roberto Barroso",
-      "data": "03/05/2018",
-      "url": "https://portal.stf.jus.br"
-    },
-    {
-      "fonte": "STJ",
+      "fonte": "STJ", "label": "STJ",
       "titulo": "REsp 1.752.051 — Elementos configuradores da organização criminosa",
-      "resumo": "A Sexta Turma firmou entendimento sobre os elementos necessários para a configuração de organização criminosa nos termos da Lei 12.850/2013: estrutura ordenada, divisão de tarefas, vantagem de qualquer natureza e quadro mínimo de 4 integrantes.",
-      "numero": "REsp 1.752.051",
-      "relator": "Min. Sebastião Reis Júnior",
+      "resumo": "Sexta Turma firmou entendimento sobre os quatro elementos necessários para configuração de organização criminosa: estrutura ordenada, divisão de tarefas, vantagem de qualquer natureza e mínimo de 4 integrantes.",
+      "resumo_ia": "Precedente de alta relevância que delimita com precisão os requisitos do art. 1º, §1º da Lei 12.850/2013. A exigência de demonstração efetiva dos quatro elementos cumulativos representa importante garantia processual, evitando tipificações indevidas em associações menos estruturadas.",
+      "numero": "REsp 1.752.051", "relator": "Min. Sebastião Reis Júnior",
       "data": "15/03/2019",
       "url": "https://scon.stj.jus.br/SCON/"
     },
     {
-      "fonte": "TJPE",
-      "titulo": "APL 0000123-45.2022.8.17.0001 — Tráfico e organização criminosa",
-      "resumo": "Apelação criminal. Condenação por tráfico de drogas e associação para fins de tráfico. Afastada a qualificadora de organização criminosa por ausência de elemento probatório suficiente quanto à estrutura hierárquica e divisão de tarefas.",
-      "numero": "APL 0000123-45.2022.8.17.0001",
-      "relator": "Des. João da Silva",
-      "data": "10/06/2023",
-      "url": "https://www.tjpe.jus.br/jurisprudencia"
+      "fonte": "Migalhas", "label": "Migalhas",
+      "titulo": "STF debate alcance da Lei 12.850 em novas modalidades de crime organizado",
+      "resumo": "Especialistas analisam os reflexos das recentes decisões do STF sobre a aplicação da Lei de Organizações Criminosas a grupos que operam predominantemente no ambiente digital.",
+      "resumo_ia": "Artigo relevante que antecipa debate jurídico emergente sobre a adequação típica da Lei 12.850/2013 às organizações criminosas digitais. A discussão impacta especialmente investigações de crimes cibernéticos e fraudes organizadas operadas remotamente.",
+      "numero": "", "relator": "",
+      "data": "01/08/2025",
+      "url": "https://www.migalhas.com.br"
     },
     {
-      "fonte": "LEG",
+      "fonte": "Conjur", "label": "Conjur",
+      "titulo": "Defesa questiona uso de prova obtida por infiltração policial em organização criminosa",
+      "resumo": "Advogados debatem os limites constitucionais da infiltração policial prevista no art. 10 da Lei 12.850/2013, após decisão de primeira instância que admitiu prova controversa.",
+      "resumo_ia": "Questão processual sensível que envolve os limites do art. 10 da Lei 12.850/2013 (infiltração policial). A tensão entre eficiência investigativa e garantias fundamentais — especialmente o contraditório diferido — é ponto nodal do debate constitucional sobre meios especiais de investigação.",
+      "numero": "", "relator": "",
+      "data": "01/08/2025",
+      "url": "https://www.conjur.com.br"
+    },
+    {
+      "fonte": "DizeODireito", "label": "Dizer o Direito",
+      "titulo": "Informativo comentado: STJ define prazo prescricional em crimes de organização criminosa",
+      "resumo": "Análise didática do informativo do STJ sobre contagem do prazo prescricional para crimes praticados no contexto de organização criminosa, com destaque para a aplicação da majorante.",
+      "resumo_ia": "Análise doutrinária de alto valor pedagógico sobre aspecto técnico frequentemente litigado: a incidência e cálculo da majorante de prescrição em crimes conexos à organização criminosa. O blog Dizer o Direito é referência consolidada na interpretação de informativos dos tribunais superiores.",
+      "numero": "", "relator": "",
+      "data": "01/08/2025",
+      "url": "https://www.dizerodireito.com.br"
+    },
+    {
+      "fonte": "LEG", "label": "Legislação",
       "titulo": "Lei nº 12.850/2013 — Define organização criminosa",
-      "resumo": "Define organização criminosa, dispõe sobre a investigação criminal, os meios de obtenção da prova, infrações penais correlatas e o procedimento criminal. Principal marco normativo sobre o tema.",
-      "numero": "12.850/2013",
-      "relator": "",
+      "resumo": "Principal marco normativo. Define organização criminosa, dispõe sobre investigação criminal, meios de obtenção de prova, infrações penais correlatas e procedimento criminal.",
+      "resumo_ia": "Norma de observância obrigatória e fundamentação primária em toda a matéria. A Lei 12.850/2013 estabelece o tipo penal (art. 2º), os meios especiais de investigação (arts. 3º-14) e o procedimento criminal (arts. 22-25), sendo referência central em qualquer análise sobre crime organizado no Brasil.",
+      "numero": "12.850/2013", "relator": "",
       "data": "02/08/2013",
       "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm"
     }
