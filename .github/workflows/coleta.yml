@@ -1,0 +1,46 @@
+name: Coleta Diária — JusCrim
+
+on:
+  schedule:
+    # Roda todo dia às 07:00 horário de Brasília (10:00 UTC)
+    - cron: '0 10 * * *'
+  workflow_dispatch:   # permite rodar manualmente no GitHub
+  push:
+    branches: [ main ]  # roda também em push (para testar)
+
+jobs:
+  coletar-e-publicar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # necessário para fazer commit dos dados
+
+    steps:
+      - name: 📥 Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: 🐍 Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Instalar dependências
+        run: |
+          pip install --upgrade pip
+          # O coletor usa apenas a stdlib, mas instale aqui se adicionar libs externas
+
+      - name: 🔍 Executar coleta
+        run: python coletor.py
+
+      - name: 📊 Verificar resultado
+        run: |
+          echo "=== Conteúdo do JSON gerado ==="
+          cat data/resultados.json | python -m json.tool | head -40
+
+      - name: 💾 Commit e push dos dados atualizados
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "JusCrim Bot"
+          git add data/resultados.json
+          # Só faz commit se houver mudança
+          git diff --staged --quiet || git commit -m "🤖 Dados atualizados em $(date +'%d/%m/%Y %H:%M') UTC"
+          git push
