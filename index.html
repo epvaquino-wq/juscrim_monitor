@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Monitor JusCrim — Organização Criminosa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0b0c10;
+      --surface: #13151c;
+      --border: #1f2230;
+      --accent: #c9a84c;
+      --accent-dim: #8a6f2e;
+      --red: #e05252;
+      --text: #dde1ec;
+      --muted: #6b7094;
+      --stf: #4a7fcb;
+      --stj: #5aac8a;
+      --tjpe: #b06ec4;
+      --leg: #e07a3a;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-weight: 300;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* Background texture */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(ellipse 80% 50% at 50% -10%, rgba(201,168,76,0.07) 0%, transparent 60%),
+        url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.015'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* Header */
+    header {
+      position: relative;
+      z-index: 10;
+      border-bottom: 1px solid var(--border);
+      padding: 0 2rem;
+    }
+
+    .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 70px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: baseline;
+      gap: 0.5rem;
+    }
+
+    .logo-main {
+      font-family: 'Playfair Display', serif;
+      font-weight: 900;
+      font-size: 1.4rem;
+      color: var(--accent);
+      letter-spacing: -0.02em;
+    }
+
+    .logo-sub {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.65rem;
+      color: var(--muted);
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+
+    .header-meta {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    .live-badge {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.7rem;
+      color: var(--muted);
+      letter-spacing: 0.05em;
+    }
+
+    .live-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #4caf50;
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+
+    /* Hero */
+    .hero {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 4rem 2rem 2rem;
+    }
+
+    .hero-tag {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent-dim);
+      margin-bottom: 1rem;
+    }
+
+    .hero-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      font-weight: 900;
+      line-height: 1.05;
+      color: var(--text);
+      margin-bottom: 1rem;
+    }
+
+    .hero-title em {
+      font-style: italic;
+      color: var(--accent);
+    }
+
+    .hero-desc {
+      max-width: 560px;
+      font-size: 0.9rem;
+      color: var(--muted);
+      line-height: 1.7;
+      margin-bottom: 2rem;
+    }
+
+    /* Stats bar */
+    .stats-bar {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+      margin-bottom: 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .stat {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+
+    .stat-value {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--accent);
+    }
+
+    .stat-label {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    /* Filters */
+    .filters {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem 1.5rem;
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .filter-label {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      text-transform: uppercase;
+      margin-right: 0.5rem;
+    }
+
+    .filter-btn {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      padding: 0.35rem 0.9rem;
+      border-radius: 2px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.68rem;
+      letter-spacing: 0.08em;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .filter-btn:hover { border-color: var(--accent-dim); color: var(--text); }
+    .filter-btn.active { border-color: var(--accent); color: var(--accent); background: rgba(201,168,76,0.07); }
+    .filter-btn[data-source="STF"].active { border-color: var(--stf); color: var(--stf); background: rgba(74,127,203,0.07); }
+    .filter-btn[data-source="STJ"].active { border-color: var(--stj); color: var(--stj); background: rgba(90,172,138,0.07); }
+    .filter-btn[data-source="TJPE"].active { border-color: var(--tjpe); color: var(--tjpe); background: rgba(176,110,196,0.07); }
+    .filter-btn[data-source="LEG"].active { border-color: var(--leg); color: var(--leg); background: rgba(224,122,58,0.07); }
+
+    /* Content grid */
+    .content {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem 4rem;
+    }
+
+    .loading-state {
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+
+    .spinner {
+      width: 32px;
+      height: 32px;
+      border: 2px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto 1rem;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .loading-text {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+    }
+
+    .error-state {
+      border: 1px solid rgba(224,82,82,0.3);
+      background: rgba(224,82,82,0.05);
+      padding: 2rem;
+      border-radius: 4px;
+      text-align: center;
+    }
+
+    .error-state p { color: var(--red); font-size: 0.85rem; }
+
+    /* Cards */
+    #cards-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+    }
+
+    .card {
+      background: var(--surface);
+      padding: 1.5rem 1.8rem;
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: 1.2rem;
+      align-items: start;
+      transition: background 0.2s;
+      cursor: pointer;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .card:hover { background: #181a24; }
+
+    .card-source-badge {
+      width: 44px;
+      height: 44px;
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.6rem;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .badge-STF  { background: rgba(74,127,203,0.15); color: var(--stf); border: 1px solid rgba(74,127,203,0.3); }
+    .badge-STJ  { background: rgba(90,172,138,0.15); color: var(--stj); border: 1px solid rgba(90,172,138,0.3); }
+    .badge-TJPE { background: rgba(176,110,196,0.15); color: var(--tjpe); border: 1px solid rgba(176,110,196,0.3); }
+    .badge-LEG  { background: rgba(224,122,58,0.15);  color: var(--leg);  border: 1px solid rgba(224,122,58,0.3); }
+
+    .card-body { min-width: 0; }
+
+    .card-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 1.3;
+      color: var(--text);
+      margin-bottom: 0.4rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .card:hover .card-title { color: var(--accent); }
+
+    .card-excerpt {
+      font-size: 0.82rem;
+      color: var(--muted);
+      line-height: 1.6;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      margin-bottom: 0.7rem;
+    }
+
+    .card-meta {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .card-meta-item {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      text-transform: uppercase;
+    }
+
+    .card-meta-item span {
+      color: var(--text);
+      opacity: 0.7;
+    }
+
+    .card-arrow {
+      color: var(--muted);
+      font-size: 1rem;
+      transition: all 0.2s;
+      margin-top: 4px;
+      flex-shrink: 0;
+    }
+
+    .card:hover .card-arrow { color: var(--accent); transform: translateX(3px); }
+
+    /* Empty state */
+    .empty-state {
+      padding: 3rem;
+      text-align: center;
+      background: var(--surface);
+    }
+
+    .empty-state p {
+      color: var(--muted);
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.75rem;
+      letter-spacing: 0.05em;
+    }
+
+    /* Update bar */
+    .update-bar {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .update-info {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.62rem;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+    }
+
+    .count-info {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.62rem;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+    }
+
+    /* Footer */
+    footer {
+      position: relative;
+      z-index: 1;
+      border-top: 1px solid var(--border);
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+
+    footer p {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      text-transform: uppercase;
+    }
+
+    footer a { color: var(--accent-dim); text-decoration: none; }
+    footer a:hover { color: var(--accent); }
+
+    @media (max-width: 640px) {
+      .card { grid-template-columns: auto 1fr; }
+      .card-arrow { display: none; }
+      .header-meta { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo">
+      <span class="logo-main">JusCrim</span>
+      <span class="logo-sub">Monitor · Org. Criminosa</span>
+    </div>
+    <div class="header-meta">
+      <div class="live-badge">
+        <div class="live-dot"></div>
+        <span id="update-time">Atualizando…</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <p class="hero-tag">// Monitoramento Jurídico Automatizado</p>
+  <h1 class="hero-title">Precedentes & Normas sobre<br><em>Organização Criminosa</em></h1>
+  <p class="hero-desc">
+    Coleta diária automática de decisões do STF, STJ, TJPE e legislação federal relacionadas à organização criminosa (Lei 12.850/2013 e temas correlatos).
+  </p>
+  <div class="stats-bar">
+    <div class="stat">
+      <span class="stat-value" id="stat-total">—</span>
+      <span class="stat-label">Resultados hoje</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value" id="stat-stf">—</span>
+      <span class="stat-label">STF</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value" id="stat-stj">—</span>
+      <span class="stat-label">STJ</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value" id="stat-tjpe">—</span>
+      <span class="stat-label">TJPE</span>
+    </div>
+    <div class="stat">
+      <span class="stat-value" id="stat-leg">—</span>
+      <span class="stat-label">Legislação</span>
+    </div>
+  </div>
+</section>
+
+<div class="filters">
+  <span class="filter-label">Filtrar:</span>
+  <button class="filter-btn active" data-source="ALL">Todos</button>
+  <button class="filter-btn" data-source="STF">STF</button>
+  <button class="filter-btn" data-source="STJ">STJ</button>
+  <button class="filter-btn" data-source="TJPE">TJPE</button>
+  <button class="filter-btn" data-source="LEG">Legislação</button>
+</div>
+
+<div class="update-bar">
+  <span class="update-info" id="last-update">Carregando dados…</span>
+  <span class="count-info" id="visible-count"></span>
+</div>
+
+<main class="content">
+  <div class="loading-state" id="loading">
+    <div class="spinner"></div>
+    <p class="loading-text">Carregando dados…</p>
+  </div>
+  <div id="error" style="display:none" class="error-state">
+    <p>⚠ Não foi possível carregar os dados. Verifique se o arquivo <code>data/resultados.json</code> existe.</p>
+  </div>
+  <div id="cards-grid" style="display:none"></div>
+</main>
+
+<footer>
+  <p>JusCrim Monitor — fontes: <a href="https://portal.stf.jus.br" target="_blank">STF</a> · <a href="https://www.stj.jus.br" target="_blank">STJ</a> · <a href="https://www.tjpe.jus.br" target="_blank">TJPE</a> · <a href="https://www.planalto.gov.br" target="_blank">Planalto</a> — atualizado automaticamente via GitHub Actions</p>
+</footer>
+
+<script>
+  let allItems = [];
+  let activeFilter = 'ALL';
+
+  async function loadData() {
+    try {
+      const res = await fetch('data/resultados.json?t=' + Date.now());
+      if (!res.ok) throw new Error('not found');
+      const data = await res.json();
+      allItems = data.resultados || [];
+      renderStats(data);
+      renderCards(allItems);
+      document.getElementById('last-update').textContent =
+        'Última atualização: ' + (data.gerado_em ? new Date(data.gerado_em).toLocaleString('pt-BR') : '—');
+      document.getElementById('update-time').textContent =
+        data.gerado_em ? new Date(data.gerado_em).toLocaleString('pt-BR', {hour:'2-digit',minute:'2-digit'}) : 'Atualizado';
+    } catch(e) {
+      document.getElementById('loading').style.display = 'none';
+      document.getElementById('error').style.display = 'block';
+    }
+  }
+
+  function renderStats(data) {
+    const counts = { STF:0, STJ:0, TJPE:0, LEG:0 };
+    allItems.forEach(i => { if(counts[i.fonte] !== undefined) counts[i.fonte]++; });
+    document.getElementById('stat-total').textContent = allItems.length;
+    document.getElementById('stat-stf').textContent   = counts.STF;
+    document.getElementById('stat-stj').textContent   = counts.STJ;
+    document.getElementById('stat-tjpe').textContent  = counts.TJPE;
+    document.getElementById('stat-leg').textContent   = counts.LEG;
+  }
+
+  function renderCards(items) {
+    const grid = document.getElementById('cards-grid');
+    document.getElementById('loading').style.display = 'none';
+    grid.style.display = 'flex';
+    grid.innerHTML = '';
+
+    const filtered = activeFilter === 'ALL' ? items : items.filter(i => i.fonte === activeFilter);
+    document.getElementById('visible-count').textContent = filtered.length + ' resultado(s)';
+
+    if (!filtered.length) {
+      grid.innerHTML = '<div class="empty-state"><p>Nenhum resultado para este filtro.</p></div>';
+      return;
+    }
+
+    filtered.forEach(item => {
+      const a = document.createElement('a');
+      a.className = 'card';
+      a.href = item.url || '#';
+      a.target = item.url ? '_blank' : '_self';
+      a.rel = 'noopener noreferrer';
+      a.innerHTML = `
+        <div class="card-source-badge badge-${item.fonte}">${item.fonte}</div>
+        <div class="card-body">
+          <div class="card-title">${escHtml(item.titulo)}</div>
+          <div class="card-excerpt">${escHtml(item.resumo || '')}</div>
+          <div class="card-meta">
+            <span class="card-meta-item">Data: <span>${escHtml(item.data || '—')}</span></span>
+            ${item.numero ? `<span class="card-meta-item">Nº: <span>${escHtml(item.numero)}</span></span>` : ''}
+            ${item.relator ? `<span class="card-meta-item">Rel.: <span>${escHtml(item.relator)}</span></span>` : ''}
+          </div>
+        </div>
+        <div class="card-arrow">→</div>
+      `;
+      grid.appendChild(a);
+    });
+  }
+
+  function escHtml(str) {
+    return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  // Filters
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeFilter = btn.dataset.source;
+      renderCards(allItems);
+    });
+  });
+
+  loadData();
+</script>
+</body>
+</html>
