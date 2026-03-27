@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-03-26T17:52:59.491127+00:00",
-  "data": "2026-03-26",
+  "gerado_em": "2026-03-27T12:00:17.698023+00:00",
+  "data": "2026-03-27",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 119,
+  "total": 120,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,54 @@
       "data": "Fri, 22 Au",
       "data_iso": "Fri, 22 Aug 2025 20:47:03 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/22/acao-penal-contra-nucleo-1-da-tentativa-de-golpe-de-estado-comeca-a-ser-julgada-em-2-de-setembro/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Página de Repetitivos inclui julgados sobre indeferimento da gratuidade de justiça",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, mar 2",
+      "data_iso": "Sex, mar 27 2026 08:20:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Tribunal publica relatório de auditoria das contas anuais de 2025",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, mar 2",
+      "data_iso": "Sex, mar 27 2026 08:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Repetitivo discute apuração de IRPJ e CSLL pelas concessionárias de transmissão de energia elétrica",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, mar 2",
+      "data_iso": "Sex, mar 27 2026 07:40:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Prazo prescricional da pena de multa continua regido pelo Código Penal mesmo após trânsito em julgado",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, mar 2",
+      "data_iso": "Sex, mar 27 2026 07:05:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1371,42 +1419,6 @@
       "relator": "",
       "data": "Sex, fev 2",
       "data_iso": "Sex, fev 27 2026 15:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Informativo destaca prescrição dos efeitos do abono de permanência e perícia em prova digital",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, fev 2",
-      "data_iso": "Sex, fev 27 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Liminar de segundo grau que reduziu pensão alimentícia leva Terceira Turma a suspender prisão civil",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, fev 2",
-      "data_iso": "Sex, fev 27 2026 07:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Prazo para cumprimento de sentença em ação de partilha de bens e dívidas é de dez anos",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, fev 2",
-      "data_iso": "Sex, fev 27 2026 07:00:00",
       "url": "",
       "resumo_ia": ""
     },
