@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-03-27T12:05:34.655298+00:00",
-  "data": "2026-03-27",
+  "gerado_em": "2026-03-28T11:04:03.814141+00:00",
+  "data": "2026-03-28",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 121,
+  "total": 124,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,30 @@
       "data": "Fri, 22 Au",
       "data_iso": "Fri, 22 Aug 2025 20:47:03 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/22/acao-penal-contra-nucleo-1-da-tentativa-de-golpe-de-estado-comeca-a-ser-julgada-em-2-de-setembro/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Semana Santa: tribunal não terá expediente de 1º a 5 de abril",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, mar 2",
+      "data_iso": "Sex, mar 27 2026 12:45:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Legitimidade de provedor para remover conteúdo que viola termos de uso é destaque do Informativo",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, mar 2",
+      "data_iso": "Sex, mar 27 2026 09:20:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1423,15 +1447,27 @@
       "resumo_ia": ""
     },
     {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Podcast explica decisão sobre abandono de ação de alimentos e proteção do melhor interesse da criança",
+      "fonte": "Conjur",
+      "label": "Conjur",
+      "titulo": "Colaboração premiada e risco de doping probatório: prisão como moeda de troca",
       "resumo": "",
       "numero": "",
       "relator": "",
-      "data": "Sex, fev 2",
-      "data_iso": "Sex, fev 27 2026 15:05:00",
-      "url": "",
+      "data": "Sat, 28 Ma",
+      "data_iso": "Sat, 28 Mar 2026 09:00:52 +0000",
+      "url": "https://www.conjur.com.br/2026-mar-28/colaboracao-premiada-e-risco-de-doping-probatorio-prisao-como-moeda-de-troca/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "Jota",
+      "label": "Jota",
+      "titulo": "No G7, Vieira e Marco Rubio voltam a falar em cooperação no combate ao crime organizado",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Fri, 27 Ma",
+      "data_iso": "Fri, 27 Mar 2026 22:31:03 +0000",
+      "url": "https://www.jota.info/executivo/no-g7-vieira-e-marco-rubio-voltam-a-falar-em-cooperacao-no-combate-ao-crime-organizado",
       "resumo_ia": ""
     },
     {
