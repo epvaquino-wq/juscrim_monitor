@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-03-28T11:04:03.814141+00:00",
-  "data": "2026-03-28",
+  "gerado_em": "2026-03-29T11:05:02.152916+00:00",
+  "data": "2026-03-29",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 124,
+  "total": 123,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -1444,18 +1444,6 @@
       "data": "Seg, mar 2",
       "data_iso": "Seg, mar 2 2026 07:00:00",
       "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "Conjur",
-      "label": "Conjur",
-      "titulo": "Colaboração premiada e risco de doping probatório: prisão como moeda de troca",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sat, 28 Ma",
-      "data_iso": "Sat, 28 Mar 2026 09:00:52 +0000",
-      "url": "https://www.conjur.com.br/2026-mar-28/colaboracao-premiada-e-risco-de-doping-probatorio-prisao-como-moeda-de-troca/",
       "resumo_ia": ""
     },
     {
