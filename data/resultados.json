@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-03-29T11:05:02.152916+00:00",
-  "data": "2026-03-29",
+  "gerado_em": "2026-03-30T12:10:09.794654+00:00",
+  "data": "2026-03-30",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 123,
+  "total": 126,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,42 @@
       "data": "Fri, 22 Au",
       "data_iso": "Fri, 22 Aug 2025 20:47:03 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/22/acao-penal-contra-nucleo-1-da-tentativa-de-golpe-de-estado-comeca-a-ser-julgada-em-2-de-setembro/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Serviços informatizados do STJ podem apresentar oscilações no início de abril",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, mar 3",
+      "data_iso": "Seg, mar 30 2026 08:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Repetitivo vai definir se médico residente pode pedir prorrogação de carência do Fies após iniciar amortização",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, mar 3",
+      "data_iso": "Seg, mar 30 2026 07:55:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Quarta Turma afasta exigência de original de cédula de crédito bancário na execução",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, mar 3",
+      "data_iso": "Seg, mar 30 2026 07:00:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
