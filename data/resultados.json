@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-03-30T12:10:09.794654+00:00",
-  "data": "2026-03-30",
+  "gerado_em": "2026-03-31T12:07:13.704456+00:00",
+  "data": "2026-03-31",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 126,
+  "total": 133,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,66 @@
       "data": "Fri, 22 Au",
       "data_iso": "Fri, 22 Aug 2025 20:47:03 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/22/acao-penal-contra-nucleo-1-da-tentativa-de-golpe-de-estado-comeca-a-ser-julgada-em-2-de-setembro/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Página de Repetitivos traz necessidade de prévia intimação pessoal para cobrança de multa coercitiva",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, mar 3",
+      "data_iso": "Ter, mar 31 2026 08:30:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Acesso à Central do Processo Eletrônico muda a partir de segunda-feira (6)",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, mar 3",
+      "data_iso": "Ter, mar 31 2026 08:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Segunda Turma reafirma que Fazenda pode recusar bem indicado à penhora fora da ordem legal",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, mar 3",
+      "data_iso": "Ter, mar 31 2026 07:40:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Para Terceira Turma, procuração eletrônica sem ICP-Brasil é válida desde que não haja dúvida sobre autenticidade",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, mar 3",
+      "data_iso": "Ter, mar 31 2026 07:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Comprovação da situação de desemprego involuntário é o novo tema da Página de Repetitivos",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, mar 3",
+      "data_iso": "Seg, mar 30 2026 08:45:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1483,15 +1543,39 @@
       "resumo_ia": ""
     },
     {
-      "fonte": "Jota",
-      "label": "Jota",
-      "titulo": "No G7, Vieira e Marco Rubio voltam a falar em cooperação no combate ao crime organizado",
+      "fonte": "Conjur",
+      "label": "Conjur",
+      "titulo": "Lei nº 15.358/26 e a reconfiguração do combate ao crime organizado",
       "resumo": "",
       "numero": "",
       "relator": "",
-      "data": "Fri, 27 Ma",
-      "data_iso": "Fri, 27 Mar 2026 22:31:03 +0000",
-      "url": "https://www.jota.info/executivo/no-g7-vieira-e-marco-rubio-voltam-a-falar-em-cooperacao-no-combate-ao-crime-organizado",
+      "data": "Tue, 31 Ma",
+      "data_iso": "Tue, 31 Mar 2026 09:39:07 +0000",
+      "url": "https://www.conjur.com.br/2026-mar-31/lei-no-15-358-2026-e-a-reconfiguracao-do-combate-ao-crime-organizado-no-brasil/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "Conjur",
+      "label": "Conjur",
+      "titulo": "Delação na vitrine: quando o vazamento da colaboração premiada vira instrumento de pressão",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Tue, 31 Ma",
+      "data_iso": "Tue, 31 Mar 2026 09:02:59 +0000",
+      "url": "https://www.conjur.com.br/2026-mar-31/delacao-na-vitrine-quando-o-vazamento-da-colaboracao-premiada-vira-instrumento-de-pressao/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "Jota",
+      "label": "Jota",
+      "titulo": "Dino fala em ‘sofisticação’ do crime organizado e convoca audiência pública para discutir atuação da CVM",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Mon, 30 Ma",
+      "data_iso": "Mon, 30 Mar 2026 21:01:31 +0000",
+      "url": "https://www.jota.info/stf/do-supremo/dino-fala-em-sofisticacao-do-crime-organizado-e-convoca-audiencia-publica-para-discutir-atuacao-da-cvm",
       "resumo_ia": ""
     },
     {
