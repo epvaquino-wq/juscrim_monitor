@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-03-31T12:07:13.704456+00:00",
-  "data": "2026-03-31",
+  "gerado_em": "2026-04-01T12:08:00.272921+00:00",
+  "data": "2026-04-01",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
   "total": 133,
@@ -124,6 +124,30 @@
       "data": "Fri, 22 Au",
       "data_iso": "Fri, 22 Aug 2025 20:47:03 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/22/acao-penal-contra-nucleo-1-da-tentativa-de-golpe-de-estado-comeca-a-ser-julgada-em-2-de-setembro/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Podcast STJ No Seu Dia aborda dano moral presumido em casos de violência doméstica contra a mulher",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, abr 1",
+      "data_iso": "Qua, abr 1 2026 07:45:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ Notícias: fiança em contrato de aluguel não impede aplicação do penhor legal",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, mar 3",
+      "data_iso": "Ter, mar 31 2026 09:00:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1543,39 +1567,15 @@
       "resumo_ia": ""
     },
     {
-      "fonte": "Conjur",
-      "label": "Conjur",
-      "titulo": "Lei nº 15.358/26 e a reconfiguração do combate ao crime organizado",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Tue, 31 Ma",
-      "data_iso": "Tue, 31 Mar 2026 09:39:07 +0000",
-      "url": "https://www.conjur.com.br/2026-mar-31/lei-no-15-358-2026-e-a-reconfiguracao-do-combate-ao-crime-organizado-no-brasil/",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "Conjur",
-      "label": "Conjur",
-      "titulo": "Delação na vitrine: quando o vazamento da colaboração premiada vira instrumento de pressão",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Tue, 31 Ma",
-      "data_iso": "Tue, 31 Mar 2026 09:02:59 +0000",
-      "url": "https://www.conjur.com.br/2026-mar-31/delacao-na-vitrine-quando-o-vazamento-da-colaboracao-premiada-vira-instrumento-de-pressao/",
-      "resumo_ia": ""
-    },
-    {
       "fonte": "Jota",
       "label": "Jota",
-      "titulo": "Dino fala em ‘sofisticação’ do crime organizado e convoca audiência pública para discutir atuação da CVM",
+      "titulo": "CPI do Crime Organizado aprova a convocação de Ibaneis Rocha e Cláudio Castro",
       "resumo": "",
       "numero": "",
       "relator": "",
-      "data": "Mon, 30 Ma",
-      "data_iso": "Mon, 30 Mar 2026 21:01:31 +0000",
-      "url": "https://www.jota.info/stf/do-supremo/dino-fala-em-sofisticacao-do-crime-organizado-e-convoca-audiencia-publica-para-discutir-atuacao-da-cvm",
+      "data": "Tue, 31 Ma",
+      "data_iso": "Tue, 31 Mar 2026 16:52:35 +0000",
+      "url": "https://www.jota.info/legislativo/cpi-do-crime-organizado-aprova-a-convocacao-de-ibaneis-rocha-e-claudio-castro",
       "resumo_ia": ""
     },
     {
