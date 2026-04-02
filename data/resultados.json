@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-04-01T12:08:00.272921+00:00",
-  "data": "2026-04-01",
+  "gerado_em": "2026-04-02T12:05:23.980201+00:00",
+  "data": "2026-04-02",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 133,
+  "total": 131,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,18 @@
       "data": "Fri, 22 Au",
       "data_iso": "Fri, 22 Aug 2025 20:47:03 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/22/acao-penal-contra-nucleo-1-da-tentativa-de-golpe-de-estado-comeca-a-ser-julgada-em-2-de-setembro/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ e TJPB reforçam ações de enfrentamento à violência contra a mulher com seminário na Paraíba",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, abr 1",
+      "data_iso": "Qua, abr 1 2026 14:00:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1540,42 +1552,6 @@
       "data": "Ter, mar 3",
       "data_iso": "Ter, mar 3 2026 07:00:00",
       "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Recursos representativos de controvérsia discutem obrigação de planos custearem musicoterapia para pessoa com TEA",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, mar 2",
-      "data_iso": "Seg, mar 2 2026 07:50:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Valor de seguro de vida resgatável pode ser penhorado quando sacado pelo próprio segurado",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, mar 2",
-      "data_iso": "Seg, mar 2 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "Jota",
-      "label": "Jota",
-      "titulo": "CPI do Crime Organizado aprova a convocação de Ibaneis Rocha e Cláudio Castro",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Tue, 31 Ma",
-      "data_iso": "Tue, 31 Mar 2026 16:52:35 +0000",
-      "url": "https://www.jota.info/legislativo/cpi-do-crime-organizado-aprova-a-convocacao-de-ibaneis-rocha-e-claudio-castro",
       "resumo_ia": ""
     },
     {
