@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-04-02T12:05:23.980201+00:00",
-  "data": "2026-04-02",
+  "gerado_em": "2026-04-03T11:56:48.694956+00:00",
+  "data": "2026-04-03",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 131,
+  "total": 132,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -1552,6 +1552,18 @@
       "data": "Ter, mar 3",
       "data_iso": "Ter, mar 3 2026 07:00:00",
       "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "Conjur",
+      "label": "Conjur",
+      "titulo": "Lei 15.358/2026: marco legal do crime organizado e a ‘perpetuidade branca’",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Fri, 03 Ap",
+      "data_iso": "Fri, 03 Apr 2026 10:01:49 +0000",
+      "url": "https://www.conjur.com.br/2026-abr-03/lei-15-358-2026-marco-legal-do-crime-organizado-e-a-perpetuidade-branca/",
       "resumo_ia": ""
     },
     {
