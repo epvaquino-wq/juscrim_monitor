@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-04-03T11:56:48.694956+00:00",
-  "data": "2026-04-03",
+  "gerado_em": "2026-04-04T11:04:27.146815+00:00",
+  "data": "2026-04-04",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 132,
+  "total": 123,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -1456,114 +1456,6 @@
       "data": "Qua, mar 4",
       "data_iso": "Qua, mar 4 2026 08:00:00",
       "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Desembargador convocado Luís Carlos Gambogi estreia na Quarta Turma",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, mar 4",
-      "data_iso": "Qua, mar 4 2026 07:25:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Confissão de dívida hospitalar é anulada por erro na declaração de vontade",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, mar 4",
-      "data_iso": "Qua, mar 4 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Empresas terão de indenizar pescadores prejudicados pela construção de hidrelétrica no Rio Madeira",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mar 3",
-      "data_iso": "Ter, mar 3 2026 16:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Coletânea sobre crimes eleitorais homenageia grandes nomes do direito brasileiro",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mar 3",
-      "data_iso": "Ter, mar 3 2026 09:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Saída de preso para realização de exame de DNA é destaque no STJ Notícias",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mar 3",
-      "data_iso": "Ter, mar 3 2026 08:35:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Obra sobre confissão no processo penal, do ministro Ribeiro Dantas, será lançada na próxima terça (10)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mar 3",
-      "data_iso": "Ter, mar 3 2026 08:15:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Repetitivo discute preferência da penhora sobre faturamento nas execuções civis",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mar 3",
-      "data_iso": "Ter, mar 3 2026 07:40:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Para Terceira Turma, danos morais processuais não são presumidos, e reconvenção é ação autônoma",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mar 3",
-      "data_iso": "Ter, mar 3 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "Conjur",
-      "label": "Conjur",
-      "titulo": "Lei 15.358/2026: marco legal do crime organizado e a ‘perpetuidade branca’",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Fri, 03 Ap",
-      "data_iso": "Fri, 03 Apr 2026 10:01:49 +0000",
-      "url": "https://www.conjur.com.br/2026-abr-03/lei-15-358-2026-marco-legal-do-crime-organizado-e-a-perpetuidade-branca/",
       "resumo_ia": ""
     },
     {
