@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-04-05T11:06:26.160027+00:00",
-  "data": "2026-04-05",
+  "gerado_em": "2026-04-06T12:03:41.248899+00:00",
+  "data": "2026-04-06",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 115,
+  "total": 117,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,54 @@
       "data": "Fri, 22 Au",
       "data_iso": "Fri, 22 Aug 2025 20:47:03 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/22/acao-penal-contra-nucleo-1-da-tentativa-de-golpe-de-estado-comeca-a-ser-julgada-em-2-de-setembro/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Página de Repetitivos traz julgados sobre dano moral presumido e recusa de plano de saúde",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, abr 6",
+      "data_iso": "Seg, abr 6 2026 08:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Assessoria de Apoio a Julgamento Colegiado passa a atender o público no Balcão Virtual",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, abr 6",
+      "data_iso": "Seg, abr 6 2026 08:25:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Quarta Turma autoriza troca do sobrenome materno pelo dos pais socioafetivos em caso de multiparentalidade",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, abr 6",
+      "data_iso": "Seg, abr 6 2026 07:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Para Sexta Turma, suspensão condicional do processo não é cabível em caso de preconceito religioso",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, abr 6",
+      "data_iso": "Seg, abr 6 2026 07:05:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1327,39 +1375,15 @@
       "resumo_ia": ""
     },
     {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Execução da pena de multa pela Fazenda Pública é um dos temas da nova edição do Informativo",
+      "fonte": "Conjur",
+      "label": "Conjur",
+      "titulo": "Reconfiguração da lavagem de dinheiro no combate ao crime organizado",
       "resumo": "",
       "numero": "",
       "relator": "",
-      "data": "Sex, mar 6",
-      "data_iso": "Sex, mar 6 2026 08:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Direito de visitação por videochamada é tema da Pesquisa Pronta",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, mar 5",
-      "data_iso": "Qui, mar 5 2026 08:40:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Rádio Decidendi explica por que indulto natalino não se aplica a tráfico de drogas, nem quanto à multa",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, mar 5",
-      "data_iso": "Qui, mar 5 2026 07:50:00",
-      "url": "",
+      "data": "Mon, 06 Ap",
+      "data_iso": "Mon, 06 Apr 2026 09:03:30 +0000",
+      "url": "https://www.conjur.com.br/2026-abr-06/reconfiguracao-da-lavagem-de-dinheiro-no-combate-ao-crime-organizado/",
       "resumo_ia": ""
     },
     {
