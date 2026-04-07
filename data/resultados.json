@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-04-06T12:03:41.248899+00:00",
-  "data": "2026-04-06",
+  "gerado_em": "2026-04-07T12:08:23.576716+00:00",
+  "data": "2026-04-07",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 117,
+  "total": 118,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,54 @@
       "data": "Fri, 22 Au",
       "data_iso": "Fri, 22 Aug 2025 20:47:03 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/22/acao-penal-contra-nucleo-1-da-tentativa-de-golpe-de-estado-comeca-a-ser-julgada-em-2-de-setembro/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Jurisprudência em Teses traz novos entendimentos sobre o instituto da reclamação",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, abr 7",
+      "data_iso": "Ter, abr 7 2026 08:15:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Aberto prazo para amicus curiae em repetitivo sobre penhora do faturamento nas execuções civis",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, abr 7",
+      "data_iso": "Ter, abr 7 2026 07:40:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Perda da propriedade rural extingue arrendamento e impede permanência do arrendatário no imóvel",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, abr 7",
+      "data_iso": "Ter, abr 7 2026 07:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Propostas de enunciados para a X Jornada de Direito Civil podem ser enviadas até quinta-feira (9)",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, abr 6",
+      "data_iso": "Seg, abr 6 2026 14:38:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1348,42 +1396,6 @@
       "data": "Dom, mar 8",
       "data_iso": "Dom, mar 8 2026 07:10:00",
       "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "X Jornada de Direito Civil recebe propostas de enunciados até 5 de abril",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, mar 6",
-      "data_iso": "Sex, mar 6 2026 16:41:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Nova Lei de Licitações não restringe alcance de suspensão do direito de licitar aplicada sob a lei antiga",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, mar 6",
-      "data_iso": "Sex, mar 6 2026 09:46:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "Conjur",
-      "label": "Conjur",
-      "titulo": "Reconfiguração da lavagem de dinheiro no combate ao crime organizado",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Mon, 06 Ap",
-      "data_iso": "Mon, 06 Apr 2026 09:03:30 +0000",
-      "url": "https://www.conjur.com.br/2026-abr-06/reconfiguracao-da-lavagem-de-dinheiro-no-combate-ao-crime-organizado/",
       "resumo_ia": ""
     },
     {
