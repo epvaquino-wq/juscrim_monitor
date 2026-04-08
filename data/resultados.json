@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-04-07T12:08:23.576716+00:00",
-  "data": "2026-04-07",
+  "gerado_em": "2026-04-08T12:08:28.977896+00:00",
+  "data": "2026-04-08",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 118,
+  "total": 127,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,126 @@
       "data": "Fri, 22 Au",
       "data_iso": "Fri, 22 Aug 2025 20:47:03 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/22/acao-penal-contra-nucleo-1-da-tentativa-de-golpe-de-estado-comeca-a-ser-julgada-em-2-de-setembro/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Arte no Tribunal apresenta a gravura “Superior Tribunal de Justiça”, de Pedro Garcia",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, abr 8",
+      "data_iso": "Qua, abr 8 2026 08:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Simples Nacional: decisões do STJ garantem mais segurança ao contribuinte que opta pelo regime",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, abr 8",
+      "data_iso": "Qua, abr 8 2026 08:35:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Corte Especial do dia 15 de abril terá início às 9h",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, abr 8",
+      "data_iso": "Qua, abr 8 2026 08:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Informativo destaca intimação do devedor na convolação do cumprimento de sentença provisório em definitivo",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, abr 8",
+      "data_iso": "Qua, abr 8 2026 07:45:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Quinta Turma rejeita relatório produzido por IA como prova em ação penal",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, abr 8",
+      "data_iso": "Qua, abr 8 2026 07:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ divulga Propostas de Enunciados selecionadas para o 2º Congresso da Segunda Instância",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, abr 7",
+      "data_iso": "Ter, abr 7 2026 22:35:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Ex-presidente da Vale volta a ser réu em ações penais pelo rompimento da barragem de Brumadinho (MG)",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, abr 7",
+      "data_iso": "Ter, abr 7 2026 22:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Ministra Daniela Teixeira assume presidência da Terceira Turma",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, abr 7",
+      "data_iso": "Ter, abr 7 2026 15:34:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ celebra 37 anos de compromisso com a Justiça e a cidadania",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, abr 7",
+      "data_iso": "Ter, abr 7 2026 13:38:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Página de Repetitivos traz dispensa de ofício a órgãos públicos para validade de citação por edital",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, abr 7",
+      "data_iso": "Ter, abr 7 2026 08:50:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1383,18 +1503,6 @@
       "relator": "",
       "data": "Seg, mar 9",
       "data_iso": "Seg, mar 9 2026 07:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "No Dia Internacional da Mulher, relembre decisões que marcaram avanços na proteção da saúde feminina",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Dom, mar 8",
-      "data_iso": "Dom, mar 8 2026 07:10:00",
       "url": "",
       "resumo_ia": ""
     },
