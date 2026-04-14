@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-04-13T15:04:47.475417+00:00",
-  "data": "2026-04-13",
+  "gerado_em": "2026-04-14T15:03:30.157858+00:00",
+  "data": "2026-04-14",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 118,
+  "total": 121,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,66 @@
       "data": "Fri, 29 Au",
       "data_iso": "Fri, 29 Aug 2025 11:05:47 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/29/ap-2668-trial-of-nucleus-1-begins-on-september-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ Notícias traz decisão que mandou ex-soldado ao tribunal do júri por feminicídio",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, abr 1",
+      "data_iso": "Ter, abr 14 2026 08:45:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Cejusc/STJ celebra um ano com debates sobre cultura do consenso e autocomposição no dia 23 de abril",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, abr 1",
+      "data_iso": "Ter, abr 14 2026 08:20:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Terceira Seção fixará tese sobre aplicação cumulativa de majorantes na dosimetria da pena",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, abr 1",
+      "data_iso": "Ter, abr 14 2026 07:55:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Amil e APS terão de pagar danos morais coletivos por cessão irregular de clientes e redução da rede credenciada",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, abr 1",
+      "data_iso": "Ter, abr 14 2026 07:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Seminário STJ-TJPB: entidades compartilham iniciativas de sucesso no combate à violência contra a mulher",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, abr 1",
+      "data_iso": "Seg, abr 13 2026 10:36:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1371,30 +1431,6 @@
       "relator": "",
       "data": "Seg, mar 1",
       "data_iso": "Seg, mar 16 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ vai digitalizar documentos históricos da diplomacia brasileira",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, mar 1",
-      "data_iso": "Sex, mar 13 2026 16:40:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Podcast STJ No Seu Dia destaca decisão sobre cobertura de fórmula especial para crianças com alergia alimentar",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, mar 1",
-      "data_iso": "Sex, mar 13 2026 09:30:00",
       "url": "",
       "resumo_ia": ""
     },
