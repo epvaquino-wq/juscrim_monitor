@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-04-14T15:03:30.157858+00:00",
-  "data": "2026-04-14",
+  "gerado_em": "2026-04-15T14:54:33.332932+00:00",
+  "data": "2026-04-15",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 121,
+  "total": 128,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,90 @@
       "data": "Fri, 29 Au",
       "data_iso": "Fri, 29 Aug 2025 11:05:47 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/29/ap-2668-trial-of-nucleus-1-begins-on-september-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Sessão da Corte Especial prevista para as 9h desta quarta-feira (15) vai começar às 14h",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, abr 1",
+      "data_iso": "Qua, abr 15 2026 09:02:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Podcast STJ No Seu Dia aborda jurisprudência sobre embriaguez e agravamento do risco no seguro de vida",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, abr 1",
+      "data_iso": "Qua, abr 15 2026 08:30:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Opção do juiz entre múltiplas causas de aumento de pena deve ser sempre pela mais grave",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, abr 1",
+      "data_iso": "Qua, abr 15 2026 07:45:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Recusa indevida de cobertura pelo plano de saúde não gera dano moral presumido",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, abr 1",
+      "data_iso": "Qua, abr 15 2026 07:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Pleno instaura processo administrativo disciplinar contra o ministro Marco Buzzi e mantém afastamento",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, abr 1",
+      "data_iso": "Ter, abr 14 2026 19:55:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Luis Felipe Salomão será o próximo presidente do STJ; Mauro Campbell Marques é eleito vice",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, abr 1",
+      "data_iso": "Ter, abr 14 2026 18:06:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Ministro Antonio Saldanha Palheiro é homenageado em suas últimas sessões de julgamento",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, abr 1",
+      "data_iso": "Ter, abr 14 2026 17:10:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
