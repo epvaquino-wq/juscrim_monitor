@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-04-15T14:54:33.332932+00:00",
-  "data": "2026-04-15",
+  "gerado_em": "2026-04-16T15:15:20.306683+00:00",
+  "data": "2026-04-16",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 128,
+  "total": 131,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,78 @@
       "data": "Fri, 29 Au",
       "data_iso": "Fri, 29 Aug 2025 11:05:47 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/29/ap-2668-trial-of-nucleus-1-begins-on-september-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Tribunal não terá expediente nos dias 20 e 21 de abril",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, abr 1",
+      "data_iso": "Qui, abr 16 2026 09:40:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Rádio Decidendi analisa repetitivo sobre multa em agravo interno e respeito a precedentes",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, abr 1",
+      "data_iso": "Qui, abr 16 2026 08:35:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Repetitivo discute retroatividade de pensão por morte e auxílio-reclusão para menores de 16 anos",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, abr 1",
+      "data_iso": "Qui, abr 16 2026 07:55:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Exame de gravidez em menor sem responsável presente não gera dano moral, decide Quarta Turma",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, abr 1",
+      "data_iso": "Qui, abr 16 2026 07:30:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Intimação do devedor é obrigatória quando o cumprimento provisório de sentença se torna definitivo",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, abr 1",
+      "data_iso": "Qui, abr 16 2026 07:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Relator vota por homologar sentença italiana contra ex-oficial da Operação Condor, e julgamento é suspenso",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, abr 1",
+      "data_iso": "Qua, abr 15 2026 20:24:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1479,42 +1551,6 @@
       "relator": "",
       "data": "Seg, mar 1",
       "data_iso": "Seg, mar 16 2026 15:13:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Página de Repetitivos inclui julgados sobre requisitos para fornecimento de bomba de insulina por planos de saúde",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, mar 1",
-      "data_iso": "Seg, mar 16 2026 08:40:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Repetitivo discute honorários em execução fiscal extinta pela quitação administrativa do débito antes da citação",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, mar 1",
-      "data_iso": "Seg, mar 16 2026 07:55:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Juiz pode negar gratuidade de justiça após consulta de ofício ao Infojud",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, mar 1",
-      "data_iso": "Seg, mar 16 2026 07:10:00",
       "url": "",
       "resumo_ia": ""
     },
