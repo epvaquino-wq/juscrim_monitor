@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-04-16T15:15:20.306683+00:00",
-  "data": "2026-04-16",
+  "gerado_em": "2026-04-17T12:12:02.699594+00:00",
+  "data": "2026-04-17",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 131,
+  "total": 128,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,54 @@
       "data": "Fri, 29 Au",
       "data_iso": "Fri, 29 Aug 2025 11:05:47 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/29/ap-2668-trial-of-nucleus-1-begins-on-september-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Informativo destaca competência do júri em caso de feminicídio imputado a ex-soldado do Exército",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, abr 1",
+      "data_iso": "Sex, abr 17 2026 08:25:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Repetitivo decidirá controvérsia sobre ação de cobrança decorrente de mandado de segurança coletivo",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, abr 1",
+      "data_iso": "Sex, abr 17 2026 08:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Partilha de bens no divórcio não pode ser feita por contrato particular, decide Terceira Turma",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, abr 1",
+      "data_iso": "Sex, abr 17 2026 07:40:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Quarta Turma afasta exigência de publicação de balanço para arquivamento de atos societários de limitadas",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, abr 1",
+      "data_iso": "Sex, abr 17 2026 07:00:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1467,90 +1515,6 @@
       "relator": "",
       "data": "Ter, mar 1",
       "data_iso": "Ter, mar 17 2026 09:43:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Obra sobre crimes eleitorais com homenagem a juristas brasileiros será lançada nesta terça-feira (17)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mar 1",
-      "data_iso": "Ter, mar 17 2026 08:55:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ Notícias: plano de saúde é condenado por discriminar criança com TEA",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mar 1",
-      "data_iso": "Ter, mar 17 2026 08:35:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Novo sistema de autenticação traz mais segurança para a Central do Processo Eletrônico",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mar 1",
-      "data_iso": "Ter, mar 17 2026 08:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Repetitivo decidirá se prescrição do fundo de direito exige negativa expressa da administração pública",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mar 1",
-      "data_iso": "Ter, mar 17 2026 07:40:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Em repetitivo, STJ define hipótese de dispensa de remessa necessária em ações previdenciárias",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mar 1",
-      "data_iso": "Ter, mar 17 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Constitucionalização e flexibilização do procedimento marcam abertura de evento sobre os dez anos do CPC",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, mar 1",
-      "data_iso": "Seg, mar 16 2026 18:30:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Obra jurídica de 1562 será destaque na reabertura da Biblioteca do STJ",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, mar 1",
-      "data_iso": "Seg, mar 16 2026 15:13:00",
       "url": "",
       "resumo_ia": ""
     },
