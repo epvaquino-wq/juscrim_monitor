@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-04-17T12:12:02.699594+00:00",
-  "data": "2026-04-17",
+  "gerado_em": "2026-04-18T11:51:23.809899+00:00",
+  "data": "2026-04-18",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 128,
+  "total": 126,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,42 @@
       "data": "Fri, 29 Au",
       "data_iso": "Fri, 29 Aug 2025 11:05:47 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/29/ap-2668-trial-of-nucleus-1-begins-on-september-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Nancy Andrighi recebe homenagem da Defensoria Pública do Ceará com lançamento de e-book",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, abr 1",
+      "data_iso": "Sex, abr 17 2026 18:40:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Repercussão do FGTS na base de cálculo da pensão alimentícia está na Pesquisa Pronta",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, abr 1",
+      "data_iso": "Sex, abr 17 2026 09:30:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Podcast STJ No Seu Dia discute jurisprudência sobre seguro de vida com cotas para beneficiários",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, abr 1",
+      "data_iso": "Sex, abr 17 2026 09:05:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1447,75 +1483,15 @@
       "resumo_ia": ""
     },
     {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Segunda Turma aplica tese do STF e reconhece incidência de contribuição patronal sobre terço de férias",
+      "fonte": "Jota",
+      "label": "Jota",
+      "titulo": "Economia Legal debate crime organizado, economia e política",
       "resumo": "",
       "numero": "",
       "relator": "",
-      "data": "Qua, mar 1",
-      "data_iso": "Qua, mar 18 2026 07:55:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Terceira Turma valida empréstimo digital com assinatura em plataforma não certificada pela ICP-Brasil",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, mar 1",
-      "data_iso": "Qua, mar 18 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Espaço Cultural lança obra sobre crimes eleitorais e proteção da democracia",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mar 1",
-      "data_iso": "Ter, mar 17 2026 20:03:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Cerimônia no STJ lança 23ª edição do Prêmio Innovare",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mar 1",
-      "data_iso": "Ter, mar 17 2026 18:54:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Inscrições para a VII Conferência Ibero-Americana dos Direitos da Criança vão até quinta-feira (19)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mar 1",
-      "data_iso": "Ter, mar 17 2026 15:22:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Seminário sobre o CPC termina com palestra de Gilmar Mendes e debates sobre autocomposição e honorários",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mar 1",
-      "data_iso": "Ter, mar 17 2026 09:43:00",
-      "url": "",
+      "data": "Fri, 17 Ap",
+      "data_iso": "Fri, 17 Apr 2026 19:23:14 +0000",
+      "url": "https://www.jota.info/casa-jota/economia-legal-debate-crime-organizado-economia-e-politica",
       "resumo_ia": ""
     },
     {
