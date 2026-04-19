@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-04-18T11:51:23.809899+00:00",
-  "data": "2026-04-18",
+  "gerado_em": "2026-04-19T11:52:05.673725+00:00",
+  "data": "2026-04-19",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 126,
+  "total": 122,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,18 @@
       "data": "Fri, 29 Au",
       "data_iso": "Fri, 29 Aug 2025 11:05:47 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/29/ap-2668-trial-of-nucleus-1-begins-on-september-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Dia dos Povos Indígenas: reportagem celebra vozes ancestrais e debate papel da Justiça na proteção de grupos originários",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Dom, abr 1",
+      "data_iso": "Dom, abr 19 2026 07:30:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1419,66 +1431,6 @@
       "relator": "",
       "data": "Qui, mar 1",
       "data_iso": "Qui, mar 19 2026 17:21:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Rádio Decidendi explica efeitos de precedente qualificado sobre penhora de faturamento em execução fiscal",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, mar 1",
-      "data_iso": "Qui, mar 19 2026 08:25:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Décima edição da revista Panorama STJ reúne reportagens especiais publicadas em 2024",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, mar 1",
-      "data_iso": "Qui, mar 19 2026 08:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Primeira Turma mantém lista tríplice por merecimento para cargo de conselheiro do TCE-MG",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, mar 1",
-      "data_iso": "Qui, mar 19 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Página de Repetitivos traz impossibilidade de recusa à fiança ou ao seguro em execuções fiscais",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, mar 1",
-      "data_iso": "Qua, mar 18 2026 08:45:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ No Seu Dia analisa critérios para reforma militar após mudanças na legislação",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, mar 1",
-      "data_iso": "Qua, mar 18 2026 08:20:00",
       "url": "",
       "resumo_ia": ""
     },
