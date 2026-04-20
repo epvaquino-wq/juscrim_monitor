@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-04-19T11:52:05.673725+00:00",
-  "data": "2026-04-19",
+  "gerado_em": "2026-04-20T15:05:42.006591+00:00",
+  "data": "2026-04-20",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 122,
+  "total": 119,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,30 @@
       "data": "Fri, 29 Au",
       "data_iso": "Fri, 29 Aug 2025 11:05:47 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/29/ap-2668-trial-of-nucleus-1-begins-on-september-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Decisão que afastou responsabilidade de jornal por erro na divulgação da Mega-Sena é destaque no STJ Notícias",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, abr 2",
+      "data_iso": "Seg, abr 20 2026 07:40:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ promove segunda edição de evento de cooperação com países da Ásia e do Pacífico no próximo dia 23",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, abr 2",
+      "data_iso": "Seg, abr 20 2026 07:05:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1384,66 +1408,6 @@
       "data": "Sex, mar 2",
       "data_iso": "Sex, mar 20 2026 14:56:00",
       "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Informativo destaca extinção dos efeitos da condenação pela prescrição da pretensão punitiva",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, mar 2",
-      "data_iso": "Sex, mar 20 2026 08:35:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Terceira Turma: em investigação de paternidade, ônus da prova é bipartido",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, mar 2",
-      "data_iso": "Sex, mar 20 2026 07:45:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Rescisão unilateral de plano de saúde empresarial com menos de 30 pessoas exige motivação idônea",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, mar 2",
-      "data_iso": "Sex, mar 20 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Relator mantém prisão de ex-presidente do Rioprevidência em investigação que envolve o Banco Master",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, mar 1",
-      "data_iso": "Qui, mar 19 2026 17:21:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "Jota",
-      "label": "Jota",
-      "titulo": "Economia Legal debate crime organizado, economia e política",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Fri, 17 Ap",
-      "data_iso": "Fri, 17 Apr 2026 19:23:14 +0000",
-      "url": "https://www.jota.info/casa-jota/economia-legal-debate-crime-organizado-economia-e-politica",
       "resumo_ia": ""
     },
     {
