@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-04-20T15:05:42.006591+00:00",
-  "data": "2026-04-20",
+  "gerado_em": "2026-04-21T15:00:38.902394+00:00",
+  "data": "2026-04-21",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 119,
+  "total": 116,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -1371,42 +1371,6 @@
       "relator": "",
       "data": "Dom, mar 2",
       "data_iso": "Dom, mar 22 2026 07:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Dia Internacional de Luta pela Eliminação da Discriminação Racial: Entender Direito debate os 49 enunciados do CJF",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sáb, mar 2",
-      "data_iso": "Sáb, mar 21 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Relator rejeita reclamação que buscava libertar oficial da PM acusado de matar esposa em SP",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, mar 2",
-      "data_iso": "Sex, mar 20 2026 19:01:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "VII Conferência Ibero-Americana dos Direitos da Criança debate o ECA Digital e a proteção no ambiente online",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, mar 2",
-      "data_iso": "Sex, mar 20 2026 14:56:00",
       "url": "",
       "resumo_ia": ""
     },
