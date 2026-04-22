@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-04-21T15:00:38.902394+00:00",
-  "data": "2026-04-21",
+  "gerado_em": "2026-04-22T15:00:26.203380+00:00",
+  "data": "2026-04-22",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 116,
+  "total": 119,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,66 @@
       "data": "Fri, 29 Au",
       "data_iso": "Fri, 29 Aug 2025 11:05:47 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/29/ap-2668-trial-of-nucleus-1-begins-on-september-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Entender Direito estreia o primeiro de dois episódios sobre direito digital",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, abr 2",
+      "data_iso": "Qua, abr 22 2026 08:25:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Tribunal autoriza retirada de sobrenome paterno do registro civil em razão de abandono afetivo",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, abr 2",
+      "data_iso": "Qua, abr 22 2026 07:55:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "I Congresso Internacional Justiça Originária acontece nos dias 28 e 29 de abril",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, abr 2",
+      "data_iso": "Qua, abr 22 2026 07:35:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "A biblioteca de uma vida: STJ e Enfam recebem coleção do Ministro Célio Borja",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, abr 2",
+      "data_iso": "Qua, abr 22 2026 07:30:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Justiça especializada deve julgar injúria racial contra adolescente, decide Sexta Turma",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, abr 2",
+      "data_iso": "Qua, abr 22 2026 07:00:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1347,30 +1407,6 @@
       "relator": "",
       "data": "Seg, mar 2",
       "data_iso": "Seg, mar 23 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ e CJF repudiam manifestação de cunho racista",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Dom, mar 2",
-      "data_iso": "Dom, mar 22 2026 11:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "A visão do STJ sobre licitações e contratos, cinco anos após a publicação da Lei 14.133/2021",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Dom, mar 2",
-      "data_iso": "Dom, mar 22 2026 07:05:00",
       "url": "",
       "resumo_ia": ""
     },
