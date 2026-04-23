@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-04-22T15:00:26.203380+00:00",
-  "data": "2026-04-22",
+  "gerado_em": "2026-04-23T16:18:34.558097+00:00",
+  "data": "2026-04-23",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 119,
+  "total": 121,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,54 @@
       "data": "Fri, 29 Au",
       "data_iso": "Fri, 29 Aug 2025 11:05:47 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/29/ap-2668-trial-of-nucleus-1-begins-on-september-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Entenda a Decisão: nova publicação explica teses do STJ em linguagem simples; leia a primeira edição",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, abr 2",
+      "data_iso": "Qui, abr 23 2026 08:30:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Rescisão de contrato imobiliário com alienação fiduciária sem registro em cartório é tema de repetitivo",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, abr 2",
+      "data_iso": "Qui, abr 23 2026 07:55:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Evento que celebra um ano do Cejusc/STJ acontece nesta quinta (23), com transmissão ao vivo",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, abr 2",
+      "data_iso": "Qui, abr 23 2026 07:25:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Cabe à Justiça Federal julgar disputa entre particulares por imóvel reivindicado por quilombolas",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, abr 2",
+      "data_iso": "Qui, abr 23 2026 07:10:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1383,30 +1431,6 @@
       "relator": "",
       "data": "Ter, mar 2",
       "data_iso": "Ter, mar 24 2026 07:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Página de Repetitivos traz julgados sobre rescisão de plano de saúde coletivo com menos de 30 beneficiários",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, mar 2",
-      "data_iso": "Seg, mar 23 2026 07:50:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Primeira Turma afasta continuidade delitiva em processo sobre multas administrativas do Inmetro",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, mar 2",
-      "data_iso": "Seg, mar 23 2026 07:00:00",
       "url": "",
       "resumo_ia": ""
     },
