@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-04-23T16:18:34.558097+00:00",
-  "data": "2026-04-23",
+  "gerado_em": "2026-04-24T14:55:06.064395+00:00",
+  "data": "2026-04-24",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 121,
+  "total": 120,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,42 @@
       "data": "Fri, 29 Au",
       "data_iso": "Fri, 29 Aug 2025 11:05:47 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/29/ap-2668-trial-of-nucleus-1-begins-on-september-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Tribunal devolve mais de 11 mil recursos em 2025 devido à afetação de temas repetitivos",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, abr 2",
+      "data_iso": "Sex, abr 24 2026 08:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Corte Especial reafirma que citação por WhatsApp é inválida em ações de estado",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, abr 2",
+      "data_iso": "Sex, abr 24 2026 07:45:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Recibo de compra e venda do imóvel pode servir como justo título em ação de usucapião ordinária",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, abr 2",
+      "data_iso": "Sex, abr 24 2026 07:00:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1375,63 +1411,15 @@
       "resumo_ia": ""
     },
     {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Violar monitoração eletrônica é crime na Lei Maria da Penha: decisão é destaque no STJ Notícias",
+      "fonte": "Jota",
+      "label": "Jota",
+      "titulo": "Lei Antifacção e a fragmentação do conceito de organização criminosa",
       "resumo": "",
       "numero": "",
       "relator": "",
-      "data": "Ter, mar 2",
-      "data_iso": "Ter, mar 24 2026 08:50:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Página de Repetitivos traz julgados sobre não inclusão do IPI na base de cálculo de créditos de PIS/Pasep e Cofins",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mar 2",
-      "data_iso": "Ter, mar 24 2026 08:35:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Primeira Seção fixará tese sobre exclusão de créditos presumidos de ICMS da base de cálculo de IRPJ e CSLL",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mar 2",
-      "data_iso": "Ter, mar 24 2026 07:55:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "VII Conferência Ibero-Americana dos Direitos da Criança começa nesta terça (24), com transmissão ao vivo",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mar 2",
-      "data_iso": "Ter, mar 24 2026 07:20:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Fiança em contrato de aluguel não exclui direito do locador ao penhor legal",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mar 2",
-      "data_iso": "Ter, mar 24 2026 07:05:00",
-      "url": "",
+      "data": "Fri, 24 Ap",
+      "data_iso": "Fri, 24 Apr 2026 10:34:14 +0000",
+      "url": "https://www.jota.info/opiniao-e-analise/artigos/lei-antifaccao-e-a-fragmentacao-do-conceito-de-organizacao-criminosa",
       "resumo_ia": ""
     },
     {
