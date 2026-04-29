@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-04-28T11:42:20.662351+00:00",
-  "data": "2026-04-28",
+  "gerado_em": "2026-04-29T11:26:18.951875+00:00",
+  "data": "2026-04-29",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 112,
+  "total": 116,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,54 @@
       "data": "Fri, 29 Au",
       "data_iso": "Fri, 29 Aug 2025 11:05:47 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/29/ap-2668-trial-of-nucleus-1-begins-on-september-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Podcast STJ No Seu Dia aborda responsabilidade de hotel por acidente com criança em área de recreação",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, abr 2",
+      "data_iso": "Qua, abr 29 2026 07:55:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Repetitivo discute se falta de intérprete para réu surdo-mudo e sem domínio de Libras gera nulidade processual",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, abr 2",
+      "data_iso": "Qua, abr 29 2026 07:20:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Terceira Turma valida arrematação de imóvel em leilão apesar do pagamento fora do prazo",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, abr 2",
+      "data_iso": "Qua, abr 29 2026 07:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Tribunal do júri julgará tenente-coronel da PM de São Paulo acusado de feminicídio",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, abr 2",
+      "data_iso": "Ter, abr 28 2026 20:31:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
