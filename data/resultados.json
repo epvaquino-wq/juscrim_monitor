@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-04-29T11:26:18.951875+00:00",
-  "data": "2026-04-29",
+  "gerado_em": "2026-04-30T11:25:18.477314+00:00",
+  "data": "2026-04-30",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 116,
+  "total": 121,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -129,6 +129,78 @@
     {
       "fonte": "STJ",
       "label": "STJ — Notícias",
+      "titulo": "Tribunal não terá expediente nesta sexta (1º)",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, abr 3",
+      "data_iso": "Qui, abr 30 2026 07:15:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Terceira Turma considera válida sentença proferida por juíza após ser removida da vara",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, abr 3",
+      "data_iso": "Qui, abr 30 2026 07:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Decisões do STJ mostram que a vida animal importa",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, abr 2",
+      "data_iso": "Qua, abr 29 2026 15:42:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "SEI ficará indisponível nesta sexta-feira (1º)",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, abr 2",
+      "data_iso": "Qua, abr 29 2026 09:15:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Jurisprudência em Teses traz novos entendimentos sobre ilicitude de acesso a dados de celular sem ordem judicial",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, abr 2",
+      "data_iso": "Qua, abr 29 2026 08:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Entenda a Decisão destaca tese sobre custeio de medicamento sem registro na Anvisa",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, abr 2",
+      "data_iso": "Qua, abr 29 2026 08:25:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
       "titulo": "Podcast STJ No Seu Dia aborda responsabilidade de hotel por acidente com criança em área de recreação",
       "resumo": "",
       "numero": "",
@@ -159,6 +231,18 @@
       "relator": "",
       "data": "Qua, abr 2",
       "data_iso": "Qua, abr 29 2026 07:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Congresso reúne especialistas em debate sobre direitos dos povos indígenas, justiça e Constituição de 1988",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, abr 2",
+      "data_iso": "Ter, abr 28 2026 23:05:00",
       "url": "",
       "resumo_ia": ""
     },
@@ -1347,30 +1431,6 @@
       "relator": "",
       "data": "Seg, mar 3",
       "data_iso": "Seg, mar 30 2026 08:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Repetitivo vai definir se médico residente pode pedir prorrogação de carência do Fies após iniciar amortização",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, mar 3",
-      "data_iso": "Seg, mar 30 2026 07:55:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Quarta Turma afasta exigência de original de cédula de crédito bancário na execução",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, mar 3",
-      "data_iso": "Seg, mar 30 2026 07:00:00",
       "url": "",
       "resumo_ia": ""
     },
