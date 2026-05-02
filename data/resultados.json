@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-05-01T11:03:27.922904+00:00",
-  "data": "2026-05-01",
+  "gerado_em": "2026-05-02T10:44:37.891180+00:00",
+  "data": "2026-05-02",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 120,
+  "total": 116,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -1372,54 +1372,6 @@
       "data": "Seg, abr 6",
       "data_iso": "Seg, abr 6 2026 07:05:00",
       "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ e TJPB reforçam ações de enfrentamento à violência contra a mulher com seminário na Paraíba",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, abr 1",
-      "data_iso": "Qua, abr 1 2026 14:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Podcast STJ No Seu Dia aborda dano moral presumido em casos de violência doméstica contra a mulher",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, abr 1",
-      "data_iso": "Qua, abr 1 2026 07:45:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "Jota",
-      "label": "Jota",
-      "titulo": "‘Crime organizado já está em outro patamar de profissionalização’, diz secretário da CGU sobre Master",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Thu, 30 Ap",
-      "data_iso": "Thu, 30 Apr 2026 19:56:23 +0000",
-      "url": "https://www.jota.info/coberturas-especiais/economia-legal/crime-organizado-ja-esta-em-outro-patamar-de-profissionalizacao-diz-secretario-da-cgu-sobre-master",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "Jota",
-      "label": "Jota",
-      "titulo": "Proposta de fracionamento do gás de botijão abre a porta para o crime organizado",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Thu, 30 Ap",
-      "data_iso": "Thu, 30 Apr 2026 17:34:15 +0000",
-      "url": "https://www.jota.info/coberturas-especiais/energia-e-inclusao/proposta-de-fracionamento-do-gas-de-botijao-abre-a-porta-para-o-crime-organizado",
       "resumo_ia": ""
     },
     {
