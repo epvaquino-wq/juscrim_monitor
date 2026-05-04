@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-05-03T10:49:58.418133+00:00",
-  "data": "2026-05-03",
+  "gerado_em": "2026-05-04T11:44:25.339795+00:00",
+  "data": "2026-05-04",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 116,
+  "total": 119,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,42 @@
       "data": "Fri, 29 Au",
       "data_iso": "Fri, 29 Aug 2025 11:05:47 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/29/ap-2668-trial-of-nucleus-1-begins-on-september-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Terceira Turma reafirma que recuperação extrajudicial não suspende ações de credores fora do acordo",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, mai 4",
+      "data_iso": "Seg, mai 4 2026 07:45:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Seminário sobre diplomacia brasileira e direito internacional será transmitido a partir das 9h",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, mai 4",
+      "data_iso": "Seg, mai 4 2026 07:30:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Para Sexta Turma, roubo contra motorista de aplicativo em serviço merece aumento de pena",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, mai 4",
+      "data_iso": "Seg, mai 4 2026 07:05:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
