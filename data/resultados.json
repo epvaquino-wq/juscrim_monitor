@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-05-04T11:44:25.339795+00:00",
-  "data": "2026-05-04",
+  "gerado_em": "2026-05-05T11:13:39.866987+00:00",
+  "data": "2026-05-05",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 119,
+  "total": 124,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,54 @@
       "data": "Fri, 29 Au",
       "data_iso": "Fri, 29 Aug 2025 11:05:47 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/29/ap-2668-trial-of-nucleus-1-begins-on-september-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Decisão sobre nulidade de citação por WhatsApp é destaque no STJ Notícias",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, mai 5",
+      "data_iso": "Ter, mai 5 2026 07:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Repetitivo definirá quem paga honorários e se há direito à restituição após modulação no Tema 986",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, mai 5",
+      "data_iso": "Ter, mai 5 2026 07:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Sem recurso do MP, assistente de acusação pode impugnar decisão que rejeita a denúncia",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, mai 5",
+      "data_iso": "Ter, mai 5 2026 07:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ lança versão online de curso nacional sobre equidade racial na Justiça",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, mai 4",
+      "data_iso": "Seg, mai 4 2026 08:35:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -531,6 +579,18 @@
       "relator": "",
       "data": "Sex, abr 2",
       "data_iso": "Sex, abr 24 2026 07:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ realiza encontro com representantes da Ásia e reforça cooperação internacional",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, abr 2",
+      "data_iso": "Qui, abr 23 2026 20:20:00",
       "url": "",
       "resumo_ia": ""
     },
