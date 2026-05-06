@@ -1,21 +1,21 @@
 {
-  "gerado_em": "2026-05-05T11:13:39.866987+00:00",
-  "data": "2026-05-05",
+  "gerado_em": "2026-05-06T11:45:14.066373+00:00",
+  "data": "2026-05-06",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 124,
+  "total": 130,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
       "fonte": "STF",
       "label": "STF — Notícias",
-      "titulo": "Audiência pública – Taxa e atuação da CVM",
+      "titulo": "Relatório – 8 de janeiro",
       "resumo": "",
       "numero": "",
       "relator": "",
-      "data": "Wed, 08 Ap",
-      "data_iso": "Wed, 08 Apr 2026 23:52:35 +0000",
-      "url": "https://noticias.stf.jus.br/2026/04/08/audiencia-publica-taxa-e-atuacao-da-cvm/",
+      "data": "Sun, 05 Ap",
+      "data_iso": "Sun, 05 Apr 2026 15:47:00 +0000",
+      "url": "https://noticias.stf.jus.br/2026/04/05/relatorio-8-de-janeiro/",
       "resumo_ia": ""
     },
     {
@@ -52,18 +52,6 @@
       "data": "Wed, 25 Fe",
       "data_iso": "Wed, 25 Feb 2026 22:00:00 +0000",
       "url": "https://noticias.stf.jus.br/2026/02/25/centro-de-estudos-constitucionais-do-stf-cestf/",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STF",
-      "label": "STF — Notícias",
-      "titulo": "Relatório – 8 de janeiro",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Thu, 08 Ja",
-      "data_iso": "Thu, 08 Jan 2026 15:47:38 +0000",
-      "url": "https://noticias.stf.jus.br/2026/01/08/relatorio-8-de-janeiro/",
       "resumo_ia": ""
     },
     {
@@ -124,6 +112,78 @@
       "data": "Fri, 29 Au",
       "data_iso": "Fri, 29 Aug 2025 11:05:47 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/29/ap-2668-trial-of-nucleus-1-begins-on-september-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STF",
+      "label": "STF — Notícias",
+      "titulo": "AP 2668: julgamento do ‘Núcleo 1’ começa dia 2 de setembro",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Fri, 22 Au",
+      "data_iso": "Fri, 22 Aug 2025 20:47:03 +0000",
+      "url": "https://noticias.stf.jus.br/2025/08/22/acao-penal-contra-nucleo-1-da-tentativa-de-golpe-de-estado-comeca-a-ser-julgada-em-2-de-setembro/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Novo encontro sobre admissibilidade de recursos em cortes superiores acontece na próxima terça (12)",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, mai 6",
+      "data_iso": "Qua, mai 6 2026 07:20:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Para Terceira Turma, depósito em execução não vai para juízo universal após falência da devedora",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, mai 6",
+      "data_iso": "Qua, mai 6 2026 07:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Seminário no STJ debate desafios atuais do direito internacional",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, mai 5",
+      "data_iso": "Ter, mai 5 2026 18:25:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Publicado edital de chamamento de juízes para auxílio temporário às seções de direito público, privado e penal",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, mai 5",
+      "data_iso": "Ter, mai 5 2026 15:24:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Informativo traz competência do STJ para julgar ocupantes de cargos vitalícios mesmo em crimes fora da função",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, mai 5",
+      "data_iso": "Ter, mai 5 2026 08:20:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -303,6 +363,18 @@
       "relator": "",
       "data": "Qua, abr 2",
       "data_iso": "Qua, abr 29 2026 15:42:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Marco Aurélio Bellizze toma posse como ministro substituto do TSE",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, abr 2",
+      "data_iso": "Qua, abr 29 2026 15:05:00",
       "url": "",
       "resumo_ia": ""
     },
@@ -1459,15 +1531,15 @@
       "resumo_ia": ""
     },
     {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Para Sexta Turma, suspensão condicional do processo não é cabível em caso de preconceito religioso",
+      "fonte": "Conjur",
+      "label": "Conjur",
+      "titulo": "Participação em grupo de WhatsApp não prova vínculo com organização criminosa",
       "resumo": "",
       "numero": "",
       "relator": "",
-      "data": "Seg, abr 6",
-      "data_iso": "Seg, abr 6 2026 07:05:00",
-      "url": "",
+      "data": "Wed, 06 Ma",
+      "data_iso": "Wed, 06 May 2026 11:23:46 +0000",
+      "url": "https://www.conjur.com.br/2026-mai-06/participacao-em-grupo-de-whatsapp-nao-prova-vinculo-com-organizacao-criminosa/",
       "resumo_ia": ""
     },
     {
