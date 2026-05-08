@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-05-07T11:44:16.287630+00:00",
-  "data": "2026-05-07",
+  "gerado_em": "2026-05-08T11:07:48.343555+00:00",
+  "data": "2026-05-08",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 130,
+  "total": 128,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,54 @@
       "data": "Fri, 22 Au",
       "data_iso": "Fri, 22 Aug 2025 20:47:03 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/22/acao-penal-contra-nucleo-1-da-tentativa-de-golpe-de-estado-comeca-a-ser-julgada-em-2-de-setembro/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "É incabível mandado de injunção para pedir autorização de plantio doméstico de cannabis, define Corte Especial",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, mai 8",
+      "data_iso": "Sex, mai 8 2026 07:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Ministro Joel Ilan Paciornik assume presidência da Terceira Seção",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, mai 7",
+      "data_iso": "Qui, mai 7 2026 18:32:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Oferta de imóvel em plataformas como Airbnb exige aprovação do condomínio, define Segunda Seção",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, mai 7",
+      "data_iso": "Qui, mai 7 2026 17:58:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "2º Congresso STJ da Primeira Instância Federal e Estadual tem 202 Propostas de Enunciado admitidas",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, mai 7",
+      "data_iso": "Qui, mai 7 2026 16:43:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1467,78 +1515,6 @@
       "relator": "",
       "data": "Qua, abr 8",
       "data_iso": "Qua, abr 8 2026 07:45:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Quinta Turma rejeita relatório produzido por IA como prova em ação penal",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, abr 8",
-      "data_iso": "Qua, abr 8 2026 07:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ divulga Propostas de Enunciados selecionadas para o 2º Congresso da Segunda Instância",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, abr 7",
-      "data_iso": "Ter, abr 7 2026 22:35:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Ex-presidente da Vale volta a ser réu em ações penais pelo rompimento da barragem de Brumadinho (MG)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, abr 7",
-      "data_iso": "Ter, abr 7 2026 22:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Ministra Daniela Teixeira assume presidência da Terceira Turma",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, abr 7",
-      "data_iso": "Ter, abr 7 2026 15:34:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ celebra 37 anos de compromisso com a Justiça e a cidadania",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, abr 7",
-      "data_iso": "Ter, abr 7 2026 13:38:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Página de Repetitivos traz dispensa de ofício a órgãos públicos para validade de citação por edital",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, abr 7",
-      "data_iso": "Ter, abr 7 2026 08:50:00",
       "url": "",
       "resumo_ia": ""
     },
