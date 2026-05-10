@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-05-09T10:52:34.949718+00:00",
-  "data": "2026-05-09",
+  "gerado_em": "2026-05-10T10:57:34.063939+00:00",
+  "data": "2026-05-10",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 122,
+  "total": 120,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,18 @@
       "data": "Fri, 22 Au",
       "data_iso": "Fri, 22 Aug 2025 20:47:03 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/22/acao-penal-contra-nucleo-1-da-tentativa-de-golpe-de-estado-comeca-a-ser-julgada-em-2-de-setembro/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Fundo Garantidor de Créditos: a proteção dos investidores em debate no STJ",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Dom, mai 1",
+      "data_iso": "Dom, mai 10 2026 07:05:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1407,42 +1419,6 @@
       "relator": "",
       "data": "Sex, abr 1",
       "data_iso": "Sex, abr 10 2026 07:50:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Quarta Turma autoriza uso do Serp-Jud para localizar bens em execuções civis",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, abr 1",
-      "data_iso": "Sex, abr 10 2026 07:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Absorção entre crimes de desacato e resistência é destaque na Pesquisa Pronta",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, abr 9",
-      "data_iso": "Qui, abr 9 2026 08:25:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Rádio Decidendi analisa precedente sobre responsabilidade do corretor em contratos imobiliários",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, abr 9",
-      "data_iso": "Qui, abr 9 2026 08:00:00",
       "url": "",
       "resumo_ia": ""
     },
