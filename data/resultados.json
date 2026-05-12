@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-05-11T12:36:28.466077+00:00",
-  "data": "2026-05-11",
+  "gerado_em": "2026-05-12T11:49:48.762728+00:00",
+  "data": "2026-05-12",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 116,
+  "total": 118,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,42 @@
       "data": "Fri, 22 Au",
       "data_iso": "Fri, 22 Aug 2025 20:47:03 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/22/acao-penal-contra-nucleo-1-da-tentativa-de-golpe-de-estado-comeca-a-ser-julgada-em-2-de-setembro/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Encontro sobre admissibilidade de recursos para cortes superiores começa às 9h desta terça (12)",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, mai 1",
+      "data_iso": "Ter, mai 12 2026 07:45:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Quarta Turma afasta indenização do DPVAT em acidente ocorrido durante prática de crime",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, mai 1",
+      "data_iso": "Ter, mai 12 2026 07:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Delegação de Angola vem ao Brasil para diálogo judicial entre os dois países",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, mai 1",
+      "data_iso": "Seg, mai 11 2026 16:46:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1359,18 +1395,6 @@
       "relator": "",
       "data": "Seg, abr 1",
       "data_iso": "Seg, abr 13 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Antonio Saldanha Palheiro encerra trajetória no STJ e se aposenta após 38 anos de magistratura",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Dom, abr 1",
-      "data_iso": "Dom, abr 12 2026 07:05:00",
       "url": "",
       "resumo_ia": ""
     },
