@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-05-12T11:49:48.762728+00:00",
-  "data": "2026-05-12",
+  "gerado_em": "2026-05-13T11:59:21.343343+00:00",
+  "data": "2026-05-13",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 118,
+  "total": 121,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,66 @@
       "data": "Fri, 22 Au",
       "data_iso": "Fri, 22 Aug 2025 20:47:03 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/22/acao-penal-contra-nucleo-1-da-tentativa-de-golpe-de-estado-comeca-a-ser-julgada-em-2-de-setembro/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Operação Faroeste: recebida nova denúncia contra magistradas baianas",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, mai 1",
+      "data_iso": "Qua, mai 13 2026 07:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Corte Especial decide que ação penal contra ex-governador deve subir para o STJ mesmo após fim da instrução",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, mai 1",
+      "data_iso": "Qua, mai 13 2026 07:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Encontro no STJ aprova 28 enunciados sobre admissibilidade de recursos para cortes superiores",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, mai 1",
+      "data_iso": "Ter, mai 12 2026 19:33:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Aumento de pena para roubo contra motorista de aplicativo é destaque no STJ Notícias",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, mai 1",
+      "data_iso": "Ter, mai 12 2026 08:35:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Primeira parte da audiência sobre interesse de agir em ações de consumo acontece quinta-feira (14)",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, mai 1",
+      "data_iso": "Ter, mai 12 2026 07:55:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1371,30 +1431,6 @@
       "relator": "",
       "data": "Seg, abr 1",
       "data_iso": "Seg, abr 13 2026 10:36:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Repetitivo discute honorários em ação rescisória para adequar julgado à modulação do Tema 69 do STF",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, abr 1",
-      "data_iso": "Seg, abr 13 2026 08:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Jornal não terá de indenizar apostador frustrado após erro na divulgação do resultado da Mega-Sena",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, abr 1",
-      "data_iso": "Seg, abr 13 2026 07:10:00",
       "url": "",
       "resumo_ia": ""
     },
