@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-05-15T11:50:59.793639+00:00",
-  "data": "2026-05-15",
+  "gerado_em": "2026-05-16T10:58:42.411720+00:00",
+  "data": "2026-05-16",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 125,
+  "total": 122,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,30 @@
       "data": "Fri, 22 Au",
       "data_iso": "Fri, 22 Aug 2025 20:47:03 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/22/acao-penal-contra-nucleo-1-da-tentativa-de-golpe-de-estado-comeca-a-ser-julgada-em-2-de-setembro/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Fortalecimento da cooperação e conexões históricas marcam abertura de encontro entre Brasil e Angola, no Rio",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, mai 1",
+      "data_iso": "Sex, mai 15 2026 19:57:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Página de Repetitivos inclui tese sobre cumprimento de pena em caso de crime cometido durante condicional",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, mai 1",
+      "data_iso": "Sex, mai 15 2026 08:50:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1419,66 +1443,6 @@
       "relator": "",
       "data": "Qui, abr 1",
       "data_iso": "Qui, abr 16 2026 07:55:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Exame de gravidez em menor sem responsável presente não gera dano moral, decide Quarta Turma",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, abr 1",
-      "data_iso": "Qui, abr 16 2026 07:30:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Intimação do devedor é obrigatória quando o cumprimento provisório de sentença se torna definitivo",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, abr 1",
-      "data_iso": "Qui, abr 16 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Relator vota por homologar sentença italiana contra ex-oficial da Operação Condor, e julgamento é suspenso",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, abr 1",
-      "data_iso": "Qua, abr 15 2026 20:24:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Sessão da Corte Especial prevista para as 9h desta quarta-feira (15) vai começar às 14h",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, abr 1",
-      "data_iso": "Qua, abr 15 2026 09:02:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Podcast STJ No Seu Dia aborda jurisprudência sobre embriaguez e agravamento do risco no seguro de vida",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, abr 1",
-      "data_iso": "Qua, abr 15 2026 08:30:00",
       "url": "",
       "resumo_ia": ""
     },
