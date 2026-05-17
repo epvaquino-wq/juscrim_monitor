@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-05-16T10:58:42.411720+00:00",
-  "data": "2026-05-16",
+  "gerado_em": "2026-05-17T11:00:30.146830+00:00",
+  "data": "2026-05-17",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 122,
+  "total": 118,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -1395,54 +1395,6 @@
       "relator": "",
       "data": "Sex, abr 1",
       "data_iso": "Sex, abr 17 2026 07:40:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Quarta Turma afasta exigência de publicação de balanço para arquivamento de atos societários de limitadas",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, abr 1",
-      "data_iso": "Sex, abr 17 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Tribunal não terá expediente nos dias 20 e 21 de abril",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, abr 1",
-      "data_iso": "Qui, abr 16 2026 09:40:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Rádio Decidendi analisa repetitivo sobre multa em agravo interno e respeito a precedentes",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, abr 1",
-      "data_iso": "Qui, abr 16 2026 08:35:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Repetitivo discute retroatividade de pensão por morte e auxílio-reclusão para menores de 16 anos",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, abr 1",
-      "data_iso": "Qui, abr 16 2026 07:55:00",
       "url": "",
       "resumo_ia": ""
     },
