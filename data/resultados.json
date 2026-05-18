@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-05-17T11:00:30.146830+00:00",
-  "data": "2026-05-17",
+  "gerado_em": "2026-05-18T13:40:56.340417+00:00",
+  "data": "2026-05-18",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 118,
+  "total": 116,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,42 @@
       "data": "Fri, 22 Au",
       "data_iso": "Fri, 22 Aug 2025 20:47:03 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/22/acao-penal-contra-nucleo-1-da-tentativa-de-golpe-de-estado-comeca-a-ser-julgada-em-2-de-setembro/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Tribunal entrega a bibliotecas do Pará seis mil livros arrecadados no Programa Esperança Garcia",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, mai 1",
+      "data_iso": "Seg, mai 18 2026 08:30:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Inadmissibilidade de recurso especial contra decisão monocrática de segundo grau é tema de repetitivo",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, mai 1",
+      "data_iso": "Seg, mai 18 2026 07:45:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Corte Especial recebe nova denúncia contra ex-governador do Acre em ação por fraude e desvio em obras públicas",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, mai 1",
+      "data_iso": "Seg, mai 18 2026 07:10:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1327,75 +1363,15 @@
       "resumo_ia": ""
     },
     {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Nancy Andrighi recebe homenagem da Defensoria Pública do Ceará com lançamento de e-book",
+      "fonte": "Jota",
+      "label": "Jota",
+      "titulo": "A lógica do crime organizado à luz da Nova Economia Institucional e da Economia do Crime",
       "resumo": "",
       "numero": "",
       "relator": "",
-      "data": "Sex, abr 1",
-      "data_iso": "Sex, abr 17 2026 18:40:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Repercussão do FGTS na base de cálculo da pensão alimentícia está na Pesquisa Pronta",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, abr 1",
-      "data_iso": "Sex, abr 17 2026 09:30:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Podcast STJ No Seu Dia discute jurisprudência sobre seguro de vida com cotas para beneficiários",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, abr 1",
-      "data_iso": "Sex, abr 17 2026 09:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Informativo destaca competência do júri em caso de feminicídio imputado a ex-soldado do Exército",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, abr 1",
-      "data_iso": "Sex, abr 17 2026 08:25:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Repetitivo decidirá controvérsia sobre ação de cobrança decorrente de mandado de segurança coletivo",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, abr 1",
-      "data_iso": "Sex, abr 17 2026 08:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Partilha de bens no divórcio não pode ser feita por contrato particular, decide Terceira Turma",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, abr 1",
-      "data_iso": "Sex, abr 17 2026 07:40:00",
-      "url": "",
+      "data": "Mon, 18 Ma",
+      "data_iso": "Mon, 18 May 2026 08:15:47 +0000",
+      "url": "https://www.jota.info/opiniao-e-analise/colunas/coluna-da-abde/a-logica-do-crime-organizado-a-luz-da-nova-economia-institucional-e-da-economia-do-crime",
       "resumo_ia": ""
     },
     {
