@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-05-18T13:40:56.340417+00:00",
-  "data": "2026-05-18",
+  "gerado_em": "2026-05-19T12:36:06.374957+00:00",
+  "data": "2026-05-19",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 116,
+  "total": 117,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -129,6 +129,30 @@
     {
       "fonte": "STJ",
       "label": "STJ — Notícias",
+      "titulo": "STJ abre 2º Congresso da Segunda Instância com recorde de propostas e foco na integração da magistratura",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, mai 1",
+      "data_iso": "Ter, mai 19 2026 07:30:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Obra em homenagem aos quinze anos de atuação do ministro Raul Araújo será lançada nesta terça (19)",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, mai 1",
+      "data_iso": "Ter, mai 19 2026 07:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
       "titulo": "Tribunal entrega a bibliotecas do Pará seis mil livros arrecadados no Programa Esperança Garcia",
       "resumo": "",
       "numero": "",
@@ -159,6 +183,18 @@
       "relator": "",
       "data": "Seg, mai 1",
       "data_iso": "Seg, mai 18 2026 07:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Juízo não pode limitar atuação de advogado assistente de vítima de violência doméstica",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, mai 1",
+      "data_iso": "Seg, mai 18 2026 07:00:00",
       "url": "",
       "resumo_ia": ""
     },
@@ -1348,30 +1384,6 @@
       "data": "Seg, abr 2",
       "data_iso": "Seg, abr 20 2026 07:05:00",
       "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Dia dos Povos Indígenas: reportagem celebra vozes ancestrais e debate papel da Justiça na proteção de grupos originários",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Dom, abr 1",
-      "data_iso": "Dom, abr 19 2026 07:30:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "Jota",
-      "label": "Jota",
-      "titulo": "A lógica do crime organizado à luz da Nova Economia Institucional e da Economia do Crime",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Mon, 18 Ma",
-      "data_iso": "Mon, 18 May 2026 08:15:47 +0000",
-      "url": "https://www.jota.info/opiniao-e-analise/colunas/coluna-da-abde/a-logica-do-crime-organizado-a-luz-da-nova-economia-institucional-e-da-economia-do-crime",
       "resumo_ia": ""
     },
     {
