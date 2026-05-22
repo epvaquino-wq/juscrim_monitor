@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-05-21T12:42:00.738492+00:00",
-  "data": "2026-05-21",
+  "gerado_em": "2026-05-22T12:14:33.081196+00:00",
+  "data": "2026-05-22",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 131,
+  "total": 130,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,78 @@
       "data": "Fri, 22 Au",
       "data_iso": "Fri, 22 Aug 2025 20:47:03 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/22/acao-penal-contra-nucleo-1-da-tentativa-de-golpe-de-estado-comeca-a-ser-julgada-em-2-de-setembro/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Podcast STJ No Seu Dia discute penhorabilidade de valores resgatados de seguro de vida",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, mai 2",
+      "data_iso": "Sex, mai 22 2026 07:20:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Espaço Cultural apresenta obra em homenagem aos 20 anos de docência do professor Paulo Mendes",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, mai 2",
+      "data_iso": "Sex, mai 22 2026 07:15:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Informativo destaca uso de imóvel em contratos de curta estadia e validade de contrato bancário celebrado por analfabeto",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, mai 2",
+      "data_iso": "Sex, mai 22 2026 07:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Repetitivo discute se descontos indevidos em benefício previdenciário geram dano moral presumido",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, mai 2",
+      "data_iso": "Sex, mai 22 2026 07:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ recebe exposição do fotógrafo Araquém Alcântara a partir de 1º de junho",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, mai 2",
+      "data_iso": "Qui, mai 21 2026 14:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Congresso STJ da Segunda Instância Federal e Estadual conclui trabalhos com a aprovação de 127 enunciados",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, mai 2",
+      "data_iso": "Qui, mai 21 2026 12:45:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -837,18 +909,6 @@
     {
       "fonte": "STJ",
       "label": "STJ — Notícias",
-      "titulo": "STJ e Interpol realizam Simpósio internacional inédito para discutir criminalidade transnacional",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, mai 7",
-      "data_iso": "Qui, mai 7 2026 07:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
       "titulo": "Ex-governador do Acre, Gladson Cameli é condenado a 25 anos de prisão, maior pena já aplicada pelo STJ",
       "resumo": "",
       "numero": "",
@@ -1480,78 +1540,6 @@
       "data": "Qui, abr 2",
       "data_iso": "Qui, abr 23 2026 07:10:00",
       "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Entender Direito estreia o primeiro de dois episódios sobre direito digital",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, abr 2",
-      "data_iso": "Qua, abr 22 2026 08:25:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Tribunal autoriza retirada de sobrenome paterno do registro civil em razão de abandono afetivo",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, abr 2",
-      "data_iso": "Qua, abr 22 2026 07:55:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "I Congresso Internacional Justiça Originária acontece nos dias 28 e 29 de abril",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, abr 2",
-      "data_iso": "Qua, abr 22 2026 07:35:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "A biblioteca de uma vida: STJ e Enfam recebem coleção do Ministro Célio Borja",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, abr 2",
-      "data_iso": "Qua, abr 22 2026 07:30:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Justiça especializada deve julgar injúria racial contra adolescente, decide Sexta Turma",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, abr 2",
-      "data_iso": "Qua, abr 22 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "Jota",
-      "label": "Jota",
-      "titulo": "As incertezas do novo marco de combate ao crime organizado para o mercado",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Thu, 21 Ma",
-      "data_iso": "Thu, 21 May 2026 08:30:28 +0000",
-      "url": "https://www.jota.info/opiniao-e-analise/artigos/as-incertezas-do-novo-marco-de-combate-ao-crime-organizado-para-o-mercado",
       "resumo_ia": ""
     },
     {
