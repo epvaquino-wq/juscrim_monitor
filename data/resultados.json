@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-05-24T11:11:36.198779+00:00",
-  "data": "2026-05-24",
+  "gerado_em": "2026-05-25T12:58:02.075031+00:00",
+  "data": "2026-05-25",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 125,
+  "total": 128,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,54 @@
       "data": "Fri, 22 Au",
       "data_iso": "Fri, 22 Aug 2025 20:47:03 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/22/acao-penal-contra-nucleo-1-da-tentativa-de-golpe-de-estado-comeca-a-ser-julgada-em-2-de-setembro/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Não aplicação de limites a bloqueios do Fundo de Participação dos Municípios é destaque na Página de Repetitivos",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, mai 2",
+      "data_iso": "Seg, mai 25 2026 07:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Quarta Turma realiza no dia 2 sessão que havia sido transferida para 9 de junho",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, mai 2",
+      "data_iso": "Seg, mai 25 2026 07:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Qualificadora de violência de gênero também se aplica a agressões contra mulher em relação homoafetiva",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, mai 2",
+      "data_iso": "Seg, mai 25 2026 07:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ e Interpol iniciam curso internacional inédito em Lyon",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Dom, mai 2",
+      "data_iso": "Dom, mai 24 2026 13:05:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1467,18 +1515,6 @@
       "relator": "",
       "data": "Dom, abr 2",
       "data_iso": "Dom, abr 26 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Tribunal devolve mais de 11 mil recursos em 2025 devido à afetação de temas repetitivos",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, abr 2",
-      "data_iso": "Sex, abr 24 2026 08:05:00",
       "url": "",
       "resumo_ia": ""
     },
