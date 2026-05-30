@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-05-29T12:45:11.527639+00:00",
-  "data": "2026-05-29",
+  "gerado_em": "2026-05-30T11:16:21.256816+00:00",
+  "data": "2026-05-30",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 138,
+  "total": 137,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -1615,27 +1615,15 @@
       "resumo_ia": ""
     },
     {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Decisões do STJ mostram que a vida animal importa",
+      "fonte": "Jota",
+      "label": "Jota",
+      "titulo": "PCC e CV como terroristas: designação não resolverá problema do crime organizado",
       "resumo": "",
       "numero": "",
       "relator": "",
-      "data": "Qua, abr 2",
-      "data_iso": "Qua, abr 29 2026 15:42:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Marco Aurélio Bellizze toma posse como ministro substituto do TSE",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, abr 2",
-      "data_iso": "Qua, abr 29 2026 15:05:00",
-      "url": "",
+      "data": "Fri, 29 Ma",
+      "data_iso": "Fri, 29 May 2026 13:30:24 +0000",
+      "url": "https://www.jota.info/opiniao-e-analise/artigos/pcc-e-cv-como-terroristas-designacao-nao-resolvera-problema-do-crime-organizado",
       "resumo_ia": ""
     },
     {
