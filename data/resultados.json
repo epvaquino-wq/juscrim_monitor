@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-05-30T11:16:21.256816+00:00",
-  "data": "2026-05-30",
+  "gerado_em": "2026-05-31T11:39:15.484664+00:00",
+  "data": "2026-05-31",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 137,
+  "total": 135,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,18 @@
       "data": "Fri, 29 Au",
       "data_iso": "Fri, 29 Aug 2025 11:05:47 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/29/ap-2668-trial-of-nucleus-1-begins-on-september-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ sedia congresso sobre Estado de Direito e Ética Judicial",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sáb, mai 3",
+      "data_iso": "Sáb, mai 30 2026 12:13:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1588,42 +1600,6 @@
       "data": "Qui, abr 3",
       "data_iso": "Qui, abr 30 2026 08:25:00",
       "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Tribunal não terá expediente nesta sexta (1º)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, abr 3",
-      "data_iso": "Qui, abr 30 2026 07:15:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Terceira Turma considera válida sentença proferida por juíza após ser removida da vara",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, abr 3",
-      "data_iso": "Qui, abr 30 2026 07:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "Jota",
-      "label": "Jota",
-      "titulo": "PCC e CV como terroristas: designação não resolverá problema do crime organizado",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Fri, 29 Ma",
-      "data_iso": "Fri, 29 May 2026 13:30:24 +0000",
-      "url": "https://www.jota.info/opiniao-e-analise/artigos/pcc-e-cv-como-terroristas-designacao-nao-resolvera-problema-do-crime-organizado",
       "resumo_ia": ""
     },
     {
