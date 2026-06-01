@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-05-31T11:39:15.484664+00:00",
-  "data": "2026-05-31",
+  "gerado_em": "2026-06-01T15:51:43.111769+00:00",
+  "data": "2026-06-01",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 135,
+  "total": 133,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,42 @@
       "data": "Fri, 29 Au",
       "data_iso": "Fri, 29 Aug 2025 11:05:47 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/29/ap-2668-trial-of-nucleus-1-begins-on-september-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Pesquisa Pronta destaca entendimento sobre usucapião de imóveis em liquidação extrajudicial",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, jun 1",
+      "data_iso": "Seg, jun 1 2026 08:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Extensão de sentença coletiva a servidores federais não domiciliados em Mato Grosso do Sul é tema de repetitivo",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, jun 1",
+      "data_iso": "Seg, jun 1 2026 07:35:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Ex-policial que sofreu ataque homofóbico ao postar foto com namorado tem direito a indenização",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, jun 1",
+      "data_iso": "Seg, jun 1 2026 07:00:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1539,66 +1575,6 @@
       "relator": "",
       "data": "Seg, mai 4",
       "data_iso": "Seg, mai 4 2026 07:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Podcast STJ No Seu Dia trata da distribuição de superávit em previdência privada complementar",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, mai 1",
-      "data_iso": "Sex, mai 1 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Sistemas podem ter indisponibilidade temporária entre sexta (1º) e domingo (3)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, abr 3",
-      "data_iso": "Qui, abr 30 2026 18:52:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "SEI ficará indisponível neste domingo (3)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, abr 3",
-      "data_iso": "Qui, abr 30 2026 12:17:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Pesquisa Pronta traz incomunicabilidade de qualificadora no homicídio",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, abr 3",
-      "data_iso": "Qui, abr 30 2026 08:50:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Livro em homenagem aos 15 anos de atuação do ministro Raul Araújo será lançado no dia 19 de maio",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, abr 3",
-      "data_iso": "Qui, abr 30 2026 08:25:00",
       "url": "",
       "resumo_ia": ""
     },
