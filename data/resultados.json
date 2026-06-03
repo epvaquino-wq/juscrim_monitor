@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-06-02T13:56:48.397603+00:00",
-  "data": "2026-06-02",
+  "gerado_em": "2026-06-03T14:24:35.785125+00:00",
+  "data": "2026-06-03",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 12,
+  "total": 14,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,30 @@
       "data": "Fri, 29 Au",
       "data_iso": "Fri, 29 Aug 2025 11:05:47 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/29/ap-2668-trial-of-nucleus-1-begins-on-september-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "Jota",
+      "label": "Jota",
+      "titulo": "Colaboração premiada recusada",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Wed, 03 Ju",
+      "data_iso": "Wed, 03 Jun 2026 08:30:37 +0000",
+      "url": "https://www.jota.info/opiniao-e-analise/artigos/colaboracao-premiada-recusada",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "Jota",
+      "label": "Jota",
+      "titulo": "O avanço do crime organizado e o peso da segurança pública na eleição",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Wed, 03 Ju",
+      "data_iso": "Wed, 03 Jun 2026 08:00:44 +0000",
+      "url": "https://www.jota.info/opiniao-e-analise/colunas/gestao-politica-sociedade/o-avanco-do-crime-organizado-e-o-peso-da-seguranca-publica-na-eleicao",
       "resumo_ia": ""
     },
     {
