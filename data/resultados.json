@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-06-07T11:44:25.127868+00:00",
-  "data": "2026-06-07",
+  "gerado_em": "2026-06-08T14:02:30.300242+00:00",
+  "data": "2026-06-08",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 129,
+  "total": 126,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,54 @@
       "data": "Fri, 29 Au",
       "data_iso": "Fri, 29 Aug 2025 11:05:47 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/29/ap-2668-trial-of-nucleus-1-begins-on-september-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Consulta pública sobre metas do STJ para 2027 segue disponível até sexta-feira (12)",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, jun 8",
+      "data_iso": "Seg, jun 8 2026 08:25:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Segunda Seção começa às 13h na próxima quarta (10)",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, jun 8",
+      "data_iso": "Seg, jun 8 2026 08:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Quarta Turma não vê prova de dano e afasta indenização por obras de hidrelétrica no Rio Madeira",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, jun 8",
+      "data_iso": "Seg, jun 8 2026 07:35:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Segunda Turma garante isenção de ICMS na compra de veículo por pessoa com visão monocular",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, jun 8",
+      "data_iso": "Seg, jun 8 2026 07:00:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1443,90 +1491,6 @@
       "relator": "",
       "data": "Sex, mai 8",
       "data_iso": "Sex, mai 8 2026 19:26:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Podcast aborda homologação de atos estrangeiros e competência da Justiça brasileira em matéria sucessória",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, mai 8",
-      "data_iso": "Sex, mai 8 2026 09:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Informativo traz desconsideração de laudo pericial e prazo peremptório para oferecimento de queixa",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, mai 8",
-      "data_iso": "Sex, mai 8 2026 08:35:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Livro sobre confissão e literatura, do ministro Ribeiro Dantas, será lançado na próxima quarta (13)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, mai 8",
-      "data_iso": "Sex, mai 8 2026 07:55:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "É incabível mandado de injunção para pedir autorização de plantio doméstico de cannabis, define Corte Especial",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, mai 8",
-      "data_iso": "Sex, mai 8 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Ministro Joel Ilan Paciornik assume presidência da Terceira Seção",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, mai 7",
-      "data_iso": "Qui, mai 7 2026 18:32:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Oferta de imóvel em plataformas como Airbnb exige aprovação do condomínio, define Segunda Seção",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, mai 7",
-      "data_iso": "Qui, mai 7 2026 17:58:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "2º Congresso STJ da Primeira Instância Federal e Estadual tem 202 Propostas de Enunciado admitidas",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, mai 7",
-      "data_iso": "Qui, mai 7 2026 16:43:00",
       "url": "",
       "resumo_ia": ""
     },
