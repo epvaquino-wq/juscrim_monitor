@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-06-08T14:02:30.300242+00:00",
-  "data": "2026-06-08",
+  "gerado_em": "2026-06-09T12:32:49.306605+00:00",
+  "data": "2026-06-09",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 126,
+  "total": 131,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,78 @@
       "data": "Fri, 29 Au",
       "data_iso": "Fri, 29 Aug 2025 11:05:47 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/29/ap-2668-trial-of-nucleus-1-begins-on-september-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Coletânea de artigos em homenagem ao professor Paulo Mendes será lançada nesta terça (9)",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jun 9",
+      "data_iso": "Ter, jun 9 2026 08:55:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Audiência sobre metas de fortalecimento da sustentabilidade no Judiciário recebe inscrições só até sexta (12)",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jun 9",
+      "data_iso": "Ter, jun 9 2026 08:20:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Entenda a Decisão destaca limite de sessões para TEA e continuidade delitiva em infrações administrativas",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jun 9",
+      "data_iso": "Ter, jun 9 2026 07:40:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Terceira Seção decidirá se preso que pede para visitante levar drogas ao presídio responde por tráfico",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jun 9",
+      "data_iso": "Ter, jun 9 2026 07:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Terceira Turma invalida empréstimo contratado por analfabeto em caixa eletrônico",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jun 9",
+      "data_iso": "Ter, jun 9 2026 06:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Quarta Turma terá sessões às 10h e às 14h nesta terça (9)",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, jun 8",
+      "data_iso": "Seg, jun 8 2026 11:47:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1479,18 +1551,6 @@
       "relator": "",
       "data": "Dom, mai 1",
       "data_iso": "Dom, mai 10 2026 07:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Encontro sobre propriedade industrial e a jurisprudência do STJ acontece na próxima quinta (14)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, mai 8",
-      "data_iso": "Sex, mai 8 2026 19:26:00",
       "url": "",
       "resumo_ia": ""
     },
