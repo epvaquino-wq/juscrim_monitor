@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-06-15T15:41:36.936963+00:00",
-  "data": "2026-06-15",
+  "gerado_em": "2026-06-16T14:56:57.720403+00:00",
+  "data": "2026-06-16",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 131,
+  "total": 137,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,90 @@
       "data": "Fri, 29 Au",
       "data_iso": "Fri, 29 Aug 2025 11:05:47 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/29/ap-2668-trial-of-nucleus-1-begins-on-september-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ Notícias apresenta decisão que anulou empréstimo contratado por analfabeto",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jun 1",
+      "data_iso": "Ter, jun 16 2026 08:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Exposição de fotos de Araquém Alcântara no STJ fica aberta para visitação pública até 31 de agosto",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jun 1",
+      "data_iso": "Ter, jun 16 2026 08:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Obra coletiva sobre filtro de relevância no STJ será lançada nesta terça-feira (16)",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jun 1",
+      "data_iso": "Ter, jun 16 2026 07:30:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Primeira Turma revoga liminar que mantinha a Suzano na operação das linhas da Itapemirim",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jun 1",
+      "data_iso": "Ter, jun 16 2026 07:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Espólio e herdeiros de aposentado com doença grave podem pedir restituição do IR pago indevidamente",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jun 1",
+      "data_iso": "Ter, jun 16 2026 06:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Primeiro dia do 2º Congresso STJ da Primeira Instância Federal e Estadual tem 31 enunciados aprovados",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, jun 1",
+      "data_iso": "Seg, jun 15 2026 19:57:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ abre 2º Congresso da Primeira Instância Federal e Estadual e reforça importância do diálogo com tribunais brasileiros",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, jun 1",
+      "data_iso": "Seg, jun 15 2026 13:48:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1539,18 +1623,6 @@
       "relator": "",
       "data": "Seg, mai 1",
       "data_iso": "Seg, mai 18 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Fortalecimento da cooperação e conexões históricas marcam abertura de encontro entre Brasil e Angola, no Rio",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, mai 1",
-      "data_iso": "Sex, mai 15 2026 19:57:00",
       "url": "",
       "resumo_ia": ""
     },
