@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-06-16T14:56:57.720403+00:00",
-  "data": "2026-06-16",
+  "gerado_em": "2026-06-17T13:38:23.898787+00:00",
+  "data": "2026-06-17",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 137,
+  "total": 147,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,114 @@
       "data": "Fri, 29 Au",
       "data_iso": "Fri, 29 Aug 2025 11:05:47 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/29/ap-2668-trial-of-nucleus-1-begins-on-september-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Podcast STJ No Seu Dia discute marcas e indicações geográficas",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, jun 1",
+      "data_iso": "Qua, jun 17 2026 09:20:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Página de Repetitivos destaca a incidência ou não de contribuição previdenciária patronal",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, jun 1",
+      "data_iso": "Qua, jun 17 2026 08:45:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Entender Direito traz panorama atualizado e acessível sobre astreintes a partir de precedentes do STJ",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, jun 1",
+      "data_iso": "Qua, jun 17 2026 08:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Pessoa relativamente incapaz pode figurar como sócia em holding familiar, decide Terceira Turma",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, jun 1",
+      "data_iso": "Qua, jun 17 2026 07:15:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Cerceamento de defesa não pode ser reconhecido de ofício, reafirma Segunda Seção",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, jun 1",
+      "data_iso": "Qua, jun 17 2026 07:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ mantém ações penais contra engenheiros da Vale e TÜV SÜD por rompimento da barragem em Brumadinho",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jun 1",
+      "data_iso": "Ter, jun 16 2026 21:30:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Congresso do STJ sobre primeira instância federal e estadual aprova mais 111 enunciados",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jun 1",
+      "data_iso": "Ter, jun 16 2026 21:12:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Espaço Cultural STJ lança obra coletiva sobre o filtro de relevância do recurso especial",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jun 1",
+      "data_iso": "Ter, jun 16 2026 20:26:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Encontro Nacional sobre Precedentes Qualificados começa nesta quarta-feira (17)",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jun 1",
+      "data_iso": "Ter, jun 16 2026 16:50:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -483,6 +591,18 @@
       "relator": "",
       "data": "Qua, jun 1",
       "data_iso": "Qua, jun 10 2026 07:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ inaugura primeiro arquivo histórico do Poder Judiciário",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jun 9",
+      "data_iso": "Ter, jun 9 2026 21:27:00",
       "url": "",
       "resumo_ia": ""
     },
