@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-06-21T12:08:10.058131+00:00",
-  "data": "2026-06-21",
+  "gerado_em": "2026-06-22T15:19:01.322232+00:00",
+  "data": "2026-06-22",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 136,
+  "total": 134,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,54 @@
       "data": "Fri, 29 Au",
       "data_iso": "Fri, 29 Aug 2025 11:05:47 +0000",
       "url": "https://noticias.stf.jus.br/2025/08/29/ap-2668-trial-of-nucleus-1-begins-on-september-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Página de Repetitivos inclui teses sobre recuperação judicial e livramento condicional no tráfico de drogas",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, jun 2",
+      "data_iso": "Seg, jun 22 2026 08:20:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Pesquisa Pronta: uso indevido da imagem de jogadores e crime envolvendo torcida organizada",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, jun 2",
+      "data_iso": "Seg, jun 22 2026 07:45:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Seminário sobre planejamento sustentável do Poder Judiciário acontece na próxima quinta (25)",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, jun 2",
+      "data_iso": "Seg, jun 22 2026 07:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Plano deve cobrir cirurgia robótica para câncer de próstata mesmo fora do rol da ANS, decide Quarta Turma",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, jun 2",
+      "data_iso": "Seg, jun 22 2026 06:50:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1539,78 +1587,6 @@
       "relator": "",
       "data": "Sex, mai 2",
       "data_iso": "Sex, mai 22 2026 16:30:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Podcast STJ No Seu Dia discute penhorabilidade de valores resgatados de seguro de vida",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, mai 2",
-      "data_iso": "Sex, mai 22 2026 07:20:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Espaço Cultural apresenta obra em homenagem aos 20 anos de docência do professor Paulo Mendes",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, mai 2",
-      "data_iso": "Sex, mai 22 2026 07:15:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Informativo destaca uso de imóvel em contratos de curta estadia e validade de contrato bancário celebrado por analfabeto",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, mai 2",
-      "data_iso": "Sex, mai 22 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Repetitivo discute se descontos indevidos em benefício previdenciário geram dano moral presumido",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, mai 2",
-      "data_iso": "Sex, mai 22 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ recebe exposição do fotógrafo Araquém Alcântara a partir de 1º de junho",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, mai 2",
-      "data_iso": "Qui, mai 21 2026 14:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Congresso STJ da Segunda Instância Federal e Estadual conclui trabalhos com a aprovação de 127 enunciados",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, mai 2",
-      "data_iso": "Qui, mai 21 2026 12:45:00",
       "url": "",
       "resumo_ia": ""
     },
