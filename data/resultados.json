@@ -1,11 +1,23 @@
 {
-  "gerado_em": "2026-06-23T12:29:56.377406+00:00",
-  "data": "2026-06-23",
+  "gerado_em": "2026-06-24T12:16:10.288967+00:00",
+  "data": "2026-06-24",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
   "total": 12,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
+    {
+      "fonte": "STF",
+      "label": "STF — Notícias",
+      "titulo": "Credenciamento de Setoristas do STF",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Tue, 23 Ju",
+      "data_iso": "Tue, 23 Jun 2026 23:58:37 +0000",
+      "url": "https://noticias.stf.jus.br/2026/06/23/credenciamento-de-setoristas-do-stf/",
+      "resumo_ia": ""
+    },
     {
       "fonte": "STF",
       "label": "STF — Notícias",
@@ -112,18 +124,6 @@
       "data": "Thu, 18 Se",
       "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
       "url": "https://noticias.stf.jus.br/2025/09/18/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STF",
-      "label": "STF — Notícias",
-      "titulo": "AP 2668: trial of ‘Nucleus 1’ begins on September 2",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Fri, 29 Au",
-      "data_iso": "Fri, 29 Aug 2025 11:05:47 +0000",
-      "url": "https://noticias.stf.jus.br/2025/08/29/ap-2668-trial-of-nucleus-1-begins-on-september-2/",
       "resumo_ia": ""
     },
     {
