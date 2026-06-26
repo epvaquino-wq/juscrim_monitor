@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-06-25T12:13:40.425656+00:00",
-  "data": "2026-06-25",
+  "gerado_em": "2026-06-26T12:07:42.889221+00:00",
+  "data": "2026-06-26",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 148,
+  "total": 149,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,66 @@
       "data": "Thu, 18 Se",
       "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
       "url": "https://noticias.stf.jus.br/2025/09/18/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Tribunal prorroga validade de processos seletivos de estágio abertos em 2024 e 2025",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, jun 2",
+      "data_iso": "Sex, jun 26 2026 08:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Informativo aborda não cabimento de embargos de divergência para discutir modulação em recurso repetitivo",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, jun 2",
+      "data_iso": "Sex, jun 26 2026 07:40:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Repetitivo discute chamamento ao processo em execução individual de sentença coletiva com réus solidários",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, jun 2",
+      "data_iso": "Sex, jun 26 2026 07:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Primeira Turma determina criação de plano para atuação da PM paulista em manifestações públicas",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, jun 2",
+      "data_iso": "Sex, jun 26 2026 06:55:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Copa do Mundo: STJ terá ponto facultativo na segunda-feira (29)",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, jun 2",
+      "data_iso": "Qui, jun 25 2026 16:19:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1707,54 +1767,6 @@
       "relator": "",
       "data": "Ter, mai 2",
       "data_iso": "Ter, mai 26 2026 08:35:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Decisão que apontou possíveis falhas de IA em pedido de habeas corpus é destaque no STJ Notícias",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mai 2",
-      "data_iso": "Ter, mai 26 2026 08:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Segunda parte da audiência sobre interesse de agir em ações de consumo acontece nesta quarta (27)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mai 2",
-      "data_iso": "Ter, mai 26 2026 07:45:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ suspende liminar e mantém concurso do MPMT com provas em Cuiabá e São Paulo",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mai 2",
-      "data_iso": "Ter, mai 26 2026 07:15:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Sexta Turma aplica perspectiva de gênero ao ingresso de droga em presídio e mantém falta grave de preso",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mai 2",
-      "data_iso": "Ter, mai 26 2026 07:05:00",
       "url": "",
       "resumo_ia": ""
     },
