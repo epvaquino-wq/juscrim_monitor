@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-06-26T12:07:42.889221+00:00",
-  "data": "2026-06-26",
+  "gerado_em": "2026-06-27T11:24:13.127685+00:00",
+  "data": "2026-06-27",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 149,
+  "total": 145,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,18 @@
       "data": "Thu, 18 Se",
       "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
       "url": "https://noticias.stf.jus.br/2025/09/18/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Jurisprudência sobre arrendamento rural e extinção de contratos é tema do podcast STJ No Seu Dia",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, jun 2",
+      "data_iso": "Sex, jun 26 2026 08:25:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1707,66 +1719,6 @@
       "relator": "",
       "data": "Qua, mai 2",
       "data_iso": "Qua, mai 27 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Presidente da Corte abre o 1º Curso STJ-Interpol",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mai 2",
-      "data_iso": "Ter, mai 26 2026 18:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Ministro Moura Ribeiro ressalta importância do debate sobre direito das coisas na X Jornada de Direito Civil",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mai 2",
-      "data_iso": "Ter, mai 26 2026 16:15:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Jornada reafirma papel do CJF na construção interpretativa do direito civil, afirma ministra Gallotti",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mai 2",
-      "data_iso": "Ter, mai 26 2026 16:06:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Para o ministro Cueva, X Jornada de Direito Civil pretende harmonizar tecnologia com direitos fundamentais",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mai 2",
-      "data_iso": "Ter, mai 26 2026 15:51:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Página de Repetitivos destaca prescrição do fundo de direito nas relações de trato sucessivo em que a Fazenda é devedora",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, mai 2",
-      "data_iso": "Ter, mai 26 2026 08:35:00",
       "url": "",
       "resumo_ia": ""
     },
