@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-06-29T14:00:25.562533+00:00",
-  "data": "2026-06-29",
+  "gerado_em": "2026-06-30T12:05:22.504660+00:00",
+  "data": "2026-06-30",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 126,
+  "total": 129,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,54 @@
       "data": "Thu, 18 Se",
       "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
       "url": "https://noticias.stf.jus.br/2025/09/18/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Pesquisa Pronta destaca natureza de crime ambiental e responsabilidade civil por dano ambiental",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jun 3",
+      "data_iso": "Ter, jun 30 2026 08:20:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Página de Repetitivos inclui tese sobre continuidade delitiva em crimes previdenciários",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jun 3",
+      "data_iso": "Ter, jun 30 2026 07:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Primeira Seção cancela dois temas repetitivos sobre contribuição previdenciária patronal",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jun 3",
+      "data_iso": "Ter, jun 30 2026 07:15:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Quarta Turma afasta usucapião familiar sobre parte de imóvel com área total superior a 250 m²",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jun 3",
+      "data_iso": "Ter, jun 30 2026 07:00:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1480,18 +1528,6 @@
       "data": "Sáb, mai 3",
       "data_iso": "Sáb, mai 30 2026 12:13:00",
       "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "Jota",
-      "label": "Jota",
-      "titulo": "Integridade corporativa e combate ao crime organizado",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sun, 28 Ju",
-      "data_iso": "Sun, 28 Jun 2026 08:10:09 +0000",
-      "url": "https://www.jota.info/opiniao-e-analise/artigos/integridade-corporativa-e-combate-ao-crime-organizado",
       "resumo_ia": ""
     },
     {
