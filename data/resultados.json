@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-06-30T12:05:22.504660+00:00",
-  "data": "2026-06-30",
+  "gerado_em": "2026-07-01T12:30:11.422583+00:00",
+  "data": "2026-07-01",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 129,
+  "total": 130,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,66 @@
       "data": "Thu, 18 Se",
       "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
       "url": "https://noticias.stf.jus.br/2025/09/18/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ é finalista em três categorias no Prêmio Nacional de Comunicação e Justiça",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, jul 1",
+      "data_iso": "Qua, jul 1 2026 08:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Corte Especial vai fixar tese em repetitivo sobre retroação da gratuidade de justiça",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, jul 1",
+      "data_iso": "Qua, jul 1 2026 07:20:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "São devidos honorários mesmo quando execução fiscal é extinta pelo pagamento da dívida antes da citação",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, jul 1",
+      "data_iso": "Qua, jul 1 2026 07:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJN traz decisão que invalidou testamento por email sem assinatura e sem testemunha",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jun 3",
+      "data_iso": "Ter, jun 30 2026 15:15:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Audiência sobre metas de sustentabilidade no Judiciário acontece nesta terça (30), com transmissão ao vivo",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jun 3",
+      "data_iso": "Ter, jun 30 2026 12:16:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1479,54 +1539,6 @@
       "relator": "",
       "data": "Seg, jun 1",
       "data_iso": "Seg, jun 1 2026 15:11:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Pesquisa Pronta destaca entendimento sobre usucapião de imóveis em liquidação extrajudicial",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, jun 1",
-      "data_iso": "Seg, jun 1 2026 08:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Extensão de sentença coletiva a servidores federais não domiciliados em Mato Grosso do Sul é tema de repetitivo",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, jun 1",
-      "data_iso": "Seg, jun 1 2026 07:35:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Ex-policial que sofreu ataque homofóbico ao postar foto com namorado tem direito a indenização",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, jun 1",
-      "data_iso": "Seg, jun 1 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ sedia congresso sobre Estado de Direito e Ética Judicial",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sáb, mai 3",
-      "data_iso": "Sáb, mai 30 2026 12:13:00",
       "url": "",
       "resumo_ia": ""
     },
