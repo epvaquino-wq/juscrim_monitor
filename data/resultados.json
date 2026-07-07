@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-07-06T13:40:36.216727+00:00",
-  "data": "2026-07-06",
+  "gerado_em": "2026-07-07T12:23:53.787505+00:00",
+  "data": "2026-07-07",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 134,
+  "total": 139,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,66 @@
       "data": "Thu, 18 Se",
       "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
       "url": "https://noticias.stf.jus.br/2025/09/18/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Plano para atuação da PM paulista em manifestações públicas é destaque no STJ Notícias",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jul 7",
+      "data_iso": "Ter, jul 7 2026 08:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Divulgados relatórios preliminares sobre Estado de Direito e ética judicial",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jul 7",
+      "data_iso": "Ter, jul 7 2026 08:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Entenda a Decisão traz tese sobre uso de relatório policial produzido por IA generativa em ação penal",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jul 7",
+      "data_iso": "Ter, jul 7 2026 07:40:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Repetitivo discute se falta de resposta a pedido de gratuidade de justiça implica deferimento tácito",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jul 7",
+      "data_iso": "Ter, jul 7 2026 07:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Segunda Turma afasta possibilidade de reconhecimento de papiloscopistas da PF como peritos oficiais",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jul 7",
+      "data_iso": "Ter, jul 7 2026 06:50:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
