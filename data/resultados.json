@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-07-07T12:23:53.787505+00:00",
-  "data": "2026-07-07",
+  "gerado_em": "2026-07-08T11:43:54.709185+00:00",
+  "data": "2026-07-08",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
   "total": 139,
@@ -124,6 +124,42 @@
       "data": "Thu, 18 Se",
       "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
       "url": "https://noticias.stf.jus.br/2025/09/18/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ No Seu Dia discute critérios para aplicação de causas de aumento de pena",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, jul 8",
+      "data_iso": "Qua, jul 8 2026 08:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Base de cálculo de honorários em ações que visam à baixa de gravame hipotecário é tema de repetitivo",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, jul 8",
+      "data_iso": "Qua, jul 8 2026 07:15:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Primeira Turma reconhece dano moral coletivo pela demora na demarcação de território quilombola em Sergipe",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, jul 8",
+      "data_iso": "Qua, jul 8 2026 07:00:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1611,42 +1647,6 @@
       "relator": "",
       "data": "Seg, jun 8",
       "data_iso": "Seg, jun 8 2026 08:25:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Segunda Seção começa às 13h na próxima quarta (10)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, jun 8",
-      "data_iso": "Seg, jun 8 2026 08:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Quarta Turma não vê prova de dano e afasta indenização por obras de hidrelétrica no Rio Madeira",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, jun 8",
-      "data_iso": "Seg, jun 8 2026 07:35:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Segunda Turma garante isenção de ICMS na compra de veículo por pessoa com visão monocular",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, jun 8",
-      "data_iso": "Seg, jun 8 2026 07:00:00",
       "url": "",
       "resumo_ia": ""
     },
