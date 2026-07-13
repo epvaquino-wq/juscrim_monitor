@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-07-12T11:06:52.501368+00:00",
-  "data": "2026-07-12",
+  "gerado_em": "2026-07-13T12:27:53.390581+00:00",
+  "data": "2026-07-13",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 124,
+  "total": 119,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,30 @@
       "data": "Thu, 18 Se",
       "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
       "url": "https://noticias.stf.jus.br/2025/09/18/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Furto de bilhete premiado em lotérica deve ser julgado pela Justiça estadual",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, jul 1",
+      "data_iso": "Seg, jul 13 2026 07:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Direito de retenção por benfeitorias não se aplica a locatário inadimplente, decide Terceira Turma",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, jul 1",
+      "data_iso": "Seg, jul 13 2026 06:55:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1383,90 +1407,6 @@
       "relator": "",
       "data": "Dom, jun 1",
       "data_iso": "Dom, jun 14 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ nomeia pela primeira vez uma juíza para comandar a Secretaria-Geral da Presidência",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jun 1",
-      "data_iso": "Sex, jun 12 2026 19:01:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ define horário de expediente em dia de jogo do Brasil na Copa do Mundo",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jun 1",
-      "data_iso": "Sex, jun 12 2026 14:58:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Nova edição da Pesquisa Pronta destaca entendimentos sobre crimes sexuais e crimes contra a vida",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jun 1",
-      "data_iso": "Sex, jun 12 2026 08:40:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Quarta Turma terá duas sessões na próxima terça-feira (16)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jun 1",
-      "data_iso": "Sex, jun 12 2026 08:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Prorrogadas até dia 19 as inscrições para audiência sobre fortalecimento da sustentabilidade no Judiciário",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jun 1",
-      "data_iso": "Sex, jun 12 2026 07:20:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Comprador de imóvel tem legitimidade para exigir obras em áreas comuns",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jun 1",
-      "data_iso": "Sex, jun 12 2026 06:55:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STF promove evento com escuta e conscientização sobre meio ambiente e justiça climática",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, jun 1",
-      "data_iso": "Qui, jun 11 2026 15:12:00",
       "url": "",
       "resumo_ia": ""
     },
