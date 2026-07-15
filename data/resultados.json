@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-07-14T11:22:04.673931+00:00",
-  "data": "2026-07-14",
+  "gerado_em": "2026-07-15T11:25:48.992042+00:00",
+  "data": "2026-07-15",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 12,
+  "total": 13,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,18 @@
       "data": "Thu, 18 Se",
       "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
       "url": "https://noticias.stf.jus.br/2025/09/18/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "Conjur",
+      "label": "Conjur",
+      "titulo": "Lei de Organização Criminosa não retroage para punir fatos passados",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Wed, 15 Ju",
+      "data_iso": "Wed, 15 Jul 2026 10:31:54 +0000",
+      "url": "https://www.conjur.com.br/2026-jul-15/lei-de-organizacao-criminosa-nao-retroage-para-punir-fatos-passados/",
       "resumo_ia": ""
     },
     {
