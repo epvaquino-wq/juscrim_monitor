@@ -1,11 +1,23 @@
 {
-  "gerado_em": "2026-07-17T11:18:09.848582+00:00",
-  "data": "2026-07-17",
+  "gerado_em": "2026-07-18T10:57:26.543649+00:00",
+  "data": "2026-07-18",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 118,
+  "total": 115,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
+    {
+      "fonte": "STF",
+      "label": "STF — Notícias",
+      "titulo": "Modernização do Sistema de Justiça",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Fri, 17 Ju",
+      "data_iso": "Fri, 17 Jul 2026 18:56:13 +0000",
+      "url": "https://noticias.stf.jus.br/2026/07/17/modernizacao-do-sistema-de-justica/",
+      "resumo_ia": ""
+    },
     {
       "fonte": "STF",
       "label": "STF — Notícias",
@@ -115,15 +127,27 @@
       "resumo_ia": ""
     },
     {
-      "fonte": "STF",
-      "label": "STF — Notícias",
-      "titulo": "Audiência pública – Desafios econômicos e sociais da ‘pejotização’ no Brasil.",
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Página de Repetitivos inclui teses sobre créditos de PIS/Pasep e Cofins e sobre ICMS em operações interestaduais",
       "resumo": "",
       "numero": "",
       "relator": "",
-      "data": "Thu, 18 Se",
-      "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
-      "url": "https://noticias.stf.jus.br/2025/09/18/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
+      "data": "Sex, jul 1",
+      "data_iso": "Sex, jul 17 2026 13:15:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Competência para conversão de multa ambiental é tema de repetitivo",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, jul 1",
+      "data_iso": "Sex, jul 17 2026 08:30:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1335,66 +1359,6 @@
       "relator": "",
       "data": "Qui, jun 1",
       "data_iso": "Qui, jun 18 2026 07:40:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Corte Especial: embargos de divergência não servem para rediscutir modulação de efeitos em recurso repetitivo",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, jun 1",
-      "data_iso": "Qui, jun 18 2026 07:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "2º Congresso STJ da Primeira Instância Federal e Estadual conclui trabalhos com a aprovação de 149 enunciados",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, jun 1",
-      "data_iso": "Qua, jun 17 2026 15:55:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Podcast STJ No Seu Dia discute marcas e indicações geográficas",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, jun 1",
-      "data_iso": "Qua, jun 17 2026 09:20:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Página de Repetitivos destaca a incidência ou não de contribuição previdenciária patronal",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, jun 1",
-      "data_iso": "Qua, jun 17 2026 08:45:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Entender Direito traz panorama atualizado e acessível sobre astreintes a partir de precedentes do STJ",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, jun 1",
-      "data_iso": "Qua, jun 17 2026 08:10:00",
       "url": "",
       "resumo_ia": ""
     },
