@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-07-18T10:57:26.543649+00:00",
-  "data": "2026-07-18",
+  "gerado_em": "2026-07-19T11:06:32.228212+00:00",
+  "data": "2026-07-19",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 115,
+  "total": 112,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -1323,42 +1323,6 @@
       "relator": "",
       "data": "Sex, jun 1",
       "data_iso": "Sex, jun 19 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Nota à imprensa",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, jun 1",
-      "data_iso": "Qui, jun 18 2026 19:58:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Rádio Decidendi analisa repetitivo sobre prova de tempo de serviço em ações previdenciárias (Tema 1.188)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, jun 1",
-      "data_iso": "Qui, jun 18 2026 08:20:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Quando o Jogo Sai do Controle: confira o novo episódio da série sobre o futebol e o STJ",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, jun 1",
-      "data_iso": "Qui, jun 18 2026 07:40:00",
       "url": "",
       "resumo_ia": ""
     },
