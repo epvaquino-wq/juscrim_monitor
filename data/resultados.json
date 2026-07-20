@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-07-19T11:06:32.228212+00:00",
-  "data": "2026-07-19",
+  "gerado_em": "2026-07-20T12:12:17.299059+00:00",
+  "data": "2026-07-20",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 112,
+  "total": 110,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,30 @@
       "data": "Mon, 27 Oc",
       "data_iso": "Mon, 27 Oct 2025 15:14:25 +0000",
       "url": "https://noticias.stf.jus.br/2025/10/27/convenio-fortalece-lacos-entre-stf-e-tribunal-constitucional-do-chile/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Indenização decorrente da impossibilidade de adjudicação compulsória é imprescritível",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, jul 2",
+      "data_iso": "Seg, jul 20 2026 07:25:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Adicional da Cofins-Importação deve ser recolhido mesmo quando a alíquota da contribuição é zero",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, jul 2",
+      "data_iso": "Seg, jul 20 2026 07:00:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1267,63 +1291,15 @@
       "resumo_ia": ""
     },
     {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Inscrições para audiência sobre fortalecimento da sustentabilidade no Judiciário terminam nesta sexta (19)",
+      "fonte": "Conjur",
+      "label": "Conjur",
+      "titulo": "Crime organizado: afastamento do Tribunal do Júri é constitucional",
       "resumo": "",
       "numero": "",
       "relator": "",
-      "data": "Sex, jun 1",
-      "data_iso": "Sex, jun 19 2026 15:09:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Manutenção pode afetar sistemas do tribunal neste fim de semana (20 e 21)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jun 1",
-      "data_iso": "Sex, jun 19 2026 14:53:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Jurisprudência em Teses traz novos entendimentos sobre repactuação de dívidas por superendividamento",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jun 1",
-      "data_iso": "Sex, jun 19 2026 08:25:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Informativo aborda cobertura de cirurgia de feminização facial e continuidade delitiva em crimes previdenciários",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jun 1",
-      "data_iso": "Sex, jun 19 2026 07:40:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Pagamento da dívida que motivou ação de despejo não impede rescisão por atrasos durante o processo",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jun 1",
-      "data_iso": "Sex, jun 19 2026 07:00:00",
-      "url": "",
+      "data": "Mon, 20 Ju",
+      "data_iso": "Mon, 20 Jul 2026 09:02:58 +0000",
+      "url": "https://www.conjur.com.br/2026-jul-20/crime-organizado-afastamento-do-tribunal-do-juri-e-constitucional/",
       "resumo_ia": ""
     },
     {
