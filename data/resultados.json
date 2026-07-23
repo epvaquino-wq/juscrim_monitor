@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-07-22T11:44:04.135451+00:00",
-  "data": "2026-07-22",
+  "gerado_em": "2026-07-23T11:47:19.864683+00:00",
+  "data": "2026-07-23",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 112,
+  "total": 107,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,42 @@
       "data": "Mon, 27 Oc",
       "data_iso": "Mon, 27 Oct 2025 15:14:25 +0000",
       "url": "https://noticias.stf.jus.br/2025/10/27/convenio-fortalece-lacos-entre-stf-e-tribunal-constitucional-do-chile/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Primeira Seção definirá natureza de decisão que julga impugnação ao cumprimento de sentença",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, jul 2",
+      "data_iso": "Qui, jul 23 2026 07:45:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Devedor solidário não tem direito imediato à ação de regresso após pagar apenas parte da dívida comum",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, jul 2",
+      "data_iso": "Qui, jul 23 2026 07:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Podcast discute posse de drogas no presídio como falta grave e limites da decisão do STF sobre descriminalização",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, jul 2",
+      "data_iso": "Qua, jul 22 2026 08:20:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1227,102 +1263,6 @@
       "relator": "",
       "data": "Ter, jun 2",
       "data_iso": "Ter, jun 23 2026 16:54:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ Notícias traz decisão que autorizou participação de pessoa relativamente incapaz em holding familiar",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, jun 2",
-      "data_iso": "Ter, jun 23 2026 08:35:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Nova edição da obra de Amaro Cavalcanti sobre regime federativo será lançada nesta terça (23)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, jun 2",
-      "data_iso": "Ter, jun 23 2026 08:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Busca domiciliar baseada apenas no relato dos corréus é ilegal, decide Quinta Turma",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, jun 2",
-      "data_iso": "Ter, jun 23 2026 07:15:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Primeira Seção julga repetitivo e valida uso da “teimosinha” em execuções fiscais",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, jun 2",
-      "data_iso": "Ter, jun 23 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Brasil e Angola abrem em Luanda evento sobre modernização e boas práticas no Judiciário",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, jun 2",
-      "data_iso": "Seg, jun 22 2026 19:41:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Conferência do vice-presidente do STJ encerra encontro nacional sobre sistema de precedentes",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, jun 2",
-      "data_iso": "Seg, jun 22 2026 19:25:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Tribunal abre seleção para cadastro de reserva de estagiários de nível superior",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, jun 2",
-      "data_iso": "Seg, jun 22 2026 16:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Página de Repetitivos inclui teses sobre recuperação judicial e livramento condicional no tráfico de drogas",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, jun 2",
-      "data_iso": "Seg, jun 22 2026 08:20:00",
       "url": "",
       "resumo_ia": ""
     },
