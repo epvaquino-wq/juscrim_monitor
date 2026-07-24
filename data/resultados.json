@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-07-23T11:47:19.864683+00:00",
-  "data": "2026-07-23",
+  "gerado_em": "2026-07-24T11:37:50.548251+00:00",
+  "data": "2026-07-24",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 107,
+  "total": 105,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,42 @@
       "data": "Mon, 27 Oc",
       "data_iso": "Mon, 27 Oct 2025 15:14:25 +0000",
       "url": "https://noticias.stf.jus.br/2025/10/27/convenio-fortalece-lacos-entre-stf-e-tribunal-constitucional-do-chile/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Podcast STJ No Seu Dia discute atuação do assistente de acusação e limites recursais no processo penal",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, jul 2",
+      "data_iso": "Sex, jul 24 2026 08:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Insumo estrangeiro para anabolizantes, por si só, não atrai competência da Justiça Federal, decide Sexta Turma",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, jul 2",
+      "data_iso": "Sex, jul 24 2026 07:15:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Visita não solicitada a idosos para oferecer empréstimo consignado é assédio de consumo",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, jul 2",
+      "data_iso": "Sex, jul 24 2026 07:05:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1195,75 +1231,15 @@
       "resumo_ia": ""
     },
     {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Podcast STJ No Seu Dia discute multiparentalidade e alteração de sobrenome",
+      "fonte": "Jota",
+      "label": "Jota",
+      "titulo": "Colaboração premiada, os casos Youssef e Master e o paradoxo da dissuasão",
       "resumo": "",
       "numero": "",
       "relator": "",
-      "data": "Qua, jun 2",
-      "data_iso": "Qua, jun 24 2026 08:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ encerra semestre forense com sessão administrativa na próxima quarta (1º)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, jun 2",
-      "data_iso": "Qua, jun 24 2026 07:25:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Terceira Turma nega validade a testamento por email sem assinatura e sem testemunhas",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, jun 2",
-      "data_iso": "Qua, jun 24 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Pensão por morte e auxílio-reclusão a menores de 16 anos não retroagem se pedido é posterior ao prazo legal",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, jun 2",
-      "data_iso": "Qua, jun 24 2026 06:50:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Nova edição de clássico de Amaro Cavalcanti sobre regime federativo é lançada no STJ",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, jun 2",
-      "data_iso": "Ter, jun 23 2026 20:31:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Admitido recurso extraordinário sobre relativização da vulnerabilidade de vítima de estupro menor de 14 anos",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, jun 2",
-      "data_iso": "Ter, jun 23 2026 16:54:00",
-      "url": "",
+      "data": "Fri, 24 Ju",
+      "data_iso": "Fri, 24 Jul 2026 08:10:50 +0000",
+      "url": "https://www.jota.info/opiniao-e-analise/artigos/colaboracao-premiada-os-casos-youssef-e-master-e-o-paradoxo-da-dissuasao",
       "resumo_ia": ""
     },
     {
