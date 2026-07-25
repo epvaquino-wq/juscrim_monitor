@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-07-24T11:37:50.548251+00:00",
-  "data": "2026-07-24",
+  "gerado_em": "2026-07-25T11:04:59.258584+00:00",
+  "data": "2026-07-25",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 105,
+  "total": 102,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,30 @@
       "data": "Mon, 27 Oc",
       "data_iso": "Mon, 27 Oct 2025 15:14:25 +0000",
       "url": "https://noticias.stf.jus.br/2025/10/27/convenio-fortalece-lacos-entre-stf-e-tribunal-constitucional-do-chile/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Rádio Decidendi explica tese sobre intimação do devedor como pressuposto para multa coercitiva",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, jul 2",
+      "data_iso": "Sex, jul 24 2026 08:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Jurisprudência em Teses traz novos entendimentos sobre direito à educação",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, jul 2",
+      "data_iso": "Sex, jul 24 2026 08:35:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1167,66 +1191,6 @@
       "relator": "",
       "data": "Qui, jun 2",
       "data_iso": "Qui, jun 25 2026 07:50:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Quarta Turma reforma decisão que aplicou a Súmula 308 à alienação fiduciária de imóvel",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, jun 2",
-      "data_iso": "Qui, jun 25 2026 07:15:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Terceira Turma valida alienação por iniciativa particular que não seguiu o artigo 880 do CPC",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, jun 2",
-      "data_iso": "Qui, jun 25 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Divulgada lista de oradores da audiência pública sobre metas de sustentabilidade no Judiciário",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, jun 2",
-      "data_iso": "Qua, jun 24 2026 15:40:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Quando a Paixão Vira Produto, o último episódio da série sobre o futebol e o STJ",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, jun 2",
-      "data_iso": "Qua, jun 24 2026 09:15:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Página de Repetitivos inclui tese sobre pensão por morte e auxílio-reclusão para menores de 16 anos",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, jun 2",
-      "data_iso": "Qua, jun 24 2026 08:40:00",
       "url": "",
       "resumo_ia": ""
     },
