@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-07-25T11:04:59.258584+00:00",
-  "data": "2026-07-25",
+  "gerado_em": "2026-07-26T11:15:16.406392+00:00",
+  "data": "2026-07-26",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 102,
+  "total": 98,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -1156,54 +1156,6 @@
       "data": "Sex, jun 2",
       "data_iso": "Sex, jun 26 2026 06:55:00",
       "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Copa do Mundo: STJ terá ponto facultativo na segunda-feira (29)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, jun 2",
-      "data_iso": "Qui, jun 25 2026 16:19:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Rádio Decidendi discute aplicação da nova Lei de Improbidade aos processos em curso (Tema 1.257)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, jun 2",
-      "data_iso": "Qui, jun 25 2026 08:20:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Página de Repetitivos traz honorários em execução fiscal extinta por quitação extrajudicial e comutação de pena",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, jun 2",
-      "data_iso": "Qui, jun 25 2026 07:50:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "Jota",
-      "label": "Jota",
-      "titulo": "Colaboração premiada, os casos Youssef e Master e o paradoxo da dissuasão",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Fri, 24 Ju",
-      "data_iso": "Fri, 24 Jul 2026 08:10:50 +0000",
-      "url": "https://www.jota.info/opiniao-e-analise/artigos/colaboracao-premiada-os-casos-youssef-e-master-e-o-paradoxo-da-dissuasao",
       "resumo_ia": ""
     },
     {
