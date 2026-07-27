@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-07-26T11:15:16.406392+00:00",
-  "data": "2026-07-26",
+  "gerado_em": "2026-07-27T12:52:29.154355+00:00",
+  "data": "2026-07-27",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 98,
+  "total": 99,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,78 @@
       "data": "Mon, 27 Oc",
       "data_iso": "Mon, 27 Oct 2025 15:14:25 +0000",
       "url": "https://noticias.stf.jus.br/2025/10/27/convenio-fortalece-lacos-entre-stf-e-tribunal-constitucional-do-chile/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Salvo-conduto para cultivo de cannabis medicinal é tema da nova edição da Pesquisa Pronta",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, jul 2",
+      "data_iso": "Seg, jul 27 2026 09:15:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Edição extra do Informativo destaca partilha do FGTS no divórcio e base de cálculo da pensão alimentícia",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, jul 2",
+      "data_iso": "Seg, jul 27 2026 08:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ capacita 891 usuários do STJ Logos para utilização de IA generativa nos gabinetes",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, jul 2",
+      "data_iso": "Seg, jul 27 2026 08:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Sem regra específica da Susep, é válido prazo de 90 dias para indenização em contrato de proteção veicular",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, jul 2",
+      "data_iso": "Seg, jul 27 2026 07:35:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Valor da causa em rescisão de contrato built to suit deve seguir Lei do Inquilinato",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, jul 2",
+      "data_iso": "Seg, jul 27 2026 07:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Nota de pesar",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Dom, jul 2",
+      "data_iso": "Dom, jul 26 2026 18:32:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1095,66 +1167,6 @@
       "relator": "",
       "data": "Seg, jun 2",
       "data_iso": "Seg, jun 29 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Jurisprudência sobre arrendamento rural e extinção de contratos é tema do podcast STJ No Seu Dia",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jun 2",
-      "data_iso": "Sex, jun 26 2026 08:25:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Tribunal prorroga validade de processos seletivos de estágio abertos em 2024 e 2025",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jun 2",
-      "data_iso": "Sex, jun 26 2026 08:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Informativo aborda não cabimento de embargos de divergência para discutir modulação em recurso repetitivo",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jun 2",
-      "data_iso": "Sex, jun 26 2026 07:40:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Repetitivo discute chamamento ao processo em execução individual de sentença coletiva com réus solidários",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jun 2",
-      "data_iso": "Sex, jun 26 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Primeira Turma determina criação de plano para atuação da PM paulista em manifestações públicas",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jun 2",
-      "data_iso": "Sex, jun 26 2026 06:55:00",
       "url": "",
       "resumo_ia": ""
     },
