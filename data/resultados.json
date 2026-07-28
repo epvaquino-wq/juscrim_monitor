@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-07-27T12:52:29.154355+00:00",
-  "data": "2026-07-27",
+  "gerado_em": "2026-07-28T11:53:00.560453+00:00",
+  "data": "2026-07-28",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 99,
+  "total": 103,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,54 @@
       "data": "Mon, 27 Oc",
       "data_iso": "Mon, 27 Oct 2025 15:14:25 +0000",
       "url": "https://noticias.stf.jus.br/2025/10/27/convenio-fortalece-lacos-entre-stf-e-tribunal-constitucional-do-chile/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJN traz decisão que suspendeu liminar e autorizou retomada da construção de ponte em Tefé (AM)",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jul 2",
+      "data_iso": "Ter, jul 28 2026 08:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Sindicatos não têm legitimidade para ajuizar ação civil pública sobre repasses do Fundef/ Fundeb",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jul 2",
+      "data_iso": "Ter, jul 28 2026 07:20:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Lei Kandir é suficiente para cobrança do ICMS-Difal em operações destinadas a consumidor final contribuinte",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jul 2",
+      "data_iso": "Ter, jul 28 2026 07:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ nega seguimento a recurso que pretendia levar discussão sobre caso Robinho ao STF",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, jul 2",
+      "data_iso": "Seg, jul 27 2026 18:27:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
