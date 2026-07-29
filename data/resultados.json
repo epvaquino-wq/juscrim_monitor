@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-07-28T11:53:00.560453+00:00",
-  "data": "2026-07-28",
+  "gerado_em": "2026-07-29T11:57:27.119523+00:00",
+  "data": "2026-07-29",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 103,
+  "total": 107,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,66 @@
       "data": "Mon, 27 Oc",
       "data_iso": "Mon, 27 Oct 2025 15:14:25 +0000",
       "url": "https://noticias.stf.jus.br/2025/10/27/convenio-fortalece-lacos-entre-stf-e-tribunal-constitucional-do-chile/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Boletim STJ Notícias chega a 20 mil assinantes; saiba como se cadastrar",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, jul 2",
+      "data_iso": "Qua, jul 29 2026 08:25:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Reportagem especial aborda os desafios da proteção de crianças e adolescentes no ambiente digital",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, jul 2",
+      "data_iso": "Qua, jul 29 2026 08:15:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Segurado com HIV, mesmo assintomático, tem direito à indenização por invalidez funcional permanente",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, jul 2",
+      "data_iso": "Qua, jul 29 2026 07:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ julgou 39 temas repetitivos no primeiro semestre de 2026; confira todas as teses fixadas",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, jul 2",
+      "data_iso": "Qua, jul 29 2026 07:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Página de Repetitivos publica tese sobre remição de pena por aprovação no Enem e no Encceja",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, jul 2",
+      "data_iso": "Ter, jul 28 2026 08:35:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1203,18 +1263,6 @@
       "relator": "",
       "data": "Ter, jun 3",
       "data_iso": "Ter, jun 30 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Prazos processuais ficam suspensos entre os dias 2 e 31 de julho",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, jun 2",
-      "data_iso": "Seg, jun 29 2026 07:00:00",
       "url": "",
       "resumo_ia": ""
     },
