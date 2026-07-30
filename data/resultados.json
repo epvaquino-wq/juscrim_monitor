@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-07-29T11:57:27.119523+00:00",
-  "data": "2026-07-29",
+  "gerado_em": "2026-07-30T11:47:26.600921+00:00",
+  "data": "2026-07-30",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
   "total": 107,
@@ -124,6 +124,42 @@
       "data": "Mon, 27 Oc",
       "data_iso": "Mon, 27 Oct 2025 15:14:25 +0000",
       "url": "https://noticias.stf.jus.br/2025/10/27/convenio-fortalece-lacos-entre-stf-e-tribunal-constitucional-do-chile/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Valor de indenização por dano moral deve considerar convivência e dependência emocional ou econômica",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, jul 3",
+      "data_iso": "Qui, jul 30 2026 07:35:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Homologação de desistência após contestação, mesmo espontânea, não evita condenação em honorários",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, jul 3",
+      "data_iso": "Qui, jul 30 2026 07:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Podcast STJ No Seu Dia discute o FGC e a proteção dos investidores no sistema financeiro",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, jul 2",
+      "data_iso": "Qua, jul 29 2026 08:45:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1227,42 +1263,6 @@
       "relator": "",
       "data": "Ter, jun 3",
       "data_iso": "Ter, jun 30 2026 08:20:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Página de Repetitivos inclui tese sobre continuidade delitiva em crimes previdenciários",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, jun 3",
-      "data_iso": "Ter, jun 30 2026 07:50:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Primeira Seção cancela dois temas repetitivos sobre contribuição previdenciária patronal",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, jun 3",
-      "data_iso": "Ter, jun 30 2026 07:15:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Quarta Turma afasta usucapião familiar sobre parte de imóvel com área total superior a 250 m²",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, jun 3",
-      "data_iso": "Ter, jun 30 2026 07:00:00",
       "url": "",
       "resumo_ia": ""
     },
