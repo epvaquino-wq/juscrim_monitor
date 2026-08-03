@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-08-02T11:12:48.034526+00:00",
-  "data": "2026-08-02",
+  "gerado_em": "2026-08-03T12:52:07.252345+00:00",
+  "data": "2026-08-03",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 98,
+  "total": 94,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,42 @@
       "data": "Mon, 27 Oc",
       "data_iso": "Mon, 27 Oct 2025 15:14:25 +0000",
       "url": "https://noticias.stf.jus.br/2025/10/27/convenio-fortalece-lacos-entre-stf-e-tribunal-constitucional-do-chile/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Portal do STJ conta com novo assistente virtual para atendimento ao público",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, ago 3",
+      "data_iso": "Seg, ago 3 2026 08:35:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Proteção contra penhora de até 40 salários mínimos não se aplica a entidades sem fins lucrativos",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, ago 3",
+      "data_iso": "Seg, ago 3 2026 07:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Tribunal afasta aplicação dos limites da Lei 9.639/1998 aos bloqueios do FPM por débitos previdenciários",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, ago 3",
+      "data_iso": "Seg, ago 3 2026 07:00:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1071,90 +1107,6 @@
       "relator": "",
       "data": "Sex, jul 3",
       "data_iso": "Sex, jul 3 2026 19:03:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ No Seu Dia discute guarda compartilhada e melhor interesse da criança",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jul 3",
-      "data_iso": "Sex, jul 3 2026 08:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Informativo aborda atuação da PM paulista e competência em casos de insumo estrangeiro para anabolizantes",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jul 3",
-      "data_iso": "Sex, jul 3 2026 07:40:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Repetitivo discute aplicação analógica da Lei 8.112 para suprir omissão de lei local sobre prescrição de infrações",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jul 3",
-      "data_iso": "Sex, jul 3 2026 07:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Primeiro repetitivo julgado em sessão totalmente virtual define requisitos para justiça gratuita a pessoas jurídicas",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jul 3",
-      "data_iso": "Sex, jul 3 2026 06:50:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "SEI fica indisponível neste fim de semana",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, jul 2",
-      "data_iso": "Qui, jul 2 2026 18:34:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Rádio Decidendi discute tese sobre critérios para concessão da gratuidade de justiça (Tema 1.178)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, jul 2",
-      "data_iso": "Qui, jul 2 2026 08:40:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Necessidade de prova para PJ obter gratuidade de justiça é destaque da Página de Repetitivos",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, jul 2",
-      "data_iso": "Qui, jul 2 2026 07:55:00",
       "url": "",
       "resumo_ia": ""
     },
