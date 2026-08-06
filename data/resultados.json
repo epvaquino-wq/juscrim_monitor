@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-08-05T11:53:43.566299+00:00",
-  "data": "2026-08-05",
+  "gerado_em": "2026-08-06T11:59:17.589570+00:00",
+  "data": "2026-08-06",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 107,
+  "total": 110,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,54 @@
       "data": "Thu, 18 Se",
       "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
       "url": "https://noticias.stf.jus.br/2025/09/18/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Ministra Nancy Andrighi é finalista do 3º Prêmio Jabuti Acadêmico com obra sobre herança digital",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, ago 6",
+      "data_iso": "Qui, ago 6 2026 08:25:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ definirá data final do abatimento da dívida do Fies para profissionais que atuaram no SUS durante a pandemia",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, ago 6",
+      "data_iso": "Qui, ago 6 2026 07:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Ação regressiva de seguradora sub-rogada por danos em carga de navio prescreve em um ano",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, ago 6",
+      "data_iso": "Qui, ago 6 2026 07:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ vê lesão a direitos difusos e mantém condenação de empresa por alterar fórmula de agrotóxicos",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, ago 6",
+      "data_iso": "Qui, ago 6 2026 06:55:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -261,6 +309,18 @@
     {
       "fonte": "STJ",
       "label": "STJ — Notícias",
+      "titulo": "Participantes do Congresso STJ Brasil-Japão debatem tendências no direito privado, comércio e investimentos",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, ago 3",
+      "data_iso": "Seg, ago 3 2026 21:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
       "titulo": "STJ promove nesta terça (4) evento sobre controle judicial da arbitragem",
       "resumo": "",
       "numero": "",
@@ -279,6 +339,18 @@
       "relator": "",
       "data": "Seg, ago 3",
       "data_iso": "Seg, ago 3 2026 16:21:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "2º Congresso STJ Brasil-Japão debate desafios contemporâneos do direito privado",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, ago 3",
+      "data_iso": "Seg, ago 3 2026 15:00:00",
       "url": "",
       "resumo_ia": ""
     },
@@ -1227,42 +1299,6 @@
       "relator": "",
       "data": "Ter, jul 7",
       "data_iso": "Ter, jul 7 2026 06:50:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Estatuto da Pessoa com Deficiência: mais de uma década consolidando direitos",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, jul 6",
-      "data_iso": "Seg, jul 6 2026 08:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Repetitivo vai definir se precatório e RPV podem ser expedidos antes do trânsito em julgado",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, jul 6",
-      "data_iso": "Seg, jul 6 2026 07:15:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "É possível partilha amigável com divisão desigual dos quinhões hereditários, decide Terceira Turma",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, jul 6",
-      "data_iso": "Seg, jul 6 2026 07:00:00",
       "url": "",
       "resumo_ia": ""
     },
