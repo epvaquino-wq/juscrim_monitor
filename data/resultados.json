@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-08-06T11:59:17.589570+00:00",
-  "data": "2026-08-06",
+  "gerado_em": "2026-08-07T10:46:40.597812+00:00",
+  "data": "2026-08-07",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 110,
+  "total": 115,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,90 @@
       "data": "Thu, 18 Se",
       "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
       "url": "https://noticias.stf.jus.br/2025/09/18/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Juiz pode fixar percentual do salário mínimo como valor da pensão para o caso de desemprego do alimentante",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, ago 7",
+      "data_iso": "Sex, ago 7 2026 07:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Tribunal não terá expediente na segunda (10) e na terça-feira (11)",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, ago 6",
+      "data_iso": "Qui, ago 6 2026 16:17:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Nota à imprensa",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, ago 6",
+      "data_iso": "Qui, ago 6 2026 14:21:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ lança pedra fundamental de último bloco projetado por Oscar Niemeyer",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, ago 6",
+      "data_iso": "Qui, ago 6 2026 10:40:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Ao incorporar coleções de três grandes juristas, Biblioteca STJ-Enfam aumentará acervo em 85%",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, ago 6",
+      "data_iso": "Qui, ago 6 2026 09:40:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Entenda a Decisão traz tese sobre cancelamento pelo INSS do benefício por incapacidade obtido judicialmente",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, ago 6",
+      "data_iso": "Qui, ago 6 2026 09:30:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Tese sobre interrogatório de adolescente em apuração de ato infracional é tema do podcast Rádio Decidendi",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, ago 6",
+      "data_iso": "Qui, ago 6 2026 09:00:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1275,30 +1359,6 @@
       "relator": "",
       "data": "Ter, jul 7",
       "data_iso": "Ter, jul 7 2026 07:40:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Repetitivo discute se falta de resposta a pedido de gratuidade de justiça implica deferimento tácito",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, jul 7",
-      "data_iso": "Ter, jul 7 2026 07:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Segunda Turma afasta possibilidade de reconhecimento de papiloscopistas da PF como peritos oficiais",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, jul 7",
-      "data_iso": "Ter, jul 7 2026 06:50:00",
       "url": "",
       "resumo_ia": ""
     },
