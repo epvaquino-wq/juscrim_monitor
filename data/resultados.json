@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-08-07T10:46:40.597812+00:00",
-  "data": "2026-08-07",
+  "gerado_em": "2026-08-08T10:24:49.624776+00:00",
+  "data": "2026-08-08",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 115,
+  "total": 116,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,54 @@
       "data": "Thu, 18 Se",
       "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
       "url": "https://noticias.stf.jus.br/2025/09/18/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Terceira Turma antecipa sessão do dia 18 de agosto para as 13h",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, ago 7",
+      "data_iso": "Sex, ago 7 2026 08:35:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Lei Maria da Penha, 20 anos: reportagem mostra como o STJ tem fortalecido o combate à violência doméstica",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, ago 7",
+      "data_iso": "Sex, ago 7 2026 08:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Tribunal vai definir data-base para benefícios da execução penal em caso de prisão descontínua",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, ago 7",
+      "data_iso": "Sex, ago 7 2026 08:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Mantida condenação de suposto membro do PCC a mais de 87 anos por cinco homicídios e ocultação de cadáver",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, ago 7",
+      "data_iso": "Sex, ago 7 2026 07:20:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1323,42 +1371,6 @@
       "relator": "",
       "data": "Qua, jul 8",
       "data_iso": "Qua, jul 8 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Plano para atuação da PM paulista em manifestações públicas é destaque no STJ Notícias",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, jul 7",
-      "data_iso": "Ter, jul 7 2026 08:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Divulgados relatórios preliminares sobre Estado de Direito e ética judicial",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, jul 7",
-      "data_iso": "Ter, jul 7 2026 08:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Entenda a Decisão traz tese sobre uso de relatório policial produzido por IA generativa em ação penal",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, jul 7",
-      "data_iso": "Ter, jul 7 2026 07:40:00",
       "url": "",
       "resumo_ia": ""
     },
