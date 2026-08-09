@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-08-08T10:24:49.624776+00:00",
-  "data": "2026-08-08",
+  "gerado_em": "2026-08-09T10:27:16.461598+00:00",
+  "data": "2026-08-09",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 116,
+  "total": 113,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -1335,42 +1335,6 @@
       "relator": "",
       "data": "Qui, jul 9",
       "data_iso": "Qui, jul 9 2026 07:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ No Seu Dia discute critérios para aplicação de causas de aumento de pena",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, jul 8",
-      "data_iso": "Qua, jul 8 2026 08:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Base de cálculo de honorários em ações que visam à baixa de gravame hipotecário é tema de repetitivo",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, jul 8",
-      "data_iso": "Qua, jul 8 2026 07:15:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Primeira Turma reconhece dano moral coletivo pela demora na demarcação de território quilombola em Sergipe",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, jul 8",
-      "data_iso": "Qua, jul 8 2026 07:00:00",
       "url": "",
       "resumo_ia": ""
     },
