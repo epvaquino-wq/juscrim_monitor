@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-08-09T10:27:16.461598+00:00",
-  "data": "2026-08-09",
+  "gerado_em": "2026-08-10T11:02:11.923904+00:00",
+  "data": "2026-08-10",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 113,
+  "total": 107,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -1263,78 +1263,6 @@
       "relator": "",
       "data": "Sex, jul 1",
       "data_iso": "Sex, jul 10 2026 08:15:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Página de Repetitivos inclui precedente sobre cálculo para progressão de regime penal",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jul 1",
-      "data_iso": "Sex, jul 10 2026 07:50:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Após a Lei 14.752/2023, Justiça não pode multar advogados por abandono de causa",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jul 1",
-      "data_iso": "Sex, jul 10 2026 07:15:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Regime monofásico de tributação impede créditos de PIS/Pasep e Cofins para postos de combustíveis",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jul 1",
-      "data_iso": "Sex, jul 10 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Rádio Decidendi discute efeitos do depósito judicial na execução após julgamento do Tema 677",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, jul 9",
-      "data_iso": "Qui, jul 9 2026 08:45:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Cirurgia de feminização facial no processo transexualizador é de cobertura obrigatória pelos planos de saúde",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, jul 9",
-      "data_iso": "Qui, jul 9 2026 07:50:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Contribuição previdenciária: repetitivo veda continuidade delitiva entre apropriação indébita e sonegação",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, jul 9",
-      "data_iso": "Qui, jul 9 2026 07:05:00",
       "url": "",
       "resumo_ia": ""
     },
