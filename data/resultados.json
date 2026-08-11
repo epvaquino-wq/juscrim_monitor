@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-08-10T11:02:11.923904+00:00",
-  "data": "2026-08-10",
+  "gerado_em": "2026-08-11T10:44:45.965801+00:00",
+  "data": "2026-08-11",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
   "total": 107,
@@ -124,6 +124,18 @@
       "data": "Thu, 18 Se",
       "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
       "url": "https://noticias.stf.jus.br/2025/09/18/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Julgamento sobre participação de “olheiro” no tráfico de drogas é destaque do STJN",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, ago 1",
+      "data_iso": "Ter, ago 11 2026 07:25:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1251,18 +1263,6 @@
       "relator": "",
       "data": "Sáb, jul 1",
       "data_iso": "Sáb, jul 11 2026 09:27:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ No Seu Dia discute sigilo médico e responsabilidade civil no atendimento de menores",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jul 1",
-      "data_iso": "Sex, jul 10 2026 08:15:00",
       "url": "",
       "resumo_ia": ""
     },
