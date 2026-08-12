@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-08-11T10:44:45.965801+00:00",
-  "data": "2026-08-11",
+  "gerado_em": "2026-08-12T10:55:36.548007+00:00",
+  "data": "2026-08-12",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
   "total": 107,
@@ -124,6 +124,18 @@
       "data": "Thu, 18 Se",
       "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
       "url": "https://noticias.stf.jus.br/2025/09/18/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Primeira Seção decide que prescrição do fundo de direito exige negativa expressa da administração",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, ago 1",
+      "data_iso": "Qua, ago 12 2026 07:00:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1251,18 +1263,6 @@
       "relator": "",
       "data": "Seg, jul 1",
       "data_iso": "Seg, jul 13 2026 06:55:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Tribunal ultrapassa 200 mil minutas elaboradas com auxílio de juízes temporários; passivo das seções cai à metade",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sáb, jul 1",
-      "data_iso": "Sáb, jul 11 2026 09:27:00",
       "url": "",
       "resumo_ia": ""
     },
