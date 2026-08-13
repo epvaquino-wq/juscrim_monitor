@@ -1,11 +1,47 @@
 {
-  "gerado_em": "2026-08-12T10:55:36.548007+00:00",
-  "data": "2026-08-12",
+  "gerado_em": "2026-08-13T10:56:41.931622+00:00",
+  "data": "2026-08-13",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 107,
+  "total": 111,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
+    {
+      "fonte": "STF",
+      "label": "STF — Notícias",
+      "titulo": "Audiência pública – Marco Legal do Combate ao Crime Organizado",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Wed, 12 Au",
+      "data_iso": "Wed, 12 Aug 2026 20:38:23 +0000",
+      "url": "https://noticias.stf.jus.br/2026/08/12/audiencia-publica-marco-legal-do-combate-ao-crime-organizado/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STF",
+      "label": "STF — Notícias",
+      "titulo": "Do Plenário à Agenda 2030",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Wed, 12 Au",
+      "data_iso": "Wed, 12 Aug 2026 13:00:00 +0000",
+      "url": "https://noticias.stf.jus.br/2026/08/12/do-plenario-a-agenda-2030/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STF",
+      "label": "STF — Notícias",
+      "titulo": "Confira as matérias especiais da série ‘Do Plenário à Agenda 2030’",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Mon, 10 Au",
+      "data_iso": "Mon, 10 Aug 2026 03:00:00 +0000",
+      "url": "https://noticias.stf.jus.br/2026/08/10/confira-as-materias-especiais-da-serie-do-plenario-a-agenda-2030/",
+      "resumo_ia": ""
+    },
     {
       "fonte": "STF",
       "label": "STF — Notícias",
@@ -33,18 +69,6 @@
     {
       "fonte": "STF",
       "label": "STF — Notícias",
-      "titulo": "Relatório – 8 de janeiro",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sun, 05 Ap",
-      "data_iso": "Sun, 05 Apr 2026 15:47:00 +0000",
-      "url": "https://noticias.stf.jus.br/2026/04/05/relatorio-8-de-janeiro/",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STF",
-      "label": "STF — Notícias",
       "titulo": "STF restabelece adicional de periculosidade a guardas municipais de Santo André (SP)",
       "resumo": "",
       "numero": "",
@@ -52,18 +76,6 @@
       "data": "Mon, 02 Ma",
       "data_iso": "Mon, 02 Mar 2026 18:49:47 +0000",
       "url": "https://noticias.stf.jus.br/2026/03/02/stf-restabelece-adicional-de-periculosidade-a-guardas-municipais-de-santo-andre-sp/",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STF",
-      "label": "STF — Notícias",
-      "titulo": "Hotsite 135 anos do STF",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Thu, 26 Fe",
-      "data_iso": "Thu, 26 Feb 2026 17:31:37 +0000",
-      "url": "https://noticias.stf.jus.br/2026/02/26/hotsite-135-anos-do-stf/",
       "resumo_ia": ""
     },
     {
@@ -115,15 +127,75 @@
       "resumo_ia": ""
     },
     {
-      "fonte": "STF",
-      "label": "STF — Notícias",
-      "titulo": "Audiência pública – Desafios econômicos e sociais da ‘pejotização’ no Brasil.",
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Ação de exigir contas contra administrador de empresa não depende da inclusão do autor no contrato social",
       "resumo": "",
       "numero": "",
       "relator": "",
-      "data": "Thu, 18 Se",
-      "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
-      "url": "https://noticias.stf.jus.br/2025/09/18/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
+      "data": "Qui, ago 1",
+      "data_iso": "Qui, ago 13 2026 07:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ afasta prescrição em ação indenizatória sobre os Crimes de Maio; pedidos serão analisados pela Justiça paulista",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, ago 1",
+      "data_iso": "Qua, ago 12 2026 20:37:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Nova direção do STJ toma posse em 19 de agosto; profissionais de imprensa devem se credenciar",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, ago 1",
+      "data_iso": "Qua, ago 12 2026 12:44:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Sessão da Terceira Seção marcada para esta quarta (12) acontece no plenário da Corte Especial",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, ago 1",
+      "data_iso": "Qua, ago 12 2026 09:33:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Nova edição da Pesquisa Pronta destaca entendimentos sobre a aplicação da Lei Maria da Penha",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, ago 1",
+      "data_iso": "Qua, ago 12 2026 08:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Poderes para atuação extrajudicial não limitam procuração geral para o foro",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, ago 1",
+      "data_iso": "Qua, ago 12 2026 07:15:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -501,7 +573,7 @@
     {
       "fonte": "STJ",
       "label": "STJ — Notícias",
-      "titulo": "2º Congresso STJ Brasil-Japão debate desafios contemporâneos do direito privado",
+      "titulo": "STJ registra aumento de 8% no número de processos recebidos durante o plantão judiciário de julho",
       "resumo": "",
       "numero": "",
       "relator": "",
@@ -513,7 +585,7 @@
     {
       "fonte": "STJ",
       "label": "STJ — Notícias",
-      "titulo": "STJ registra aumento de 8% no número de processos recebidos durante o plantão judiciário de julho",
+      "titulo": "2º Congresso STJ Brasil-Japão debate desafios contemporâneos do direito privado",
       "resumo": "",
       "numero": "",
       "relator": "",
@@ -1239,30 +1311,6 @@
       "relator": "",
       "data": "Ter, jul 1",
       "data_iso": "Ter, jul 14 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Furto de bilhete premiado em lotérica deve ser julgado pela Justiça estadual",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, jul 1",
-      "data_iso": "Seg, jul 13 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Direito de retenção por benfeitorias não se aplica a locatário inadimplente, decide Terceira Turma",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, jul 1",
-      "data_iso": "Seg, jul 13 2026 06:55:00",
       "url": "",
       "resumo_ia": ""
     },
