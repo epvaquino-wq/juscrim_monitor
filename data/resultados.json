@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-08-13T10:56:41.931622+00:00",
-  "data": "2026-08-13",
+  "gerado_em": "2026-08-14T10:53:08.616407+00:00",
+  "data": "2026-08-14",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 111,
+  "total": 115,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,66 @@
       "data": "Mon, 27 Oc",
       "data_iso": "Mon, 27 Oct 2025 15:14:25 +0000",
       "url": "https://noticias.stf.jus.br/2025/10/27/convenio-fortalece-lacos-entre-stf-e-tribunal-constitucional-do-chile/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Prisão em flagrante de mãe em estado diverso da morada dos filhos não impede concessão de regime domiciliar",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, ago 1",
+      "data_iso": "Sex, ago 14 2026 07:15:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Primeira Turma mantém multa do Ibama a importadora que comprou 158 borboletas mortas da China",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, ago 1",
+      "data_iso": "Sex, ago 14 2026 06:55:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Sexta Turma antecipa sessão do dia 18 de agosto para as 13h",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, ago 1",
+      "data_iso": "Qui, ago 13 2026 09:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Informativo destaca decisão sobre impenhorabilidade de bem de família de alto valor",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, ago 1",
+      "data_iso": "Qui, ago 13 2026 08:25:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Repetitivo definirá se isenção de honorários para a Fazenda Nacional abrange casos não previstos em lei",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, ago 1",
+      "data_iso": "Qui, ago 13 2026 07:50:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -573,7 +633,7 @@
     {
       "fonte": "STJ",
       "label": "STJ — Notícias",
-      "titulo": "STJ registra aumento de 8% no número de processos recebidos durante o plantão judiciário de julho",
+      "titulo": "2º Congresso STJ Brasil-Japão debate desafios contemporâneos do direito privado",
       "resumo": "",
       "numero": "",
       "relator": "",
@@ -585,7 +645,7 @@
     {
       "fonte": "STJ",
       "label": "STJ — Notícias",
-      "titulo": "2º Congresso STJ Brasil-Japão debate desafios contemporâneos do direito privado",
+      "titulo": "STJ registra aumento de 8% no número de processos recebidos durante o plantão judiciário de julho",
       "resumo": "",
       "numero": "",
       "relator": "",
@@ -1299,18 +1359,6 @@
       "relator": "",
       "data": "Ter, jul 1",
       "data_iso": "Ter, jul 14 2026 07:45:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Repetitivo admite retroatividade do Pacote Anticrime em execução penal unificada",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, jul 1",
-      "data_iso": "Ter, jul 14 2026 07:10:00",
       "url": "",
       "resumo_ia": ""
     },
