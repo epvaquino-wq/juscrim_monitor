@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-08-14T10:53:08.616407+00:00",
-  "data": "2026-08-14",
+  "gerado_em": "2026-08-15T10:16:03.519754+00:00",
+  "data": "2026-08-15",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 115,
+  "total": 113,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -129,6 +129,42 @@
     {
       "fonte": "STJ",
       "label": "STJ — Notícias",
+      "titulo": "Podcast STJ No Seu Dia discute jurisprudência sobre informações em rótulos de produtos",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, ago 1",
+      "data_iso": "Sex, ago 14 2026 08:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Rádio Decidendi analisa precedente qualificado sobre proteção do bem de família (Tema 1.261)",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, ago 1",
+      "data_iso": "Sex, ago 14 2026 08:25:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Tribunal definirá critério para valor da causa em ações que discutem regularidade de fases de concurso público",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, ago 1",
+      "data_iso": "Sex, ago 14 2026 08:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
       "titulo": "Prisão em flagrante de mãe em estado diverso da morada dos filhos não impede concessão de regime domiciliar",
       "resumo": "",
       "numero": "",
@@ -219,6 +255,18 @@
       "relator": "",
       "data": "Qua, ago 1",
       "data_iso": "Qua, ago 12 2026 12:44:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ e Itamaraty inauguram exposição sobre memória diplomático-jurídica brasileira",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, ago 1",
+      "data_iso": "Qua, ago 12 2026 11:00:00",
       "url": "",
       "resumo_ia": ""
     },
@@ -1287,78 +1335,6 @@
       "relator": "",
       "data": "Qua, jul 1",
       "data_iso": "Qua, jul 15 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Câmara aprova regulamentação da relevância para admissão do recurso especial; projeto vai à sanção",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, jul 1",
-      "data_iso": "Ter, jul 14 2026 19:18:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Entender Direito mostra desafios, avanços e perspectivas da IA na admissibilidade recursal",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, jul 1",
-      "data_iso": "Ter, jul 14 2026 11:41:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Pessoas trans: cobertura de cirurgias e escolha de presídio são temas da Pesquisa Pronta",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, jul 1",
-      "data_iso": "Ter, jul 14 2026 09:15:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJN traz decisão que reafirma dever de cobertura de cirurgia de feminização facial",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, jul 1",
-      "data_iso": "Ter, jul 14 2026 08:40:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ aplica fungibilidade após juízo induzir recorrente em erro sobre natureza da decisão",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, jul 1",
-      "data_iso": "Ter, jul 14 2026 08:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Mantida prisão preventiva de homem acusado de atuar como falso médico em Cananéia (SP)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, jul 1",
-      "data_iso": "Ter, jul 14 2026 07:45:00",
       "url": "",
       "resumo_ia": ""
     },
