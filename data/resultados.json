@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-08-15T10:16:03.519754+00:00",
-  "data": "2026-08-15",
+  "gerado_em": "2026-08-16T10:16:41.731651+00:00",
+  "data": "2026-08-16",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 113,
+  "total": 108,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -1275,66 +1275,6 @@
       "relator": "",
       "data": "Qui, jul 1",
       "data_iso": "Qui, jul 16 2026 07:55:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Repetitivo fixa tese sobre prova de desemprego para extensão do período de graça previdenciária",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, jul 1",
-      "data_iso": "Qui, jul 16 2026 07:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Podcast STJ No Seu Dia discute partilha de bens no divórcio e exigência de formalização em acordos patrimoniais",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, jul 1",
-      "data_iso": "Qua, jul 15 2026 08:35:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Recurso repetitivo discute legitimidade passiva nas ações que envolvem o Fies",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, jul 1",
-      "data_iso": "Qua, jul 15 2026 07:50:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Registro no SCR não equivale a cadastro de negativados e exige apenas comunicação prévia ao cliente na concessão do crédito",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, jul 1",
-      "data_iso": "Qua, jul 15 2026 07:40:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Sem transações incompatíveis com perfil de cliente, banco não responde por golpe da falsa central",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, jul 1",
-      "data_iso": "Qua, jul 15 2026 07:10:00",
       "url": "",
       "resumo_ia": ""
     },
