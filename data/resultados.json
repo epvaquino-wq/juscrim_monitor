@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-08-16T10:16:41.731651+00:00",
-  "data": "2026-08-16",
+  "gerado_em": "2026-08-17T10:25:49.248081+00:00",
+  "data": "2026-08-17",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
   "total": 108,
@@ -124,6 +124,42 @@
       "data": "Mon, 27 Oc",
       "data_iso": "Mon, 27 Oct 2025 15:14:25 +0000",
       "url": "https://noticias.stf.jus.br/2025/10/27/convenio-fortalece-lacos-entre-stf-e-tribunal-constitucional-do-chile/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "1º Fórum STJ Brasil-Argentina de Direito começa nesta segunda (17), com transmissão ao vivo",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, ago 1",
+      "data_iso": "Seg, ago 17 2026 07:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Quinta Turma reafirma que envio de pornografia pela internet pode configurar importunação sexual",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, ago 1",
+      "data_iso": "Seg, ago 17 2026 06:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Os precedentes cíveis e penais do STJ sobre o uso medicinal da cannabis",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Dom, ago 1",
+      "data_iso": "Dom, ago 16 2026 07:05:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1239,42 +1275,6 @@
       "relator": "",
       "data": "Sex, jul 1",
       "data_iso": "Sex, jul 17 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Sistema Justiça poderá sofrer oscilações no fim de semana",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, jul 1",
-      "data_iso": "Qui, jul 16 2026 15:54:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Rádio Decidendi discute limites para substituição da Certidão de Dívida Ativa (Tema 1.350)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, jul 1",
-      "data_iso": "Qui, jul 16 2026 08:40:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Paciente que obteve restituição por erro em cirurgia odontológica não pode exigir custeio de nova operação",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, jul 1",
-      "data_iso": "Qui, jul 16 2026 07:55:00",
       "url": "",
       "resumo_ia": ""
     },
