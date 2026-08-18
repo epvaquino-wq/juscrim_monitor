@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-08-17T10:25:49.248081+00:00",
-  "data": "2026-08-17",
+  "gerado_em": "2026-08-18T10:21:16.505295+00:00",
+  "data": "2026-08-18",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
   "total": 108,
@@ -124,6 +124,42 @@
       "data": "Mon, 27 Oc",
       "data_iso": "Mon, 27 Oct 2025 15:14:25 +0000",
       "url": "https://noticias.stf.jus.br/2025/10/27/convenio-fortalece-lacos-entre-stf-e-tribunal-constitucional-do-chile/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Terceira Seção fixa em repetitivo teses sobre remição da pena por aprovação no Enem e no Encceja",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, ago 1",
+      "data_iso": "Ter, ago 18 2026 06:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ Entrevista traz debate sobre direito civil comparado entre Brasil e Argentina",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, ago 1",
+      "data_iso": "Seg, ago 17 2026 11:44:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Para Primeira Turma, falta de demonstração de dolo específico impede configuração de nepotismo",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, ago 1",
+      "data_iso": "Seg, ago 17 2026 07:40:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1239,42 +1275,6 @@
       "relator": "",
       "data": "Seg, jul 2",
       "data_iso": "Seg, jul 20 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Página de Repetitivos inclui teses sobre créditos de PIS/Pasep e Cofins e sobre ICMS em operações interestaduais",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jul 1",
-      "data_iso": "Sex, jul 17 2026 13:15:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Competência para conversão de multa ambiental é tema de repetitivo",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jul 1",
-      "data_iso": "Sex, jul 17 2026 08:30:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Terceira Turma reafirma direito do leiloeiro à comissão mesmo com quitação da dívida após arrematação",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jul 1",
-      "data_iso": "Sex, jul 17 2026 07:10:00",
       "url": "",
       "resumo_ia": ""
     },
