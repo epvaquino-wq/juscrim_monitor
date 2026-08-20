@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-08-19T10:21:57.284096+00:00",
-  "data": "2026-08-19",
+  "gerado_em": "2026-08-20T10:22:56.446308+00:00",
+  "data": "2026-08-20",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 119,
+  "total": 128,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,114 @@
       "data": "Mon, 27 Oc",
       "data_iso": "Mon, 27 Oct 2025 15:14:25 +0000",
       "url": "https://noticias.stf.jus.br/2025/10/27/convenio-fortalece-lacos-entre-stf-e-tribunal-constitucional-do-chile/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Procurador-geral da República e presidente da OAB cumprimentam a nova gestão da corte",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, ago 1",
+      "data_iso": "Qua, ago 19 2026 21:45:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Ministro Francisco Falcão enaltece qualificação dos novos dirigentes do tribunal",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, ago 1",
+      "data_iso": "Qua, ago 19 2026 21:40:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Luis Felipe Salomão assume presidência do STJ com foco em retomada da vocação da corte",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, ago 1",
+      "data_iso": "Qua, ago 19 2026 21:35:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Herman Benjamin encerra gestão na presidência do STJ com homenagens na Corte Especial",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, ago 1",
+      "data_iso": "Qua, ago 19 2026 17:31:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Curso do STJ sobre equidade racial ganha versão em espanhol e amplia alcance internacional da formação",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, ago 1",
+      "data_iso": "Qua, ago 19 2026 10:35:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Podcast discute responsabilização de presos por tráfico em presídios e perspectiva de gênero",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, ago 1",
+      "data_iso": "Qua, ago 19 2026 08:35:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Previdência complementar: devolução de benefícios após revogação de liminar prescreve em dez anos",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, ago 1",
+      "data_iso": "Qua, ago 19 2026 08:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Primeira Turma valida controle judicial em acordo de não persecução civil e reparação conforme participação no dano",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, ago 1",
+      "data_iso": "Qua, ago 19 2026 07:40:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Novos dirigentes da corte tomam posse nesta quarta (19), com transmissão ao vivo",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, ago 1",
+      "data_iso": "Qua, ago 19 2026 07:10:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -897,7 +1005,7 @@
     {
       "fonte": "STJ",
       "label": "STJ — Notícias",
-      "titulo": "STJ registra aumento de 8% no número de processos recebidos durante o plantão judiciário de julho",
+      "titulo": "2º Congresso STJ Brasil-Japão debate desafios contemporâneos do direito privado",
       "resumo": "",
       "numero": "",
       "relator": "",
@@ -909,7 +1017,7 @@
     {
       "fonte": "STJ",
       "label": "STJ — Notícias",
-      "titulo": "2º Congresso STJ Brasil-Japão debate desafios contemporâneos do direito privado",
+      "titulo": "STJ registra aumento de 8% no número de processos recebidos durante o plantão judiciário de julho",
       "resumo": "",
       "numero": "",
       "relator": "",
