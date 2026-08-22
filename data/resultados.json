@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-08-21T10:23:05.678390+00:00",
-  "data": "2026-08-21",
+  "gerado_em": "2026-08-22T10:16:38.211749+00:00",
+  "data": "2026-08-22",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 132,
+  "total": 131,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,30 @@
       "data": "Mon, 27 Oc",
       "data_iso": "Mon, 27 Oct 2025 15:14:25 +0000",
       "url": "https://noticias.stf.jus.br/2025/10/27/convenio-fortalece-lacos-entre-stf-e-tribunal-constitucional-do-chile/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Segunda Seção definirá se demora injustificada do plano de saúde equivale à recusa indevida de cobertura",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, ago 2",
+      "data_iso": "Sex, ago 21 2026 08:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Acesso a sistema com dados contábeis não dispensa dever de prestação de contas de bens em condomínio",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, ago 2",
+      "data_iso": "Sex, ago 21 2026 07:10:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1527,42 +1551,6 @@
       "relator": "",
       "data": "Qua, jul 2",
       "data_iso": "Qua, jul 22 2026 07:50:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Apreensão e perda de maquinário usado em crime ambiental não dependem de má-fé do proprietário",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, jul 2",
-      "data_iso": "Qua, jul 22 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJN traz decisão sobre competência para julgar furto de bilhete premiado em lotérica",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, jul 2",
-      "data_iso": "Ter, jul 21 2026 08:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ suspende liminar e autoriza retomada da construção de ponte em Tefé (AM)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, jul 2",
-      "data_iso": "Ter, jul 21 2026 07:20:00",
       "url": "",
       "resumo_ia": ""
     },
