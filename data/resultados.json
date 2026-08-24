@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-08-23T10:17:09.065524+00:00",
-  "data": "2026-08-23",
+  "gerado_em": "2026-08-24T10:31:30.602315+00:00",
+  "data": "2026-08-24",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 129,
+  "total": 127,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,18 @@
       "data": "Mon, 27 Oc",
       "data_iso": "Mon, 27 Oct 2025 15:14:25 +0000",
       "url": "https://noticias.stf.jus.br/2025/10/27/convenio-fortalece-lacos-entre-stf-e-tribunal-constitucional-do-chile/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Direito à saúde não inclui garantia de acesso à melhor tecnologia nem a tratamento pelo SUS no exterior",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, ago 2",
+      "data_iso": "Seg, ago 24 2026 07:00:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1491,42 +1503,6 @@
       "relator": "",
       "data": "Sex, jul 2",
       "data_iso": "Sex, jul 24 2026 07:15:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Visita não solicitada a idosos para oferecer empréstimo consignado é assédio de consumo",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jul 2",
-      "data_iso": "Sex, jul 24 2026 07:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Primeira Seção definirá natureza de decisão que julga impugnação ao cumprimento de sentença",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, jul 2",
-      "data_iso": "Qui, jul 23 2026 07:45:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Devedor solidário não tem direito imediato à ação de regresso após pagar apenas parte da dívida comum",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, jul 2",
-      "data_iso": "Qui, jul 23 2026 07:10:00",
       "url": "",
       "resumo_ia": ""
     },
