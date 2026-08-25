@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-08-24T10:31:30.602315+00:00",
-  "data": "2026-08-24",
+  "gerado_em": "2026-08-25T10:24:53.617309+00:00",
+  "data": "2026-08-25",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 127,
+  "total": 128,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,66 @@
       "data": "Mon, 27 Oc",
       "data_iso": "Mon, 27 Oct 2025 15:14:25 +0000",
       "url": "https://noticias.stf.jus.br/2025/10/27/convenio-fortalece-lacos-entre-stf-e-tribunal-constitucional-do-chile/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Recurso contra multa em agravo interno dispensa depósito prévio para ser admitido",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, ago 2",
+      "data_iso": "Ter, ago 25 2026 07:20:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Vítima pode atuar como terceira interessada em PAD que apura assédio sexual",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, ago 2",
+      "data_iso": "Ter, ago 25 2026 07:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Tribunal publica regras para exame da relevância; novo regime começa a valer no próximo dia 3",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, ago 2",
+      "data_iso": "Seg, ago 24 2026 19:16:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Quarta edição da Revista de Estudos Jurídicos do STJ já está disponível",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, ago 2",
+      "data_iso": "Seg, ago 24 2026 08:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Para Terceira Turma, aditamento ao plano de recuperação judicial não produz efeitos retroativos",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, ago 2",
+      "data_iso": "Seg, ago 24 2026 07:15:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1455,54 +1515,6 @@
       "relator": "",
       "data": "Dom, jul 2",
       "data_iso": "Dom, jul 26 2026 18:32:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Rádio Decidendi explica tese sobre intimação do devedor como pressuposto para multa coercitiva",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jul 2",
-      "data_iso": "Sex, jul 24 2026 08:50:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Jurisprudência em Teses traz novos entendimentos sobre direito à educação",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jul 2",
-      "data_iso": "Sex, jul 24 2026 08:35:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Podcast STJ No Seu Dia discute atuação do assistente de acusação e limites recursais no processo penal",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jul 2",
-      "data_iso": "Sex, jul 24 2026 08:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Insumo estrangeiro para anabolizantes, por si só, não atrai competência da Justiça Federal, decide Sexta Turma",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jul 2",
-      "data_iso": "Sex, jul 24 2026 07:15:00",
       "url": "",
       "resumo_ia": ""
     },
