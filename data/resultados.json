@@ -1,23 +1,11 @@
 {
-  "gerado_em": "2026-08-25T10:24:53.617309+00:00",
-  "data": "2026-08-25",
+  "gerado_em": "2026-08-26T10:28:59.882025+00:00",
+  "data": "2026-08-26",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 128,
+  "total": 132,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
-    {
-      "fonte": "STF",
-      "label": "STF — Notícias",
-      "titulo": "Audiência pública – Marco Legal do Combate ao Crime Organizado",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Wed, 12 Au",
-      "data_iso": "Wed, 12 Aug 2026 20:38:23 +0000",
-      "url": "https://noticias.stf.jus.br/2026/08/12/audiencia-publica-marco-legal-do-combate-ao-crime-organizado/",
-      "resumo_ia": ""
-    },
     {
       "fonte": "STF",
       "label": "STF — Notícias",
@@ -124,6 +112,66 @@
       "data": "Mon, 27 Oc",
       "data_iso": "Mon, 27 Oct 2025 15:14:25 +0000",
       "url": "https://noticias.stf.jus.br/2025/10/27/convenio-fortalece-lacos-entre-stf-e-tribunal-constitucional-do-chile/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STF",
+      "label": "STF — Notícias",
+      "titulo": "Audiência pública – Desafios econômicos e sociais da ‘pejotização’ no Brasil.",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Thu, 18 Se",
+      "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
+      "url": "https://noticias.stf.jus.br/2025/09/18/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Defensoria habilitada durante o prazo recursal tem direito à contagem em dobro desde a intimação",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, ago 2",
+      "data_iso": "Qua, ago 26 2026 06:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Ministro Benedito Gonçalves toma posse como corregedor nacional de Justiça",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, ago 2",
+      "data_iso": "Ter, ago 25 2026 21:27:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Alterado o horário de início e encerramento das sessões virtuais",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, ago 2",
+      "data_iso": "Ter, ago 25 2026 16:29:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ Notícias traz decisão que manteve multa do Ibama por importação de borboletas mortas da China",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, ago 2",
+      "data_iso": "Ter, ago 25 2026 08:00:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
