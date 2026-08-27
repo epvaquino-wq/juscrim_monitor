@@ -1,11 +1,23 @@
 {
-  "gerado_em": "2026-08-26T10:28:59.882025+00:00",
-  "data": "2026-08-26",
+  "gerado_em": "2026-08-27T20:06:09.029519+00:00",
+  "data": "2026-08-27",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 132,
+  "total": 133,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
+    {
+      "fonte": "STF",
+      "label": "STF — Notícias",
+      "titulo": "Supremo rejeita ação sobre auxílio-refeição pago a servidores gaúchos no período de férias",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Wed, 26 Au",
+      "data_iso": "Wed, 26 Aug 2026 19:54:27 +0000",
+      "url": "https://noticias.stf.jus.br/teste/",
+      "resumo_ia": ""
+    },
     {
       "fonte": "STF",
       "label": "STF — Notícias",
@@ -15,7 +27,7 @@
       "relator": "",
       "data": "Wed, 12 Au",
       "data_iso": "Wed, 12 Aug 2026 13:00:00 +0000",
-      "url": "https://noticias.stf.jus.br/2026/08/12/do-plenario-a-agenda-2030/",
+      "url": "https://noticias.stf.jus.br/do-plenario-a-agenda-2030/",
       "resumo_ia": ""
     },
     {
@@ -27,7 +39,7 @@
       "relator": "",
       "data": "Mon, 10 Au",
       "data_iso": "Mon, 10 Aug 2026 03:00:00 +0000",
-      "url": "https://noticias.stf.jus.br/2026/08/10/confira-as-materias-especiais-da-serie-do-plenario-a-agenda-2030/",
+      "url": "https://noticias.stf.jus.br/confira-as-materias-especiais-da-serie-do-plenario-a-agenda-2030/",
       "resumo_ia": ""
     },
     {
@@ -39,7 +51,7 @@
       "relator": "",
       "data": "Fri, 17 Ju",
       "data_iso": "Fri, 17 Jul 2026 18:56:13 +0000",
-      "url": "https://noticias.stf.jus.br/2026/07/17/modernizacao-do-sistema-de-justica/",
+      "url": "https://noticias.stf.jus.br/modernizacao-do-sistema-de-justica/",
       "resumo_ia": ""
     },
     {
@@ -51,7 +63,7 @@
       "relator": "",
       "data": "Mon, 25 Ma",
       "data_iso": "Mon, 25 May 2026 20:50:10 +0000",
-      "url": "https://noticias.stf.jus.br/2026/05/25/bercario-advogadas/",
+      "url": "https://noticias.stf.jus.br/bercario-advogadas/",
       "resumo_ia": ""
     },
     {
@@ -63,7 +75,7 @@
       "relator": "",
       "data": "Mon, 02 Ma",
       "data_iso": "Mon, 02 Mar 2026 18:49:47 +0000",
-      "url": "https://noticias.stf.jus.br/2026/03/02/stf-restabelece-adicional-de-periculosidade-a-guardas-municipais-de-santo-andre-sp/",
+      "url": "https://noticias.stf.jus.br/stf-restabelece-adicional-de-periculosidade-a-guardas-municipais-de-santo-andre-sp/",
       "resumo_ia": ""
     },
     {
@@ -75,7 +87,7 @@
       "relator": "",
       "data": "Wed, 25 Fe",
       "data_iso": "Wed, 25 Feb 2026 22:00:00 +0000",
-      "url": "https://noticias.stf.jus.br/2026/02/25/centro-de-estudos-constitucionais-do-stf-cestf/",
+      "url": "https://noticias.stf.jus.br/centro-de-estudos-constitucionais-do-stf-cestf/",
       "resumo_ia": ""
     },
     {
@@ -87,7 +99,7 @@
       "relator": "",
       "data": "Tue, 02 De",
       "data_iso": "Tue, 02 Dec 2025 20:29:41 +0000",
-      "url": "https://noticias.stf.jus.br/2025/12/02/pagina-do-museu-do-stf/",
+      "url": "https://noticias.stf.jus.br/pagina-do-museu-do-stf/",
       "resumo_ia": ""
     },
     {
@@ -99,7 +111,7 @@
       "relator": "",
       "data": "Mon, 17 No",
       "data_iso": "Mon, 17 Nov 2025 23:51:22 +0000",
-      "url": "https://noticias.stf.jus.br/2025/11/17/confira-as-materias-especiais-em-celebracao-aos-37-anos-da-constituicao-federal/",
+      "url": "https://noticias.stf.jus.br/confira-as-materias-especiais-em-celebracao-aos-37-anos-da-constituicao-federal/",
       "resumo_ia": ""
     },
     {
@@ -111,19 +123,91 @@
       "relator": "",
       "data": "Mon, 27 Oc",
       "data_iso": "Mon, 27 Oct 2025 15:14:25 +0000",
-      "url": "https://noticias.stf.jus.br/2025/10/27/convenio-fortalece-lacos-entre-stf-e-tribunal-constitucional-do-chile/",
+      "url": "https://noticias.stf.jus.br/convenio-fortalece-lacos-entre-stf-e-tribunal-constitucional-do-chile/",
       "resumo_ia": ""
     },
     {
-      "fonte": "STF",
-      "label": "STF — Notícias",
-      "titulo": "Audiência pública – Desafios econômicos e sociais da ‘pejotização’ no Brasil.",
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ divulga relatório técnico da audiência pública sobre fracking",
       "resumo": "",
       "numero": "",
       "relator": "",
-      "data": "Thu, 18 Se",
-      "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
-      "url": "https://noticias.stf.jus.br/2025/09/18/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
+      "data": "Qui, ago 2",
+      "data_iso": "Qui, ago 27 2026 08:25:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Rádio Decidendi discute aplicação de agravante de gênero com Lei Maria da Penha (Tema 1.197)",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, ago 2",
+      "data_iso": "Qui, ago 27 2026 08:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Medida protetiva não pode impor à vítima de crime sexual o ônus de se afastar do acusado",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, ago 2",
+      "data_iso": "Qui, ago 27 2026 07:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Anuência expressa de proprietária autoriza cobrança de taxas por condomínio irregular",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, ago 2",
+      "data_iso": "Qui, ago 27 2026 07:35:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Corte Especial garante prazo em dobro e intimação pessoal a núcleos de prática jurídica nas ações penais",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, ago 2",
+      "data_iso": "Qui, ago 27 2026 07:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Podcast discute jurisprudência sobre visão monocular e isenção de ICMS na compra de veículos",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, ago 2",
+      "data_iso": "Qua, ago 26 2026 07:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Repetição da prova não reabre oportunidade para alegar suspeição do perito judicial",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, ago 2",
+      "data_iso": "Qua, ago 26 2026 07:15:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1491,78 +1575,6 @@
       "relator": "",
       "data": "Seg, jul 2",
       "data_iso": "Seg, jul 27 2026 18:27:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Salvo-conduto para cultivo de cannabis medicinal é tema da nova edição da Pesquisa Pronta",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, jul 2",
-      "data_iso": "Seg, jul 27 2026 09:15:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Edição extra do Informativo destaca partilha do FGTS no divórcio e base de cálculo da pensão alimentícia",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, jul 2",
-      "data_iso": "Seg, jul 27 2026 08:50:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ capacita 891 usuários do STJ Logos para utilização de IA generativa nos gabinetes",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, jul 2",
-      "data_iso": "Seg, jul 27 2026 08:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Sem regra específica da Susep, é válido prazo de 90 dias para indenização em contrato de proteção veicular",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, jul 2",
-      "data_iso": "Seg, jul 27 2026 07:35:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Valor da causa em rescisão de contrato built to suit deve seguir Lei do Inquilinato",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, jul 2",
-      "data_iso": "Seg, jul 27 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Nota de pesar",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Dom, jul 2",
-      "data_iso": "Dom, jul 26 2026 18:32:00",
       "url": "",
       "resumo_ia": ""
     },
