@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-08-27T20:06:09.029519+00:00",
-  "data": "2026-08-27",
+  "gerado_em": "2026-08-28T21:03:03.640300+00:00",
+  "data": "2026-08-28",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 133,
+  "total": 132,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,54 @@
       "data": "Mon, 27 Oc",
       "data_iso": "Mon, 27 Oct 2025 15:14:25 +0000",
       "url": "https://noticias.stf.jus.br/convenio-fortalece-lacos-entre-stf-e-tribunal-constitucional-do-chile/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Ministra Isabel Gallotti assume presidência da Quarta Turma para o próximo biênio",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, ago 2",
+      "data_iso": "Sex, ago 28 2026 08:20:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Repetitivo discute quais ações permitem transferências voluntárias para ente com pendências fiscais",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, ago 2",
+      "data_iso": "Sex, ago 28 2026 07:40:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Quinta Turma afasta Selic e mantém atualização pela TR em restituição de valores apreendidos",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, ago 2",
+      "data_iso": "Sex, ago 28 2026 07:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Bem de família não perde proteção contra penhora só porque tem alto valor no mercado imobiliário",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, ago 2",
+      "data_iso": "Sex, ago 28 2026 06:50:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1329,7 +1377,7 @@
     {
       "fonte": "STJ",
       "label": "STJ — Notícias",
-      "titulo": "2º Congresso STJ Brasil-Japão debate desafios contemporâneos do direito privado",
+      "titulo": "STJ registra aumento de 8% no número de processos recebidos durante o plantão judiciário de julho",
       "resumo": "",
       "numero": "",
       "relator": "",
@@ -1341,7 +1389,7 @@
     {
       "fonte": "STJ",
       "label": "STJ — Notícias",
-      "titulo": "STJ registra aumento de 8% no número de processos recebidos durante o plantão judiciário de julho",
+      "titulo": "2º Congresso STJ Brasil-Japão debate desafios contemporâneos do direito privado",
       "resumo": "",
       "numero": "",
       "relator": "",
@@ -1515,66 +1563,6 @@
       "relator": "",
       "data": "Qua, jul 2",
       "data_iso": "Qua, jul 29 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Página de Repetitivos publica tese sobre remição de pena por aprovação no Enem e no Encceja",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, jul 2",
-      "data_iso": "Ter, jul 28 2026 08:35:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJN traz decisão que suspendeu liminar e autorizou retomada da construção de ponte em Tefé (AM)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, jul 2",
-      "data_iso": "Ter, jul 28 2026 08:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Sindicatos não têm legitimidade para ajuizar ação civil pública sobre repasses do Fundef/ Fundeb",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, jul 2",
-      "data_iso": "Ter, jul 28 2026 07:20:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Lei Kandir é suficiente para cobrança do ICMS-Difal em operações destinadas a consumidor final contribuinte",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, jul 2",
-      "data_iso": "Ter, jul 28 2026 07:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ nega seguimento a recurso que pretendia levar discussão sobre caso Robinho ao STF",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, jul 2",
-      "data_iso": "Seg, jul 27 2026 18:27:00",
       "url": "",
       "resumo_ia": ""
     },
