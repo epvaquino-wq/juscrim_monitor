@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-08-28T21:03:03.640300+00:00",
-  "data": "2026-08-28",
+  "gerado_em": "2026-08-29T14:53:31.388595+00:00",
+  "data": "2026-08-29",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 132,
+  "total": 129,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,18 @@
       "data": "Mon, 27 Oc",
       "data_iso": "Mon, 27 Oct 2025 15:14:25 +0000",
       "url": "https://noticias.stf.jus.br/convenio-fortalece-lacos-entre-stf-e-tribunal-constitucional-do-chile/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Moura Ribeiro, Regina Helena Costa e Rogerio Schietti Cruz completam 13 anos de STJ",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, ago 2",
+      "data_iso": "Sex, ago 28 2026 18:45:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1515,54 +1527,6 @@
       "relator": "",
       "data": "Qui, jul 3",
       "data_iso": "Qui, jul 30 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Podcast STJ No Seu Dia discute o FGC e a proteção dos investidores no sistema financeiro",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, jul 2",
-      "data_iso": "Qua, jul 29 2026 08:45:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Reportagem especial aborda os desafios da proteção de crianças e adolescentes no ambiente digital",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, jul 2",
-      "data_iso": "Qua, jul 29 2026 08:15:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Segurado com HIV, mesmo assintomático, tem direito à indenização por invalidez funcional permanente",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, jul 2",
-      "data_iso": "Qua, jul 29 2026 07:50:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ julgou 39 temas repetitivos no primeiro semestre de 2026; confira todas as teses fixadas",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, jul 2",
-      "data_iso": "Qua, jul 29 2026 07:10:00",
       "url": "",
       "resumo_ia": ""
     },
