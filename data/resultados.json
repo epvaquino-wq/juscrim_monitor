@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-08-29T14:53:31.388595+00:00",
-  "data": "2026-08-29",
+  "gerado_em": "2026-08-30T14:38:00.554197+00:00",
+  "data": "2026-08-30",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 129,
+  "total": 128,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,18 @@
       "data": "Mon, 27 Oc",
       "data_iso": "Mon, 27 Oct 2025 15:14:25 +0000",
       "url": "https://noticias.stf.jus.br/convenio-fortalece-lacos-entre-stf-e-tribunal-constitucional-do-chile/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Relevância da questão federal: o que muda na atuação do STJ com o novo sistema",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Dom, ago 3",
+      "data_iso": "Dom, ago 30 2026 07:00:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1389,7 +1401,7 @@
     {
       "fonte": "STJ",
       "label": "STJ — Notícias",
-      "titulo": "STJ registra aumento de 8% no número de processos recebidos durante o plantão judiciário de julho",
+      "titulo": "2º Congresso STJ Brasil-Japão debate desafios contemporâneos do direito privado",
       "resumo": "",
       "numero": "",
       "relator": "",
@@ -1401,7 +1413,7 @@
     {
       "fonte": "STJ",
       "label": "STJ — Notícias",
-      "titulo": "2º Congresso STJ Brasil-Japão debate desafios contemporâneos do direito privado",
+      "titulo": "STJ registra aumento de 8% no número de processos recebidos durante o plantão judiciário de julho",
       "resumo": "",
       "numero": "",
       "relator": "",
@@ -1503,30 +1515,6 @@
       "relator": "",
       "data": "Sex, jul 3",
       "data_iso": "Sex, jul 31 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Valor de indenização por dano moral deve considerar convivência e dependência emocional ou econômica",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, jul 3",
-      "data_iso": "Qui, jul 30 2026 07:35:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Homologação de desistência após contestação, mesmo espontânea, não evita condenação em honorários",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, jul 3",
-      "data_iso": "Qui, jul 30 2026 07:00:00",
       "url": "",
       "resumo_ia": ""
     },
