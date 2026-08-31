@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-08-30T14:38:00.554197+00:00",
-  "data": "2026-08-30",
+  "gerado_em": "2026-08-31T17:20:51.033490+00:00",
+  "data": "2026-08-31",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 128,
+  "total": 126,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,30 @@
       "data": "Mon, 27 Oc",
       "data_iso": "Mon, 27 Oct 2025 15:14:25 +0000",
       "url": "https://noticias.stf.jus.br/convenio-fortalece-lacos-entre-stf-e-tribunal-constitucional-do-chile/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Rejeição de desconsideração da personalidade jurídica sem impacto no crédito autoriza honorários por equidade",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, ago 3",
+      "data_iso": "Seg, ago 31 2026 07:20:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Terceira Seção define interpretação restritiva do conceito de organização criminosa na execução penal",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, ago 3",
+      "data_iso": "Seg, ago 31 2026 07:05:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1467,54 +1491,6 @@
       "relator": "",
       "data": "Sex, jul 3",
       "data_iso": "Sex, jul 31 2026 19:19:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Podcast STJ No Seu Dia analisa decisão sobre cobertura do DPVAT em caso de crime doloso",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jul 3",
-      "data_iso": "Sex, jul 31 2026 09:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Corte Especial abre segundo semestre forense com sessão na segunda-feira (3), às 9h",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jul 3",
-      "data_iso": "Sex, jul 31 2026 08:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Falta de menção à taxa diária em contrato bancário não autoriza substituir capitalização por juros simples",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jul 3",
-      "data_iso": "Sex, jul 31 2026 07:55:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Revisão administrativa pode cancelar benefício previdenciário por incapacidade concedido judicialmente",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, jul 3",
-      "data_iso": "Sex, jul 31 2026 07:10:00",
       "url": "",
       "resumo_ia": ""
     },
