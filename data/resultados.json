@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-09-02T14:00:19.597096+00:00",
-  "data": "2026-09-02",
+  "gerado_em": "2026-09-03T14:03:03.652482+00:00",
+  "data": "2026-09-03",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 138,
+  "total": 142,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,90 @@
       "data": "Mon, 27 Oc",
       "data_iso": "Mon, 27 Oct 2025 15:14:25 +0000",
       "url": "https://noticias.stf.jus.br/convenio-fortalece-lacos-entre-stf-e-tribunal-constitucional-do-chile/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Entender Direito aborda a relevância da questão federal e a nova lógica para recursos especiais",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, set 3",
+      "data_iso": "Qui, set 3 2026 08:40:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Fórum sobre prevenção a fraudes e segurança no ambiente virtual acontece nesta quinta-feira (3)",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, set 3",
+      "data_iso": "Qui, set 3 2026 08:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Boletim de Precedentes do STJ ganha novo formato que amplia acessibilidade e compreensão",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, set 3",
+      "data_iso": "Qui, set 3 2026 07:30:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Falta de comprovação de dolo leva Segunda Turma a reverter condenação de ex-prefeito de Itabaiana (SE) por improbidade",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, set 3",
+      "data_iso": "Qui, set 3 2026 07:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Comprador de celular defeituoso não está dispensado automaticamente de aguardar prazo legal para conserto",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, set 3",
+      "data_iso": "Qui, set 3 2026 06:55:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Corte Especial realiza primeira sessão sob a presidência do ministro Luis Felipe Salomão",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, set 2",
+      "data_iso": "Qua, set 2 2026 17:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Lançamento de livro celebra os 10 anos do Código de Processo Civil no Espaço Cultural STJ",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, set 2",
+      "data_iso": "Qua, set 2 2026 15:37:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1581,18 +1665,6 @@
     {
       "fonte": "STJ",
       "label": "STJ — Notícias",
-      "titulo": "2º Congresso STJ Brasil-Japão debate desafios contemporâneos do direito privado",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, ago 3",
-      "data_iso": "Seg, ago 3 2026 15:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
       "titulo": "STJ registra aumento de 8% no número de processos recebidos durante o plantão judiciário de julho",
       "resumo": "",
       "numero": "",
@@ -1605,36 +1677,12 @@
     {
       "fonte": "STJ",
       "label": "STJ — Notícias",
-      "titulo": "Portal do STJ conta com novo assistente virtual para atendimento ao público",
+      "titulo": "2º Congresso STJ Brasil-Japão debate desafios contemporâneos do direito privado",
       "resumo": "",
       "numero": "",
       "relator": "",
       "data": "Seg, ago 3",
-      "data_iso": "Seg, ago 3 2026 08:35:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Proteção contra penhora de até 40 salários mínimos não se aplica a entidades sem fins lucrativos",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, ago 3",
-      "data_iso": "Seg, ago 3 2026 07:50:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Tribunal afasta aplicação dos limites da Lei 9.639/1998 aos bloqueios do FPM por débitos previdenciários",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, ago 3",
-      "data_iso": "Seg, ago 3 2026 07:00:00",
+      "data_iso": "Seg, ago 3 2026 15:00:00",
       "url": "",
       "resumo_ia": ""
     },
