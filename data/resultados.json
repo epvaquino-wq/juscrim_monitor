@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-09-09T14:06:15.105588+00:00",
-  "data": "2026-09-09",
+  "gerado_em": "2026-09-10T14:00:48.350254+00:00",
+  "data": "2026-09-10",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
   "total": 12,
@@ -40,18 +40,6 @@
       "data": "Mon, 10 Au",
       "data_iso": "Mon, 10 Aug 2026 03:00:00 +0000",
       "url": "https://noticias.stf.jus.br/confira-as-materias-especiais-da-serie-do-plenario-a-agenda-2030/",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STF",
-      "label": "STF — Notícias",
-      "titulo": "Modernização do Sistema de Justiça",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Fri, 17 Ju",
-      "data_iso": "Fri, 17 Jul 2026 18:56:13 +0000",
-      "url": "https://noticias.stf.jus.br/modernizacao-do-sistema-de-justica/",
       "resumo_ia": ""
     },
     {
@@ -124,6 +112,18 @@
       "data": "Mon, 27 Oc",
       "data_iso": "Mon, 27 Oct 2025 15:14:25 +0000",
       "url": "https://noticias.stf.jus.br/convenio-fortalece-lacos-entre-stf-e-tribunal-constitucional-do-chile/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STF",
+      "label": "STF — Notícias",
+      "titulo": "Audiência pública – Desafios econômicos e sociais da ‘pejotização’ no Brasil.",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Thu, 18 Se",
+      "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
+      "url": "https://noticias.stf.jus.br/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
       "resumo_ia": ""
     },
     {
