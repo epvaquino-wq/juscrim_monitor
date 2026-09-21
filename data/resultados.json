@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-09-20T13:52:41.349709+00:00",
-  "data": "2026-09-20",
+  "gerado_em": "2026-09-21T16:08:28.618376+00:00",
+  "data": "2026-09-21",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
   "total": 121,
@@ -124,6 +124,54 @@
       "data": "Mon, 27 Oc",
       "data_iso": "Mon, 27 Oct 2025 15:14:25 +0000",
       "url": "https://noticias.stf.jus.br/convenio-fortalece-lacos-entre-stf-e-tribunal-constitucional-do-chile/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Terceira Turma antecipa sessão do dia 6 de outubro para as 10h",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, set 2",
+      "data_iso": "Seg, set 21 2026 08:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Informativo destaca tráfico privilegiado e critérios para busca veicular sem mandado judicial",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, set 2",
+      "data_iso": "Seg, set 21 2026 07:35:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Execução fiscal para cobrança de empréstimo do Banco do Povo é tema de repetitivo",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, set 2",
+      "data_iso": "Seg, set 21 2026 07:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Quarta Turma admite como prova gravação feita por consumidor no departamento jurídico da empresa",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, set 2",
+      "data_iso": "Seg, set 21 2026 06:50:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1383,54 +1431,6 @@
       "relator": "",
       "data": "Seg, ago 2",
       "data_iso": "Seg, ago 24 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Segunda Seção definirá se demora injustificada do plano de saúde equivale à recusa indevida de cobertura",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, ago 2",
-      "data_iso": "Sex, ago 21 2026 08:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Acesso a sistema com dados contábeis não dispensa dever de prestação de contas de bens em condomínio",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, ago 2",
-      "data_iso": "Sex, ago 21 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Para Terceira Seção, crime de extorsão admite forma tentada quando vítima não se submete à exigência",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, ago 2",
-      "data_iso": "Sex, ago 21 2026 06:55:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Primeira Seção se despede do ministro Benedito Gonçalves, futuro corregedor nacional de Justiça",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, ago 2",
-      "data_iso": "Qui, ago 20 2026 17:57:00",
       "url": "",
       "resumo_ia": ""
     },
