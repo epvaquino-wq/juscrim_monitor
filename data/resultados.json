@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-09-24T14:34:33.470998+00:00",
-  "data": "2026-09-24",
+  "gerado_em": "2026-09-25T14:55:21.257448+00:00",
+  "data": "2026-09-25",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 135,
+  "total": 137,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,78 @@
       "data": "Thu, 18 Se",
       "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
       "url": "https://noticias.stf.jus.br/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Informativo destaca teses sobre manipulação de inteligência artificial para induzir resultados de julgamentos",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, set 2",
+      "data_iso": "Sex, set 25 2026 07:40:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Terceira Seção decidirá se preso que pede para visitante levar drogas ao presídio responde por tráfico",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, set 2",
+      "data_iso": "Sex, set 25 2026 07:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Condenação por violência doméstica é fundamento suficiente para impor a participação do agressor em grupo reflexivo",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, set 2",
+      "data_iso": "Sex, set 25 2026 06:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Assessoria de Ética e Disciplina passa a ser vinculada diretamente à Presidência do STJ",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, set 2",
+      "data_iso": "Qui, set 24 2026 16:42:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ amplia proteção dos gabinetes e rigor na apuração de possíveis irregularidades",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, set 2",
+      "data_iso": "Qui, set 24 2026 15:43:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Ministro Reynaldo Soares da Fonseca defende mediação e conciliação para solução de conflitos fundiários complexos",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, set 2",
+      "data_iso": "Qui, set 24 2026 14:37:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1551,54 +1623,6 @@
       "relator": "",
       "data": "Ter, ago 2",
       "data_iso": "Ter, ago 25 2026 16:29:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ Notícias traz decisão que manteve multa do Ibama por importação de borboletas mortas da China",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, ago 2",
-      "data_iso": "Ter, ago 25 2026 08:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Recurso contra multa em agravo interno dispensa depósito prévio para ser admitido",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, ago 2",
-      "data_iso": "Ter, ago 25 2026 07:20:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Vítima pode atuar como terceira interessada em PAD que apura assédio sexual",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, ago 2",
-      "data_iso": "Ter, ago 25 2026 07:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Tribunal publica regras para exame da relevância; novo regime começa a valer no próximo dia 3",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, ago 2",
-      "data_iso": "Seg, ago 24 2026 19:16:00",
       "url": "",
       "resumo_ia": ""
     },
