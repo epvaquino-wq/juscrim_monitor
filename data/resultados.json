@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-09-25T14:55:21.257448+00:00",
-  "data": "2026-09-25",
+  "gerado_em": "2026-09-26T14:00:02.385508+00:00",
+  "data": "2026-09-26",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 137,
+  "total": 135,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,42 @@
       "data": "Thu, 18 Se",
       "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
       "url": "https://noticias.stf.jus.br/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Ministro Gurgel de Faria é aprovado com nota máxima para professor titular da UnB",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, set 2",
+      "data_iso": "Sex, set 25 2026 15:59:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ estabelece novos critérios para cobrança de custas judiciais",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, set 2",
+      "data_iso": "Sex, set 25 2026 14:31:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Relator nega liberdade a ex-vereador de SP investigado por suposta ligação do PCC com empresas de ônibus",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, set 2",
+      "data_iso": "Sex, set 25 2026 12:48:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1563,66 +1599,6 @@
       "relator": "",
       "data": "Qui, ago 2",
       "data_iso": "Qui, ago 27 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Podcast discute jurisprudência sobre visão monocular e isenção de ICMS na compra de veículos",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, ago 2",
-      "data_iso": "Qua, ago 26 2026 07:50:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Repetição da prova não reabre oportunidade para alegar suspeição do perito judicial",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, ago 2",
-      "data_iso": "Qua, ago 26 2026 07:15:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Defensoria habilitada durante o prazo recursal tem direito à contagem em dobro desde a intimação",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, ago 2",
-      "data_iso": "Qua, ago 26 2026 06:50:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Ministro Benedito Gonçalves toma posse como corregedor nacional de Justiça",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, ago 2",
-      "data_iso": "Ter, ago 25 2026 21:27:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Alterado o horário de início e encerramento das sessões virtuais",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, ago 2",
-      "data_iso": "Ter, ago 25 2026 16:29:00",
       "url": "",
       "resumo_ia": ""
     },
