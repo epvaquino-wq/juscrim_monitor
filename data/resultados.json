@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-09-26T14:00:02.385508+00:00",
-  "data": "2026-09-26",
+  "gerado_em": "2026-09-27T14:56:58.876639+00:00",
+  "data": "2026-09-27",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 135,
+  "total": 132,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,18 @@
       "data": "Thu, 18 Se",
       "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
       "url": "https://noticias.stf.jus.br/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "A fiscalização ambiental e a responsabilidade compartilhada entre os entes federativos",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Dom, set 2",
+      "data_iso": "Dom, set 27 2026 06:55:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1543,63 +1555,15 @@
       "resumo_ia": ""
     },
     {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ divulga relatório técnico da audiência pública sobre fracking",
+      "fonte": "Jota",
+      "label": "Jota",
+      "titulo": "Crime organizado: entre novas leis e a integração institucional",
       "resumo": "",
       "numero": "",
       "relator": "",
-      "data": "Qui, ago 2",
-      "data_iso": "Qui, ago 27 2026 08:25:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Rádio Decidendi discute aplicação de agravante de gênero com Lei Maria da Penha (Tema 1.197)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, ago 2",
-      "data_iso": "Qui, ago 27 2026 08:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Medida protetiva não pode impor à vítima de crime sexual o ônus de se afastar do acusado",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, ago 2",
-      "data_iso": "Qui, ago 27 2026 07:50:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Anuência expressa de proprietária autoriza cobrança de taxas por condomínio irregular",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, ago 2",
-      "data_iso": "Qui, ago 27 2026 07:35:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Corte Especial garante prazo em dobro e intimação pessoal a núcleos de prática jurídica nas ações penais",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, ago 2",
-      "data_iso": "Qui, ago 27 2026 07:00:00",
-      "url": "",
+      "data": "Sun, 27 Se",
+      "data_iso": "Sun, 27 Sep 2026 08:10:18 +0000",
+      "url": "https://www.jota.info/opiniao-e-analise/artigos/crime-organizado-entre-novas-leis-e-a-integracao-institucional",
       "resumo_ia": ""
     },
     {
