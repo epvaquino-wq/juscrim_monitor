@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-09-27T14:56:58.876639+00:00",
-  "data": "2026-09-27",
+  "gerado_em": "2026-09-28T17:55:23.581524+00:00",
+  "data": "2026-09-28",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 132,
+  "total": 129,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,30 @@
       "data": "Thu, 18 Se",
       "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
       "url": "https://noticias.stf.jus.br/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ firmará tese repetitiva sobre o termo inicial do prazo prescricional em revisão de contrato com previdência privada fechada",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, set 2",
+      "data_iso": "Seg, set 28 2026 07:20:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Repetitivo fixa marco para honorários de sucumbência em ações rescisórias sobre modulação do Tema 69 do STF",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, set 2",
+      "data_iso": "Seg, set 28 2026 07:05:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1504,66 +1528,6 @@
       "data": "Sex, ago 2",
       "data_iso": "Sex, ago 28 2026 18:45:00",
       "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Ministra Isabel Gallotti assume presidência da Quarta Turma para o próximo biênio",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, ago 2",
-      "data_iso": "Sex, ago 28 2026 08:20:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Repetitivo discute quais ações permitem transferências voluntárias para ente com pendências fiscais",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, ago 2",
-      "data_iso": "Sex, ago 28 2026 07:40:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Quinta Turma afasta Selic e mantém atualização pela TR em restituição de valores apreendidos",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, ago 2",
-      "data_iso": "Sex, ago 28 2026 07:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Bem de família não perde proteção contra penhora só porque tem alto valor no mercado imobiliário",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, ago 2",
-      "data_iso": "Sex, ago 28 2026 06:50:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "Jota",
-      "label": "Jota",
-      "titulo": "Crime organizado: entre novas leis e a integração institucional",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sun, 27 Se",
-      "data_iso": "Sun, 27 Sep 2026 08:10:18 +0000",
-      "url": "https://www.jota.info/opiniao-e-analise/artigos/crime-organizado-entre-novas-leis-e-a-integracao-institucional",
       "resumo_ia": ""
     },
     {
