@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-09-28T17:55:23.581524+00:00",
-  "data": "2026-09-28",
+  "gerado_em": "2026-09-29T16:17:40.755123+00:00",
+  "data": "2026-09-29",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 129,
+  "total": 134,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,78 @@
       "data": "Thu, 18 Se",
       "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
       "url": "https://noticias.stf.jus.br/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Presidente do STJ e do CJF abre diálogo com AGU e estuda medidas sobre precatórios federais",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, set 2",
+      "data_iso": "Ter, set 29 2026 12:07:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Evento na FGV debate arbitragem e apresenta livro sobre jurisprudência do STJ",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, set 2",
+      "data_iso": "Ter, set 29 2026 08:47:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ Notícias destaca decisão sobre convivência com animal de estimação após separação",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, set 2",
+      "data_iso": "Ter, set 29 2026 07:45:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Relevância da questão federal: saiba como acompanhar as primeiras sessões virtuais do STJ sob o novo regime",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, set 2",
+      "data_iso": "Ter, set 29 2026 07:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Violência doméstica: STJ reconhece poder-dever de determinar participação em grupo reflexivo como condição do sursis",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, set 2",
+      "data_iso": "Ter, set 29 2026 06:55:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ realiza encontro nacional para debater a relevância da questão federal",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, set 2",
+      "data_iso": "Seg, set 28 2026 16:45:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1515,18 +1587,6 @@
       "relator": "",
       "data": "Dom, ago 3",
       "data_iso": "Dom, ago 30 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Moura Ribeiro, Regina Helena Costa e Rogerio Schietti Cruz completam 13 anos de STJ",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, ago 2",
-      "data_iso": "Sex, ago 28 2026 18:45:00",
       "url": "",
       "resumo_ia": ""
     },
