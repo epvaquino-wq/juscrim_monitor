@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-09-29T16:17:40.755123+00:00",
-  "data": "2026-09-29",
+  "gerado_em": "2026-09-30T16:12:50.461810+00:00",
+  "data": "2026-09-30",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 134,
+  "total": 139,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,78 @@
       "data": "Thu, 18 Se",
       "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
       "url": "https://noticias.stf.jus.br/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Ribeiro Dantas completa 11 anos no STJ com atuação marcante na área penal",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, set 3",
+      "data_iso": "Qua, set 30 2026 08:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Podcast STJ No Seu Dia discute cobertura de cirurgias de feminização facial pelos planos de saúde",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, set 3",
+      "data_iso": "Qua, set 30 2026 07:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Ocupação prolongada de imóvel por herdeiro não basta para usucapião",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, set 3",
+      "data_iso": "Qua, set 30 2026 07:15:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Justiça brasileira não tem competência para julgar ação de ex-jogador argentino sobre uso de imagem em jogo Fifa Soccer",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, set 3",
+      "data_iso": "Qua, set 30 2026 07:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Manutenção deixa sistema da Ouvidoria indisponível nos dias 29 e 30 de setembro",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, set 2",
+      "data_iso": "Ter, set 29 2026 20:15:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ apresenta à advocacia mudanças para aplicação do filtro da relevância",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, set 2",
+      "data_iso": "Ter, set 29 2026 14:36:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1575,18 +1647,6 @@
       "relator": "",
       "data": "Seg, ago 3",
       "data_iso": "Seg, ago 31 2026 07:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Relevância da questão federal: o que muda na atuação do STJ com o novo sistema",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Dom, ago 3",
-      "data_iso": "Dom, ago 30 2026 07:00:00",
       "url": "",
       "resumo_ia": ""
     },
