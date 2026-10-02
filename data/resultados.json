@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-10-01T16:50:00.510043+00:00",
-  "data": "2026-10-01",
+  "gerado_em": "2026-10-02T16:03:17.087056+00:00",
+  "data": "2026-10-02",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 139,
+  "total": 135,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,42 @@
       "data": "Thu, 18 Se",
       "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
       "url": "https://noticias.stf.jus.br/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Podcast STJ No Seu Dia aborda direito de retenção por benfeitorias em contratos de locação",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, out 2",
+      "data_iso": "Sex, out 2 2026 07:40:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Primeira Turma mantém ação de improbidade contra servidor após reversão da demissão em PAD",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, out 2",
+      "data_iso": "Sex, out 2 2026 07:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Motivação econômica não afasta condenação por atos preparatórios de terrorismo, define Sexta Turma",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, out 2",
+      "data_iso": "Sex, out 2 2026 06:50:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -273,7 +309,7 @@
     {
       "fonte": "STJ",
       "label": "STJ — Notícias",
-      "titulo": "Manutenção deixa sistema da Ouvidoria indisponível nos dias 29 e 30 de setembro",
+      "titulo": "Manutenção deixa sistema da Ouvidoria indisponível de 29 de setembro a 2 de outubro",
       "resumo": "",
       "numero": "",
       "relator": "",
@@ -1563,90 +1599,6 @@
       "relator": "",
       "data": "Qua, set 2",
       "data_iso": "Qua, set 2 2026 15:37:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Herança digital: as decisões do STJ sobre o acesso a bens deixados na internet",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, set 2",
-      "data_iso": "Qua, set 2 2026 07:15:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Exigência de resumo em ações originárias e recursos ao STJ só valerá após publicação de portaria da Presidência",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, set 2",
-      "data_iso": "Qua, set 2 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Tribunal realizará audiência pública sobre advertência de glúten em embalagens de alimentos",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, set 2",
-      "data_iso": "Qua, set 2 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Sexta Turma identifica comando oculto em recurso para enganar sistema de IA e determina comunicação à OAB e ao MPF",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, set 2",
-      "data_iso": "Qua, set 2 2026 06:55:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Biblioteca STJ-Enfam recebe 1º lote de livros doados por Rosa e Nelson Nery",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, set 1",
-      "data_iso": "Ter, set 1 2026 17:51:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ amplia acesso a curso sobre equidade racial com versão em espanhol, inscrições estão abertas",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, set 1",
-      "data_iso": "Ter, set 1 2026 17:48:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Após concluir gestão como presidente do STJ, ministro Herman Benjamin estreia na Primeira Turma",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, set 1",
-      "data_iso": "Ter, set 1 2026 15:34:00",
       "url": "",
       "resumo_ia": ""
     },
