@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-10-02T16:03:17.087056+00:00",
-  "data": "2026-10-02",
+  "gerado_em": "2026-10-03T14:30:32.975603+00:00",
+  "data": "2026-10-03",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 135,
+  "total": 130,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,30 @@
       "data": "Thu, 18 Se",
       "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
       "url": "https://noticias.stf.jus.br/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ deve adotar conta gov.br como autenticação nos serviços digitais ao cidadão",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, out 2",
+      "data_iso": "Sex, out 2 2026 20:52:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Tribunal regulamenta sessões virtuais especiais para julgar agravos da Presidência em processos de direito privado",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, out 2",
+      "data_iso": "Sex, out 2 2026 13:55:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1515,90 +1539,6 @@
       "relator": "",
       "data": "Qui, set 3",
       "data_iso": "Qui, set 3 2026 13:45:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Entender Direito aborda a relevância da questão federal e a nova lógica para recursos especiais",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, set 3",
-      "data_iso": "Qui, set 3 2026 08:40:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Fórum sobre prevenção a fraudes e segurança no ambiente virtual acontece nesta quinta-feira (3)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, set 3",
-      "data_iso": "Qui, set 3 2026 08:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Boletim de Precedentes do STJ ganha novo formato que amplia acessibilidade e compreensão",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, set 3",
-      "data_iso": "Qui, set 3 2026 07:30:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Falta de comprovação de dolo leva Segunda Turma a reverter condenação de ex-prefeito de Itabaiana (SE) por improbidade",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, set 3",
-      "data_iso": "Qui, set 3 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Comprador de celular defeituoso não está dispensado automaticamente de aguardar prazo legal para conserto",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, set 3",
-      "data_iso": "Qui, set 3 2026 06:55:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Corte Especial realiza primeira sessão sob a presidência do ministro Luis Felipe Salomão",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, set 2",
-      "data_iso": "Qua, set 2 2026 17:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Lançamento de livro celebra os 10 anos do Código de Processo Civil no Espaço Cultural STJ",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, set 2",
-      "data_iso": "Qua, set 2 2026 15:37:00",
       "url": "",
       "resumo_ia": ""
     },
