@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-10-03T14:30:32.975603+00:00",
-  "data": "2026-10-03",
+  "gerado_em": "2026-10-04T15:05:45.659055+00:00",
+  "data": "2026-10-04",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
   "total": 130,
@@ -124,6 +124,18 @@
       "data": "Thu, 18 Se",
       "data_iso": "Thu, 18 Sep 2025 20:00:59 +0000",
       "url": "https://noticias.stf.jus.br/audiencia-publica-desafios-economicos-e-sociais-da-pejotizacao-no-brasil-2/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Nota do presidente do STJ e do CJF, ministro Luis Felipe Salomão",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sáb, out 3",
+      "data_iso": "Sáb, out 3 2026 17:01:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1527,18 +1539,6 @@
       "relator": "",
       "data": "Qui, set 3",
       "data_iso": "Qui, set 3 2026 21:31:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ impõe multa por litigância de má-fé em recurso com prompt injection assinado por procurador municipal",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, set 3",
-      "data_iso": "Qui, set 3 2026 13:45:00",
       "url": "",
       "resumo_ia": ""
     },
