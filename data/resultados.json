@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-10-05T19:00:30.773396+00:00",
-  "data": "2026-10-05",
+  "gerado_em": "2026-10-06T16:26:36.161264+00:00",
+  "data": "2026-10-06",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 121,
+  "total": 125,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -14,8 +14,32 @@
       "numero": "",
       "relator": "",
       "data": "Mon, 05 Oc",
-      "data_iso": "Mon, 05 Oct 2026 17:56:26 +0000",
+      "data_iso": "Mon, 05 Oct 2026 22:45:00 +0000",
       "url": "https://noticias.stf.jus.br/pagina-da-ouvidoria-do-stf/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STF",
+      "label": "STF — Notícias",
+      "titulo": "Série ‘STF Dados”",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Mon, 05 Oc",
+      "data_iso": "Mon, 05 Oct 2026 22:34:17 +0000",
+      "url": "https://noticias.stf.jus.br/serie-stf-dados/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STF",
+      "label": "STF — Notícias",
+      "titulo": "Confira as matérias especiais da série ‘STF Dados’",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Mon, 05 Oc",
+      "data_iso": "Mon, 05 Oct 2026 22:32:00 +0000",
+      "url": "https://noticias.stf.jus.br/confira-as-materias-especiais-da-serie-stf-dados/",
       "resumo_ia": ""
     },
     {
@@ -103,27 +127,63 @@
       "resumo_ia": ""
     },
     {
-      "fonte": "STF",
-      "label": "STF — Notícias",
-      "titulo": "Confira as matérias especiais em celebração aos 37 anos da Constituição Federal",
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Informativo destaca imposto de renda em operações com fundos imobiliários",
       "resumo": "",
       "numero": "",
       "relator": "",
-      "data": "Mon, 17 No",
-      "data_iso": "Mon, 17 Nov 2025 23:51:22 +0000",
-      "url": "https://noticias.stf.jus.br/confira-as-materias-especiais-em-celebracao-aos-37-anos-da-constituicao-federal/",
+      "data": "Ter, out 6",
+      "data_iso": "Ter, out 6 2026 07:10:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
-      "fonte": "STF",
-      "label": "STF — Notícias",
-      "titulo": "Convênio fortalece laços entre STF e Tribunal Constitucional do Chile",
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ Notícias: discussão sobre tráfico de drogas em presídios e decisão sobre violência doméstica",
       "resumo": "",
       "numero": "",
       "relator": "",
-      "data": "Mon, 27 Oc",
-      "data_iso": "Mon, 27 Oct 2025 15:14:25 +0000",
-      "url": "https://noticias.stf.jus.br/convenio-fortalece-lacos-entre-stf-e-tribunal-constitucional-do-chile/",
+      "data": "Ter, out 6",
+      "data_iso": "Ter, out 6 2026 07:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Empresa da Zona Franca pode aproveitar créditos de PIS e Cofins sobre insumos desonerados se saída for tributada",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, out 6",
+      "data_iso": "Ter, out 6 2026 07:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Comprovação de violação de patente é suficiente para presumir dano moral, decide Quarta Turma",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, out 6",
+      "data_iso": "Ter, out 6 2026 06:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Corrida do Judiciário reúne cerca de 400 participantes e promove integração entre servidores",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, out 5",
+      "data_iso": "Seg, out 5 2026 18:25:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1419,18 +1479,6 @@
       "relator": "",
       "data": "Ter, set 8",
       "data_iso": "Ter, set 8 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Em 6 de setembro, ministro Herman Benjamin completa duas décadas de STJ",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Dom, set 6",
-      "data_iso": "Dom, set 6 2026 08:00:00",
       "url": "",
       "resumo_ia": ""
     },
