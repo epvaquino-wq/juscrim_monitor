@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-10-06T16:26:36.161264+00:00",
-  "data": "2026-10-06",
+  "gerado_em": "2026-10-07T17:09:34.345409+00:00",
+  "data": "2026-10-07",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 125,
+  "total": 130,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,66 @@
       "data": "Tue, 02 De",
       "data_iso": "Tue, 02 Dec 2025 20:29:41 +0000",
       "url": "https://noticias.stf.jus.br/pagina-do-museu-do-stf/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Servidores apontam carreira própria e teletrabalho como prioridades em pesquisa institucional",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, out 7",
+      "data_iso": "Qua, out 7 2026 12:17:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Cobrança de honorários por condomínios: STJ define primeira relevância reconhecida em sessão virtual",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, out 7",
+      "data_iso": "Qua, out 7 2026 12:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Podcast STJ No Seu Dia discute responsabilidade dos bancos em casos do golpe da falsa central de atendimento",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, out 7",
+      "data_iso": "Qua, out 7 2026 07:45:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "No empréstimo de dinheiro sem data de devolução, prescrição começa a correr 30 dias após o contrato",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, out 7",
+      "data_iso": "Qua, out 7 2026 07:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Biblioteca STJ-Enfam incorpora acervo dos professores Arruda e Thereza Alvim e homenageia juristas em seminário",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, out 6",
+      "data_iso": "Ter, out 6 2026 17:40:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
