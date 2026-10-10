@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-10-09T16:45:31.249444+00:00",
-  "data": "2026-10-09",
+  "gerado_em": "2026-10-10T15:39:38.230127+00:00",
+  "data": "2026-10-10",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
   "total": 139,
@@ -124,6 +124,30 @@
       "data": "Tue, 02 De",
       "data_iso": "Tue, 02 Dec 2025 20:29:41 +0000",
       "url": "https://noticias.stf.jus.br/pagina-do-museu-do-stf/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "CNJ integra Escritórios Sociais e Casas de Justiça e Cidadania, projeto idealizado pelo ministro Carlos Pires Brandão",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, out 9",
+      "data_iso": "Sex, out 9 2026 17:19:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ e Consepre firmam acordo para reforçar a segurança de magistrados",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, out 9",
+      "data_iso": "Sex, out 9 2026 14:31:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1623,30 +1647,6 @@
       "relator": "",
       "data": "Qui, set 1",
       "data_iso": "Qui, set 10 2026 19:45:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Rádio Decidendi explica tese do STJ sobre tráfico de drogas e porte ilegal de arma (Tema 1.259)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, set 1",
-      "data_iso": "Qui, set 10 2026 07:25:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Terceira Turma veda interrupção repentina de cobertura de tratamento a paciente com TDAH após resilição de contrato",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, set 1",
-      "data_iso": "Qui, set 10 2026 06:55:00",
       "url": "",
       "resumo_ia": ""
     },
