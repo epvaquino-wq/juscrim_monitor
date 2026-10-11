@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-10-10T15:39:38.230127+00:00",
-  "data": "2026-10-10",
+  "gerado_em": "2026-10-11T16:05:59.927445+00:00",
+  "data": "2026-10-11",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 139,
+  "total": 133,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,18 @@
       "data": "Tue, 02 De",
       "data_iso": "Tue, 02 Dec 2025 20:29:41 +0000",
       "url": "https://noticias.stf.jus.br/pagina-do-museu-do-stf/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Golpes virtuais, danos reais: o STJ diante das fraudes envolvendo instituições financeiras",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Dom, out 1",
+      "data_iso": "Dom, out 11 2026 07:00:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1563,90 +1575,6 @@
       "relator": "",
       "data": "Sex, set 1",
       "data_iso": "Sex, set 11 2026 16:33:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Podcast STJ No Seu Dia debate limites da busca domiciliar sem mandado",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, set 1",
-      "data_iso": "Sex, set 11 2026 08:45:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Livro em homenagem ao ministro Teodoro Silva Santos será lançado na próxima terça (15)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, set 1",
-      "data_iso": "Sex, set 11 2026 08:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Informativo de Jurisprudência completa 900 edições com destaque para dação em pagamento em acordo alimentar",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, set 1",
-      "data_iso": "Sex, set 11 2026 07:40:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Quinta Turma vê atuação irregular de grupo especializado do MPSP e manda trancar ação penal",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, set 1",
-      "data_iso": "Sex, set 11 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Boate Kiss volta à pauta do STJ: entenda a discussão sobre as penas dos quatro condenados",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, set 1",
-      "data_iso": "Sex, set 11 2026 06:55:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Seminário debate transformações e desafios do mercado financeiro",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, set 1",
-      "data_iso": "Qui, set 10 2026 20:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Veja como foi o lançamento do livro STJ em Pauta – 3ª Seção",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, set 1",
-      "data_iso": "Qui, set 10 2026 19:45:00",
       "url": "",
       "resumo_ia": ""
     },
