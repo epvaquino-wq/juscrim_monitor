@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-10-12T19:33:43.643554+00:00",
-  "data": "2026-10-12",
+  "gerado_em": "2026-10-13T17:17:54.596791+00:00",
+  "data": "2026-10-13",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 134,
+  "total": 138,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,66 @@
       "data": "Tue, 02 De",
       "data_iso": "Tue, 02 Dec 2025 20:29:41 +0000",
       "url": "https://noticias.stf.jus.br/pagina-do-museu-do-stf/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Competência funcional em ação civil pública e preparo recursal na cobrança de honorários são destaques em Informativo",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, out 1",
+      "data_iso": "Ter, out 13 2026 08:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ Notícias destaca decisão sobre motivação econômica em atos preparatórios de terrorismo",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, out 1",
+      "data_iso": "Ter, out 13 2026 07:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Corte Especial antecipa sessão do dia 4 de novembro para as 9h",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, out 1",
+      "data_iso": "Ter, out 13 2026 07:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Credor trabalhista tem legitimidade para propor ação declaratória de insolvência civil",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, out 1",
+      "data_iso": "Ter, out 13 2026 07:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Idosa que teve marido assassinado pelos irmãos recebe autorização do STJ para excluir sobrenome paterno",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, out 1",
+      "data_iso": "Ter, out 13 2026 06:50:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1575,18 +1635,6 @@
       "relator": "",
       "data": "Seg, set 1",
       "data_iso": "Seg, set 14 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Lei Maria da Penha, 20 anos: os precedentes do STJ que fortaleceram o combate à violência contra a mulher",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Dom, set 1",
-      "data_iso": "Dom, set 13 2026 06:55:00",
       "url": "",
       "resumo_ia": ""
     },
