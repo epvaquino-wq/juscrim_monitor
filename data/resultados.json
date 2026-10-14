@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-10-13T17:17:54.596791+00:00",
-  "data": "2026-10-13",
+  "gerado_em": "2026-10-14T14:49:32.592876+00:00",
+  "data": "2026-10-14",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 138,
+  "total": 139,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,54 @@
       "data": "Tue, 02 De",
       "data_iso": "Tue, 02 Dec 2025 20:29:41 +0000",
       "url": "https://noticias.stf.jus.br/pagina-do-museu-do-stf/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Repetitivo: redução de multa por dificultar fiscalização de cargas não atinge infrações anteriores à nova norma da ANTT",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, out 1",
+      "data_iso": "Qua, out 14 2026 07:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ vê abusividade em perda automática de proteção ao veículo se sinistro não for comunicado em até 30 minutos",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, out 1",
+      "data_iso": "Qua, out 14 2026 07:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Seminário homenageia Manoel e Thereza Arruda Alvim; Biblioteca STJ-Enfam incorpora coleção particular dos professores",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, out 1",
+      "data_iso": "Ter, out 13 2026 15:54:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Ministra Nancy Andrighi será coordenadora-geral do Cejusc até 2028",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, out 1",
+      "data_iso": "Ter, out 13 2026 14:17:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1599,42 +1647,6 @@
       "relator": "",
       "data": "Seg, set 1",
       "data_iso": "Seg, set 14 2026 16:02:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Biblioteca STJ-Enfam recebe biblioteca particular do professor e juiz Cançado Trindade",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, set 1",
-      "data_iso": "Seg, set 14 2026 09:04:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Em repetitivo, Primeira Seção vai definir se gorjetas repassadas a empregados entram no cálculo do Simples Nacional",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, set 1",
-      "data_iso": "Seg, set 14 2026 07:15:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Justiça Federal deve justificar pedido a juízo estadual para a prática de atos processuais",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, set 1",
-      "data_iso": "Seg, set 14 2026 07:00:00",
       "url": "",
       "resumo_ia": ""
     },
