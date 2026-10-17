@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-10-16T14:27:49.083436+00:00",
-  "data": "2026-10-16",
+  "gerado_em": "2026-10-17T13:24:35.823636+00:00",
+  "data": "2026-10-17",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 139,
+  "total": 135,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,18 @@
       "data": "Tue, 02 De",
       "data_iso": "Tue, 02 Dec 2025 20:29:41 +0000",
       "url": "https://noticias.stf.jus.br/pagina-do-museu-do-stf/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Presidente do STJ participa de evento em celebração ao Dia das Crianças nesta terça-feira (20)",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, out 1",
+      "data_iso": "Sex, out 16 2026 19:14:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -645,7 +657,7 @@
     {
       "fonte": "STJ",
       "label": "STJ — Notícias",
-      "titulo": "Encontro vai debater os desafios e o futuro da equidade racial no poder judiciário",
+      "titulo": "Encontro vai debater os desafios e o futuro da equidade racial no Poder Judiciário",
       "resumo": "",
       "numero": "",
       "relator": "",
@@ -1587,66 +1599,6 @@
       "relator": "",
       "data": "Qui, set 1",
       "data_iso": "Qui, set 17 2026 13:38:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Rádio Decidendi discute critérios para concessão de gratuidade de justiça a pessoas jurídicas no Tema 1.424",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, set 1",
-      "data_iso": "Qui, set 17 2026 08:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Airbnb: afetação de repetitivo sobre locação de curta temporada em condomínios suspende processos em todo o país",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, set 1",
-      "data_iso": "Qui, set 17 2026 07:15:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Benedito completa 18 anos de STJ com trajetória marcada por liderança e ações de inclusão",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, set 1",
-      "data_iso": "Qui, set 17 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Criptomoedas podem ser usadas para pagar obrigações contratuais, e flutuação de valor não é justificativa para invalidar negócio",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, set 1",
-      "data_iso": "Qui, set 17 2026 06:55:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Relatora vota pela condenação de ex-conselheiros do TCE-RJ; pedido de vista suspende o julgamento",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, set 1",
-      "data_iso": "Qua, set 16 2026 21:49:00",
       "url": "",
       "resumo_ia": ""
     },
