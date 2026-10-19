@@ -1,11 +1,59 @@
 {
-  "gerado_em": "2026-10-18T13:43:19.672141+00:00",
-  "data": "2026-10-18",
+  "gerado_em": "2026-10-19T16:44:53.072972+00:00",
+  "data": "2026-10-19",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 123,
+  "total": 125,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ sedia XXIII Cúpula Judicial Ibero-Americana; acompanhe transmissão da abertura",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, out 1",
+      "data_iso": "Seg, out 19 2026 08:04:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Informativo destaca responsabilidade de clube visitante por danos ao patrimônio e apreensão de munição isolada",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, out 1",
+      "data_iso": "Seg, out 19 2026 07:40:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Repetitivo vai definir exigência de previsão expressa da taxa diária de juros em contrato bancário",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, out 1",
+      "data_iso": "Seg, out 19 2026 07:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Estado deve pagar honorários no período em que consumidor foi dispensado de recolher Tust e Tusd no ICMS",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, out 1",
+      "data_iso": "Seg, out 19 2026 06:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
     {
       "fonte": "STJ",
       "label": "STJ — Notícias",
@@ -1431,30 +1479,6 @@
       "relator": "",
       "data": "Seg, set 2",
       "data_iso": "Seg, set 21 2026 06:50:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "XXXIII Jornada Latino-Americana de Direito Tributário termina com consenso sobre cooperação jurídica",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, set 1",
-      "data_iso": "Sex, set 18 2026 14:44:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Tribunal mantém condenação de ex-deputada Flordelis a 50 anos de prisão e anulação de júri que absolveu outros três réus",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, set 1",
-      "data_iso": "Sex, set 18 2026 11:09:00",
       "url": "",
       "resumo_ia": ""
     },
