@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-10-22T14:48:59.268017+00:00",
-  "data": "2026-10-22",
+  "gerado_em": "2026-10-23T14:35:14.623816+00:00",
+  "data": "2026-10-23",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 144,
+  "total": 141,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,54 @@
       "data": "Tue, 02 De",
       "data_iso": "Tue, 02 Dec 2025 20:29:41 +0000",
       "url": "https://noticias.stf.jus.br/pagina-do-museu-do-stf/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Notícia de interesse social justifica prevalência da liberdade de informação sobre proteção da privacidade de figura pública",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, out 2",
+      "data_iso": "Sex, out 23 2026 07:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Site Reclame Aqui não pode ser automaticamente responsabilizado por avaliações negativas de consumidores",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, out 2",
+      "data_iso": "Sex, out 23 2026 06:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Enfam oferece duas vagas de mestrado em direito para candidatos de fora da carreira jurídica",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, out 2",
+      "data_iso": "Qui, out 22 2026 19:03:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ sediará a 9ª Competição Brasileira de Processo",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, out 2",
+      "data_iso": "Qui, out 22 2026 16:03:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1623,90 +1671,6 @@
       "relator": "",
       "data": "Qua, set 2",
       "data_iso": "Qua, set 23 2026 19:52:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Curso do STJ sobre equidade racial com versão em espanhol está com inscrições abertas",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, set 2",
-      "data_iso": "Qua, set 23 2026 10:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Encontro debate acessibilidade e inclusão no ambiente de trabalho",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, set 2",
-      "data_iso": "Qua, set 23 2026 09:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Ministro do STJ Carlos Pires Brandão defende redes colaborativas pela paz e justiça social",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, set 2",
-      "data_iso": "Qua, set 23 2026 08:52:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Podcast STJ No Seu Dia debate requisitos da usucapião familiar e o limite de área prevista no Código Civil",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, set 2",
-      "data_iso": "Qua, set 23 2026 08:30:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Caju amplia atendimento a magistrados estaduais e mestrandos da Enfam",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, set 2",
-      "data_iso": "Qua, set 23 2026 08:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Repetitivo discute se planos de saúde são obrigados a custear musicoterapia para beneficiários com TEA",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, set 2",
-      "data_iso": "Qua, set 23 2026 07:15:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Compartilhamento de provas do exterior não basta para levar ação penal à Justiça Federal",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, set 2",
-      "data_iso": "Qua, set 23 2026 07:00:00",
       "url": "",
       "resumo_ia": ""
     },
