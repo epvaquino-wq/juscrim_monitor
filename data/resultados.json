@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-10-23T14:35:14.623816+00:00",
-  "data": "2026-10-23",
+  "gerado_em": "2026-10-24T13:47:14.166334+00:00",
+  "data": "2026-10-24",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 141,
+  "total": 139,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,42 @@
       "data": "Tue, 02 De",
       "data_iso": "Tue, 02 Dec 2025 20:29:41 +0000",
       "url": "https://noticias.stf.jus.br/pagina-do-museu-do-stf/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ e PNUD unem esforços por uma Justiça mais diversa e inclusiva",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, out 2",
+      "data_iso": "Sex, out 23 2026 19:04:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ recebe prêmio do CNJ por projeto de gestão de pessoas; veja como foi a homenagem",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, out 2",
+      "data_iso": "Sex, out 23 2026 16:46:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ define novas diretrizes para lançamento de livros no espaço físico da corte",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, out 2",
+      "data_iso": "Sex, out 23 2026 15:11:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1611,66 +1647,6 @@
       "relator": "",
       "data": "Qui, set 2",
       "data_iso": "Qui, set 24 2026 14:37:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Ministro Sebastião Reis Júnior expõe fotografias em bienal no Japão",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, set 2",
-      "data_iso": "Qui, set 24 2026 08:30:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Rádio Decidendi explica repetitivo que admite aumento de pena por homicídio se a vítima deixa filho menor de idade",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, set 2",
-      "data_iso": "Qui, set 24 2026 08:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Ibama não pode bloquear emissão do Documento de Origem Florestal sem autuação ou processo administrativo",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, set 2",
-      "data_iso": "Qui, set 24 2026 07:20:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Repetitivo afasta regra do CDC e define que banco pode encerrar conta-corrente de forma unilateral",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qui, set 2",
-      "data_iso": "Qui, set 24 2026 07:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Audiência pública discute se aviso contém glúten em embalagens de alimentos é suficiente para proteger celíacos",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, set 2",
-      "data_iso": "Qua, set 23 2026 19:52:00",
       "url": "",
       "resumo_ia": ""
     },
