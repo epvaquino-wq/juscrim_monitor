@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-10-27T15:39:52.521363+00:00",
-  "data": "2026-10-27",
+  "gerado_em": "2026-10-28T16:23:43.283351+00:00",
+  "data": "2026-10-28",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 138,
+  "total": 143,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,90 @@
       "data": "Tue, 02 De",
       "data_iso": "Tue, 02 Dec 2025 20:29:41 +0000",
       "url": "https://noticias.stf.jus.br/pagina-do-museu-do-stf/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "REJuriSTJ recebe artigos científicos até 10 de novembro",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, out 2",
+      "data_iso": "Qua, out 28 2026 09:34:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Trabalho, estudo, leitura e amamentação: reportagem especial mostra como o STJ aplica a remição de pena",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, out 2",
+      "data_iso": "Qua, out 28 2026 07:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Podcast STJ No Seu Dia debate contratos de proteção patrimonial mutualista",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, out 2",
+      "data_iso": "Qua, out 28 2026 07:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Falta de análise de provas favoráveis à defesa leva STJ a restabelecer a absolvição de réu condenado por estupro",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, out 2",
+      "data_iso": "Qua, out 28 2026 06:55:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Exclusão indevida de idosa de plano de saúde é condição suficiente para caracterizar dano moral",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, out 2",
+      "data_iso": "Qua, out 28 2026 06:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Confira programação do Enajun e Fonajurd; encontro vai debater desafios e futuro da equidade racial no Judiciário",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, out 2",
+      "data_iso": "Ter, out 27 2026 16:02:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Programa Esperança Garcia: doe livros e espalhe conhecimento",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, out 2",
+      "data_iso": "Ter, out 27 2026 15:25:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1611,30 +1695,6 @@
       "relator": "",
       "data": "Seg, set 2",
       "data_iso": "Seg, set 28 2026 16:45:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ firmará tese repetitiva sobre o termo inicial do prazo prescricional em revisão de contrato com previdência privada fechada",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, set 2",
-      "data_iso": "Seg, set 28 2026 07:20:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Repetitivo fixa marco para honorários de sucumbência em ações rescisórias sobre modulação do Tema 69 do STF",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, set 2",
-      "data_iso": "Seg, set 28 2026 07:05:00",
       "url": "",
       "resumo_ia": ""
     },
