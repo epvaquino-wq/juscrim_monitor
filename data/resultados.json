@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-11-01T16:32:10.793118+00:00",
-  "data": "2026-11-01",
+  "gerado_em": "2026-11-02T19:56:04.546785+00:00",
+  "data": "2026-11-02",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 130,
+  "total": 126,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -1491,54 +1491,6 @@
       "relator": "",
       "data": "Sex, out 2",
       "data_iso": "Sex, out 2 2026 20:52:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Tribunal regulamenta sessões virtuais especiais para julgar agravos da Presidência em processos de direito privado",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, out 2",
-      "data_iso": "Sex, out 2 2026 13:55:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Podcast STJ No Seu Dia aborda direito de retenção por benfeitorias em contratos de locação",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, out 2",
-      "data_iso": "Sex, out 2 2026 07:40:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Primeira Turma mantém ação de improbidade contra servidor após reversão da demissão em PAD",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, out 2",
-      "data_iso": "Sex, out 2 2026 07:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Motivação econômica não afasta condenação por atos preparatórios de terrorismo, define Sexta Turma",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, out 2",
-      "data_iso": "Sex, out 2 2026 06:50:00",
       "url": "",
       "resumo_ia": ""
     },
