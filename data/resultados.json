@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-11-02T19:56:04.546785+00:00",
-  "data": "2026-11-02",
+  "gerado_em": "2026-11-03T17:28:20.706215+00:00",
+  "data": "2026-11-03",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 126,
+  "total": 130,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,66 @@
       "data": "Wed, 25 Fe",
       "data_iso": "Wed, 25 Feb 2026 22:00:00 +0000",
       "url": "https://noticias.stf.jus.br/centro-de-estudos-constitucionais-do-stf-cestf/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Projeto do STJ e do PNUD para diversidade e fortalecimento da Justiça lança informativo mensal",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, nov 3",
+      "data_iso": "Ter, nov 3 2026 11:55:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ lança nova página de consulta processual com foco em acessibilidade e eficiência",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, nov 3",
+      "data_iso": "Ter, nov 3 2026 08:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Consulta à página de jurisprudência do STJ ajuda a evitar citações falsas geradas por IA",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, nov 3",
+      "data_iso": "Ter, nov 3 2026 07:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Prazo para cobrar prejuízos causados por ex-presidente de associação é de dez anos",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, nov 3",
+      "data_iso": "Ter, nov 3 2026 06:55:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Terceira Seção define cinco teses repetitivas sobre a natureza e a quantidade de drogas no cálculo da pena por tráfico",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, nov 3",
+      "data_iso": "Ter, nov 3 2026 06:50:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1479,18 +1539,6 @@
       "relator": "",
       "data": "Sáb, out 3",
       "data_iso": "Sáb, out 3 2026 17:01:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ deve adotar conta gov.br como autenticação nos serviços digitais ao cidadão",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, out 2",
-      "data_iso": "Sex, out 2 2026 20:52:00",
       "url": "",
       "resumo_ia": ""
     },
