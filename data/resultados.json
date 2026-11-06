@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-11-05T17:48:20.169351+00:00",
-  "data": "2026-11-05",
+  "gerado_em": "2026-11-06T17:05:43.271512+00:00",
+  "data": "2026-11-06",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 143,
+  "total": 142,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,54 @@
       "data": "Tue, 02 De",
       "data_iso": "Tue, 02 Dec 2025 20:29:41 +0000",
       "url": "https://noticias.stf.jus.br/pagina-do-museu-do-stf/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ recebe participantes do Caminhos para a Liderança de Mulheres na Justiça",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, nov 6",
+      "data_iso": "Sex, nov 6 2026 12:22:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Terceira Turma define forma de pagamento de créditos na falência por trabalho prestado na recuperação judicial",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, nov 6",
+      "data_iso": "Sex, nov 6 2026 07:05:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Condomínio deve indenizar moradores por furto em apartamento após falha da portaria no controle de acesso",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, nov 6",
+      "data_iso": "Sex, nov 6 2026 06:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Tribunais debatem desafios e expectativas sobre o novo regime de relevância do STJ",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, nov 5",
+      "data_iso": "Qui, nov 5 2026 20:54:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1635,66 +1683,6 @@
       "relator": "",
       "data": "Ter, out 6",
       "data_iso": "Ter, out 6 2026 17:40:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Informativo destaca imposto de renda em operações com fundos imobiliários",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, out 6",
-      "data_iso": "Ter, out 6 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ Notícias: discussão sobre tráfico de drogas em presídios e decisão sobre violência doméstica",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, out 6",
-      "data_iso": "Ter, out 6 2026 07:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Empresa da Zona Franca pode aproveitar créditos de PIS e Cofins sobre insumos desonerados se saída for tributada",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, out 6",
-      "data_iso": "Ter, out 6 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Comprovação de violação de patente é suficiente para presumir dano moral, decide Quarta Turma",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, out 6",
-      "data_iso": "Ter, out 6 2026 06:50:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Corrida do Judiciário reúne cerca de 400 participantes e promove integração entre servidores",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, out 5",
-      "data_iso": "Seg, out 5 2026 18:25:00",
       "url": "",
       "resumo_ia": ""
     },
