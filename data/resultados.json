@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-11-09T20:21:07.069256+00:00",
-  "data": "2026-11-09",
+  "gerado_em": "2026-11-10T17:25:22.075641+00:00",
+  "data": "2026-11-10",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 123,
+  "total": 130,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,102 @@
       "data": "Tue, 02 De",
       "data_iso": "Tue, 02 Dec 2025 20:29:41 +0000",
       "url": "https://noticias.stf.jus.br/pagina-do-museu-do-stf/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Ministros representam Enfam e STJ em conferência sobre formação de juízes na França",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, nov 1",
+      "data_iso": "Ter, nov 10 2026 13:40:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ Notícias destaca decisão sobre moradia dos filhos após a separação dos pais",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, nov 1",
+      "data_iso": "Ter, nov 10 2026 08:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ sedia lançamento do livro do ministro Og Fernandes sobre a história do STF nesta terça (10)",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, nov 1",
+      "data_iso": "Ter, nov 10 2026 08:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Relevância: STJ discute se empresa com atividade secundária de transporte de carga pode creditar ICMS sobre combustível",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, nov 1",
+      "data_iso": "Ter, nov 10 2026 07:10:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Coritiba e ex-dirigente devem indenizar Athletico Paranaense por ofensas contra adesão do rival à campanha por paz no futebol",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, nov 1",
+      "data_iso": "Ter, nov 10 2026 07:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ e CJF assinam contratos com Banco do Brasil e Caixa para cessão da folha de pagamento",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, nov 9",
+      "data_iso": "Seg, nov 9 2026 20:13:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Operação Faroeste: relator manda prender desembargadora do TJBA que viajou para Portugal e comunica Interpol",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, nov 9",
+      "data_iso": "Seg, nov 9 2026 19:54:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Encontro Nacional de Juízas e Juízes Negros e fórum contra o racismo começam nesta quarta-feira (11) no Rio",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, nov 9",
+      "data_iso": "Seg, nov 9 2026 19:38:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1443,18 +1539,6 @@
       "relator": "",
       "data": "Dom, out 1",
       "data_iso": "Dom, out 11 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "CNJ integra Escritórios Sociais e Casas de Justiça e Cidadania, projeto idealizado pelo ministro Carlos Pires Brandão",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, out 9",
-      "data_iso": "Sex, out 9 2026 17:19:00",
       "url": "",
       "resumo_ia": ""
     },
