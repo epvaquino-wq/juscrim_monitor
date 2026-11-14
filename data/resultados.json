@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-11-13T17:27:30.155211+00:00",
-  "data": "2026-11-13",
+  "gerado_em": "2026-11-14T16:18:50.825322+00:00",
+  "data": "2026-11-14",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 145,
+  "total": 144,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -129,12 +129,48 @@
     {
       "fonte": "STJ",
       "label": "STJ — Notícias",
-      "titulo": "STJ recebe presidente da Suprema Corte da Índia",
+      "titulo": "Da redação ao STJ: reportagem especial relembra trajetória do ministro Og Fernandes",
       "resumo": "",
       "numero": "",
       "relator": "",
       "data": "Sex, nov 1",
-      "data_iso": "Sex, nov 13 2026 12:57:00",
+      "data_iso": "Sex, nov 13 2026 19:15:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Encontro de juízes negros propõe política nacional de equidade racial no Judiciário até 2036",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, nov 1",
+      "data_iso": "Sex, nov 13 2026 19:09:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Audiência pública debaterá funcionamento do cartão de crédito consignado; inscrições vão até dia 19 de novembro",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, nov 1",
+      "data_iso": "Sex, nov 13 2026 16:13:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "9º Enajun e 6º Fonajurd debatem equidade racial, violência institucional e representatividade",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, nov 1",
+      "data_iso": "Sex, nov 13 2026 14:12:00",
       "url": "",
       "resumo_ia": ""
     },
@@ -1671,54 +1707,6 @@
       "relator": "",
       "data": "Qua, out 1",
       "data_iso": "Qua, out 14 2026 14:35:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Repetitivo: redução de multa por dificultar fiscalização de cargas não atinge infrações anteriores à nova norma da ANTT",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, out 1",
-      "data_iso": "Qua, out 14 2026 07:10:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ vê abusividade em perda automática de proteção ao veículo se sinistro não for comunicado em até 30 minutos",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Qua, out 1",
-      "data_iso": "Qua, out 14 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Seminário homenageia Manoel e Thereza Arruda Alvim; Biblioteca STJ-Enfam incorpora coleção particular dos professores",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, out 1",
-      "data_iso": "Ter, out 13 2026 15:54:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Ministra Nancy Andrighi será coordenadora-geral do Cejusc até 2028",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, out 1",
-      "data_iso": "Ter, out 13 2026 14:15:00",
       "url": "",
       "resumo_ia": ""
     },
