@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-11-16T19:58:21.427353+00:00",
-  "data": "2026-11-16",
+  "gerado_em": "2026-11-17T18:54:19.701952+00:00",
+  "data": "2026-11-17",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 136,
+  "total": 140,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,66 @@
       "data": "Mon, 02 Ma",
       "data_iso": "Mon, 02 Mar 2026 18:49:47 +0000",
       "url": "https://noticias.stf.jus.br/stf-restabelece-adicional-de-periculosidade-a-guardas-municipais-de-santo-andre-sp/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Informativo de Jurisprudência destaca uso de prompt injection em petições e cobertura de sensor de glicose",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, nov 1",
+      "data_iso": "Ter, nov 17 2026 08:40:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ Notícias aborda responsabilização de preso por tráfico de drogas dentro de presídio",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, nov 1",
+      "data_iso": "Ter, nov 17 2026 08:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Tribunal promove simpósio nacional sobre a relevância da questão federal no dia 14 de dezembro",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, nov 1",
+      "data_iso": "Ter, nov 17 2026 07:15:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Poupança usada como conta-corrente não afasta impenhorabilidade, define Corte Especial em repetitivo",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Ter, nov 1",
+      "data_iso": "Ter, nov 17 2026 07:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Missões da Justiça e Cidadania chega ao interior do RS nesta terça-feira (17)",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Seg, nov 1",
+      "data_iso": "Seg, nov 16 2026 19:22:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1599,18 +1659,6 @@
       "relator": "",
       "data": "Dom, out 1",
       "data_iso": "Dom, out 18 2026 06:55:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Presidente do STJ participa de evento em celebração ao Dia das Crianças nesta terça-feira (20)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Sex, out 1",
-      "data_iso": "Sex, out 16 2026 19:14:00",
       "url": "",
       "resumo_ia": ""
     },
