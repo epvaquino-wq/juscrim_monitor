@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-11-19T18:46:24.193763+00:00",
-  "data": "2026-11-19",
+  "gerado_em": "2026-11-20T18:12:42.162290+00:00",
+  "data": "2026-11-20",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 153,
+  "total": 155,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,66 @@
       "data": "Mon, 02 Ma",
       "data_iso": "Mon, 02 Mar 2026 18:49:47 +0000",
       "url": "https://noticias.stf.jus.br/stf-restabelece-adicional-de-periculosidade-a-guardas-municipais-de-santo-andre-sp/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Campanha “Nossos passos, Novas togas” destaca representatividade negra na magistratura",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Sex, nov 2",
+      "data_iso": "Sex, nov 20 2026 08:00:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Audiência pública recebe sugestões de entidades e especialistas sobre prescrição e decadência em ações envolvendo pessoas com deficiência",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, nov 1",
+      "data_iso": "Qui, nov 19 2026 19:46:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Crime da 113 Sul: Sexta Turma mantém anulação do júri que condenou Adriana Villela",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, nov 1",
+      "data_iso": "Qui, nov 19 2026 17:55:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Enfam celebra formatura da quinta turma do Mestrado Profissional",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, nov 1",
+      "data_iso": "Qui, nov 19 2026 17:15:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Ministro Mauro Campbell recebe a medalha Ordem do Mérito Grão-Colar",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qui, nov 1",
+      "data_iso": "Qui, nov 19 2026 16:00:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
@@ -1771,51 +1831,15 @@
       "resumo_ia": ""
     },
     {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ Notícias explica se carro furtado com chave na ignição perde cobertura de seguro",
+      "fonte": "Jota",
+      "label": "Jota",
+      "titulo": "A asfixia financeira do crime organizado: o que a Lei Antifacção deixou de confiscar",
       "resumo": "",
       "numero": "",
       "relator": "",
-      "data": "Ter, out 2",
-      "data_iso": "Ter, out 20 2026 07:05:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Juízo do júri deve analisar medidas urgentes em feminicídio de militar em MG; IPM pode apurar outros pontos da investigação",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, out 2",
-      "data_iso": "Ter, out 20 2026 07:00:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "Ecad não pode trocar taxa de ocupação informada por hotel por dado de pesquisa de mercado sem justificativa válida",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Ter, out 2",
-      "data_iso": "Ter, out 20 2026 06:55:00",
-      "url": "",
-      "resumo_ia": ""
-    },
-    {
-      "fonte": "STJ",
-      "label": "STJ — Notícias",
-      "titulo": "STJ sedia lançamento do livro Por uma Livre Iniciativa Fraterna, nesta terça (20)",
-      "resumo": "",
-      "numero": "",
-      "relator": "",
-      "data": "Seg, out 1",
-      "data_iso": "Seg, out 19 2026 16:20:00",
-      "url": "",
+      "data": "Fri, 20 No",
+      "data_iso": "Fri, 20 Nov 2026 05:34:46 +0000",
+      "url": "https://www.jota.info/opiniao-e-analise/artigos/a-asfixia-financeira-do-crime-organizado-o-que-a-lei-antifaccao-deixou-de-confiscar",
       "resumo_ia": ""
     },
     {
