@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-11-24T20:27:44.592300+00:00",
-  "data": "2026-11-24",
+  "gerado_em": "2026-11-25T19:42:32.734108+00:00",
+  "data": "2026-11-25",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 155,
+  "total": 160,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,66 @@
       "data": "Mon, 02 Ma",
       "data_iso": "Mon, 02 Mar 2026 18:49:47 +0000",
       "url": "https://noticias.stf.jus.br/stf-restabelece-adicional-de-periculosidade-a-guardas-municipais-de-santo-andre-sp/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Seminário na Enfam debate regulação, ética e desafios do uso da inteligência artificial na magistratura",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, nov 2",
+      "data_iso": "Qua, nov 25 2026 16:32:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "STJ No Seu Dia aborda importunação sexual praticada por meios digitais",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, nov 2",
+      "data_iso": "Qua, nov 25 2026 08:25:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Novas custas no STJ começam a valer em 2027; entenda as novas regras",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, nov 2",
+      "data_iso": "Qua, nov 25 2026 07:50:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Acompanhe a transmissão da audiência pública sobre cessão de precatórios previdenciários promovida nesta quarta-feira (25)",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, nov 2",
+      "data_iso": "Qua, nov 25 2026 07:15:00",
+      "url": "",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "STJ",
+      "label": "STJ — Notícias",
+      "titulo": "Entidade que recebe patrimônio de fundação extinta responde por suas dívidas até o limite dos bens transferidos",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Qua, nov 2",
+      "data_iso": "Qua, nov 25 2026 07:00:00",
+      "url": "",
       "resumo_ia": ""
     },
     {
