@@ -1,9 +1,9 @@
 {
-  "gerado_em": "2026-11-26T19:23:12.063805+00:00",
-  "data": "2026-11-26",
+  "gerado_em": "2026-11-27T19:18:11.536476+00:00",
+  "data": "2026-11-27",
   "janela_horas": 24,
   "termo_busca": "organização criminosa",
-  "total": 12,
+  "total": 13,
   "resumo_dia": "Configure GEMINI_API_KEY nos GitHub Secrets para ativar o painel de IA.",
   "resultados": [
     {
@@ -124,6 +124,18 @@
       "data": "Mon, 02 Ma",
       "data_iso": "Mon, 02 Mar 2026 18:49:47 +0000",
       "url": "https://noticias.stf.jus.br/stf-restabelece-adicional-de-periculosidade-a-guardas-municipais-de-santo-andre-sp/",
+      "resumo_ia": ""
+    },
+    {
+      "fonte": "Conjur",
+      "label": "Conjur",
+      "titulo": "TSE cria grupos de trabalho para combater crime organizado e fraudes à cota de gênero",
+      "resumo": "",
+      "numero": "",
+      "relator": "",
+      "data": "Fri, 27 No",
+      "data_iso": "Fri, 27 Nov 2026 15:49:11 +0000",
+      "url": "https://conjur.com.br/2026-nov-27/tse-cria-grupos-de-trabalho-para-combater-crime-organizado-e-fraudes-a-cota-de-genero/",
       "resumo_ia": ""
     },
     {
